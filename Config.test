@@ -1,0 +1,54 @@
+####################################################
+#Configure file for Edge Tester                    #
+#put all configurations after the colon            #
+####################################################
+Where is the location of pxrmt?
+pxrmt: pxrmt
+
+Where is the location of pxbp?
+pxbp: pxbp
+
+Where is raxml?
+raxml: raxmlHPC
+
+What is the name of the outfile?
+outfile: Stats
+
+Which species make up the bipartition/clade of interest on the first tree in the tree set (Comma separated)?
+Species: alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis
+#Species: alligator,caiman
+
+
+What is the name of the supermatrix file?
+Supermatrix: ExampleConcat.fa
+
+What is the name of the parts file?
+PartsFile: ExampleGenes.model
+
+What is the name of the tree set file?
+Set: ExampleAllGeneTrees.tre
+
+How many threads should be used?
+Threads: 3
+
+Is this a test (True or False)?
+Test: False
+
+Should this be run as verbose (True or False)?
+Verbose: True
+
+Should the MGWB Analysis be run (True or False)?
+RUN_MGWB: True
+
+Should the MSWB Analysis be run (True or False)?
+RUN_MSWB: True
+
+Should the MGWB with BR lengths as free parameters be run (True or False)?
+MGWB_BL: True
+
+Should the MSWB with BR lengths as free parameters be run (True or False)?
+MSWB_BL: True
+
+Hidden mode?
+secret: False
+
