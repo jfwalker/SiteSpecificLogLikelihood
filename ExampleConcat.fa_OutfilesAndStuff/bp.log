@@ -1,0 +1,353 @@
+7 trees 
+35 unique clades found
+CLADE: Homo Monodelphis | protopterus Xenopus Ornithorhynchus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 Ornithorhynchus Homo | protopterus Xenopus Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.857143	ICA:	0.408327	COUNT:	6	TREEFREQ:	0.857143
+	TREES:	0 1 2 3 4 5 
+CLADE: Ornithorhynchus Homo Monodelphis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis python | protopterus Xenopus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.555556	ICA:	0.190343	COUNT:	5	TREEFREQ:	0.714286
+	TREES:	0 1 3 5 6 
+CLADE: Anolis python | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis | protopterus Xenopus Ornithorhynchus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	4	TREEFREQ:	0.571429
+	FREQ:	0.25	ICA:	-0.125	COUNT:	2	TREEFREQ:	0.285714
+	TREES:	0 1 
+CLADE: podarcis Anolis python | protopterus Xenopus Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.75	ICA:	0.330408	COUNT:	6	TREEFREQ:	0.857143
+	TREES:	0 1 3 4 5 6 
+CLADE: Gallus Taeniopygia | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.857143	ICA:	0.408327	COUNT:	6	TREEFREQ:	0.857143
+	TREES:	0 1 2 3 4 5 
+CLADE: alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia phrynops caretta chelonoidis_nigra emys_orbicularis 	FREQ:	1.	ICA:	1.	COUNT:	7	TREEFREQ:	1.
+	TREES:	0 1 2 3 4 5 6 
+CLADE: chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta 
+	CONFLICTS:
+ 	 caretta emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops chelonoidis_nigra 	COUNT:	1	TREEFREQ:	0.142857
+ 	 phrynops emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman caretta chelonoidis_nigra 	COUNT:	1	TREEFREQ:	0.142857
+ 	 phrynops caretta emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman chelonoidis_nigra 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.625	ICA:	0.225603	COUNT:	5	TREEFREQ:	0.714286
+	TREES:	0 1 4 5 6 
+CLADE: caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops 
+	CONFLICTS:
+ 	 phrynops emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman caretta chelonoidis_nigra 	COUNT:	1	TREEFREQ:	0.142857
+ 	 phrynops caretta emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman chelonoidis_nigra 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.75	ICA:	0.330408	COUNT:	6	TREEFREQ:	0.857143
+	TREES:	0 1 2 4 5 6 
+CLADE: phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman 	FREQ:	1.	ICA:	1.	COUNT:	7	TREEFREQ:	1.
+	TREES:	0 1 2 3 4 5 6 
+CLADE: alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia 
+	CONFLICTS:
+ 	 Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.333333	ICA:	0.0898584	COUNT:	3	TREEFREQ:	0.428571
+	TREES:	0 4 6 
+CLADE: Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python 
+	CONFLICTS:
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.222222	ICA:	0.0174324	COUNT:	2	TREEFREQ:	0.285714
+	TREES:	0 1 
+CLADE: podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 
+	CONFLICTS:
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis python | protopterus Xenopus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python | protopterus Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	2	TREEFREQ:	0.285714
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.1875	ICA:	0.0331367	COUNT:	3	TREEFREQ:	0.428571
+	TREES:	0 1 5 
+CLADE: Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus 
+	CONFLICTS:
+ 	 Xenopus Gallus Taeniopygia | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.6	ICA:	0.237293	COUNT:	6	TREEFREQ:	0.857143
+	TREES:	0 1 2 3 5 6 
+CLADE: Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus 	FREQ:	1.	ICA:	1.	COUNT:	7	TREEFREQ:	1.
+	TREES:	0 1 2 3 4 5 6 
+CLADE: Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.3	ICA:	0.0827911	COUNT:	3	TREEFREQ:	0.428571
+	TREES:	1 2 5 
+CLADE: caretta emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops chelonoidis_nigra 
+	CONFLICTS:
+ 	 chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta 	COUNT:	5	TREEFREQ:	0.714286
+ 	 phrynops emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman caretta chelonoidis_nigra 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.142857	ICA:	-0.275166	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	2 
+CLADE: Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 Ornithorhynchus Homo Monodelphis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	5	TREEFREQ:	0.714286
+ 	 Anolis python | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	2	TREEFREQ:	0.285714
+ 	 podarcis Anolis python | protopterus Xenopus Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	6	TREEFREQ:	0.857143
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis | protopterus Xenopus Ornithorhynchus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	4	TREEFREQ:	0.571429
+ 	 Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo | protopterus Xenopus Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0357143	ICA:	-0.105013	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	2 
+CLADE: Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 Ornithorhynchus Homo Monodelphis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	5	TREEFREQ:	0.714286
+ 	 Anolis python | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	2	TREEFREQ:	0.285714
+ 	 podarcis Anolis python | protopterus Xenopus Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	6	TREEFREQ:	0.857143
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo | protopterus Xenopus Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0416667	ICA:	-0.114765	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	2 
+CLADE: Ornithorhynchus podarcis Anolis python | protopterus Xenopus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 Ornithorhynchus Homo Monodelphis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	5	TREEFREQ:	0.714286
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo | protopterus Xenopus Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0625	ICA:	-0.103768	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	2 
+CLADE: Ornithorhynchus Homo Monodelphis podarcis Anolis python | protopterus Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.181818	ICA:	-0.0515497	COUNT:	2	TREEFREQ:	0.285714
+	TREES:	2 6 
+CLADE: Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia alligator caiman 
+	CONFLICTS:
+ 	 alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	2	TREEFREQ:	0.285714
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0666667	ICA:	-0.0548946	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	2 
+CLADE: phrynops emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman caretta chelonoidis_nigra 
+	CONFLICTS:
+ 	 chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta 	COUNT:	5	TREEFREQ:	0.714286
+ 	 caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops 	COUNT:	6	TREEFREQ:	0.857143
+ 	 caretta emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops chelonoidis_nigra 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0769231	ICA:	-0.192835	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	3 
+CLADE: phrynops caretta emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman chelonoidis_nigra 
+	CONFLICTS:
+ 	 chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta 	COUNT:	5	TREEFREQ:	0.714286
+ 	 caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops 	COUNT:	6	TREEFREQ:	0.857143
+	FREQ:	0.0833333	ICA:	-0.164011	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	3 
+CLADE: Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman 
+	CONFLICTS:
+ 	 alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	2	TREEFREQ:	0.285714
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis python | protopterus Xenopus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python | protopterus Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	2	TREEFREQ:	0.285714
+ 	 Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0588235	ICA:	-0.048176	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	3 
+CLADE: Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 
+	CONFLICTS:
+ 	 Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	2	TREEFREQ:	0.285714
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis python | protopterus Xenopus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python | protopterus Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	2	TREEFREQ:	0.285714
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0526316	ICA:	-0.0441983	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	3 
+CLADE: Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 
+	CONFLICTS:
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis python | protopterus Xenopus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python | protopterus Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	2	TREEFREQ:	0.285714
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0588235	ICA:	-0.0307926	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	3 
+CLADE: podarcis Anolis | protopterus Xenopus Ornithorhynchus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 Anolis python | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	2	TREEFREQ:	0.285714
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.571429	ICA:	0.130084	COUNT:	4	TREEFREQ:	0.571429
+	TREES:	3 4 5 6 
+CLADE: Xenopus Gallus Taeniopygia | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	2	TREEFREQ:	0.285714
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus 	COUNT:	6	TREEFREQ:	0.857143
+ 	 Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0555556	ICA:	-0.110387	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	4 
+CLADE: Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python 
+	CONFLICTS:
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus 	COUNT:	6	TREEFREQ:	0.857143
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0588235	ICA:	-0.128391	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	4 
+CLADE: Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 
+	CONFLICTS:
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus 	COUNT:	6	TREEFREQ:	0.857143
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis python | protopterus Xenopus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python | protopterus Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	2	TREEFREQ:	0.285714
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0555556	ICA:	-0.108175	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	4 
+CLADE: Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 
+	CONFLICTS:
+ 	 Ornithorhynchus Homo Monodelphis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	5	TREEFREQ:	0.714286
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus 	COUNT:	6	TREEFREQ:	0.857143
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis python | protopterus Xenopus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python | protopterus Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	2	TREEFREQ:	0.285714
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo | protopterus Xenopus Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0416667	ICA:	-0.114437	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	4 
+CLADE: podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	2	TREEFREQ:	0.285714
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis python | protopterus Xenopus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python | protopterus Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	2	TREEFREQ:	0.285714
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia alligator caiman 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Taeniopygia 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0555556	ICA:	-0.0325193	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	5 
+CLADE: Ornithorhynchus Homo | protopterus Xenopus Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 
+	CONFLICTS:
+ 	 Homo Monodelphis | protopterus Xenopus Ornithorhynchus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	6	TREEFREQ:	0.857143
+ 	 Ornithorhynchus Anolis | protopterus Xenopus Homo Monodelphis podarcis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis | protopterus Xenopus Homo Monodelphis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Ornithorhynchus podarcis Anolis python | protopterus Xenopus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0909091	ICA:	-0.207164	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	6 
+CLADE: Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Gallus Taeniopygia 
+	CONFLICTS:
+ 	 Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	2	TREEFREQ:	0.285714
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.0714286	ICA:	-0.0582654	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	6 
+CLADE: Ornithorhynchus Homo Monodelphis podarcis Anolis python Gallus alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Taeniopygia 
+	CONFLICTS:
+ 	 Gallus Taeniopygia | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	6	TREEFREQ:	0.857143
+ 	 Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	2	TREEFREQ:	0.285714
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus Ornithorhynchus Homo Monodelphis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis podarcis Anolis python phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	3	TREEFREQ:	0.428571
+ 	 Ornithorhynchus Homo Monodelphis Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Xenopus podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis podarcis Anolis python 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus Homo Monodelphis 	COUNT:	1	TREEFREQ:	0.142857
+ 	 Xenopus Homo Monodelphis podarcis Anolis python Gallus Taeniopygia alligator caiman phrynops caretta chelonoidis_nigra emys_orbicularis | protopterus Ornithorhynchus 	COUNT:	1	TREEFREQ:	0.142857
+ 	 podarcis Anolis python Gallus Taeniopygia alligator caiman | protopterus Xenopus Ornithorhynchus Homo Monodelphis phrynops caretta chelonoidis_nigra emys_orbicularis 	COUNT:	1	TREEFREQ:	0.142857
+	FREQ:	0.047619	ICA:	-0.102259	COUNT:	1	TREEFREQ:	0.142857
+	TREES:	6 
+TSCA: 7.65578

@@ -1,0 +1,64 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.10 released by Alexandros Stamatakis on March 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 263 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 3.22%
+
+RAxML computation of per-site log likelihoods
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 263
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/usr/bin/raxmlHPC-PTHREADS-AVX -f g -T 2 -s temp.fa -m GTRGAMMA -z TempTree.tre -n EX_SSLL 
+
+
+
+
+Found 7 trees in File TempTree.tre
+
+Tree 0: -3108.839026
+Tree 1: -3104.855417
+Tree 2: -3119.287750
+Tree 3: -3119.153466
+Tree 4: -3113.517400
+Tree 5: -3114.061254
+Tree 6: -3121.707088
+
+
+Time for Optimization of per-site log likelihoods 0.059507
+Per-site Log Likelihoods written to File /home/jfwalker/Desktop/ForDryadSSLL/GitHub/SiteSpecificLogLikelihood/RAxML_perSiteLLs.EX_SSLL in Tree-Puzzle format
+Execution information file written to :  /home/jfwalker/Desktop/ForDryadSSLL/GitHub/SiteSpecificLogLikelihood/RAxML_info.EX_SSLL

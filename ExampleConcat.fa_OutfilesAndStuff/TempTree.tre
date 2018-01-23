@@ -1,0 +1,7 @@
+(Xenopus:0,((Ornithorhynchus:0,(Homo:0,Monodelphis:0):0):0,(((Gallus:0,Taeniopygia:0):0,(caiman:0,chelonoidis_nigra:0):0):0,Anolis:0):0):0);
+(Xenopus:0,(((Homo:0,Monodelphis:0):0,Ornithorhynchus:0):0,((((Gallus:0,Taeniopygia:0):0,caiman:0):0,chelonoidis_nigra:0):0,Anolis:0):0):0);
+(Xenopus:0,(((Taeniopygia:0,Gallus:0):0,caiman:0):0,(((Homo:0,Monodelphis:0):0,(Ornithorhynchus:0,Anolis:0):0):0,chelonoidis_nigra:0):0):0);
+(Xenopus:0,((((((Homo:0,Monodelphis:0):0,Ornithorhynchus:0):0,chelonoidis_nigra:0):0,caiman:0):0,(Taeniopygia:0,Gallus:0):0):0,Anolis:0):0);
+(Ornithorhynchus:0,((Homo:0,Monodelphis:0):0,(((Xenopus:0,(Taeniopygia:0,Gallus:0):0):0,(caiman:0,chelonoidis_nigra:0):0):0,Anolis:0):0):0);
+(Xenopus:0,(((Homo:0,Monodelphis:0):0,Ornithorhynchus:0):0,((((Taeniopygia:0,Gallus:0):0,caiman:0):0,Anolis:0):0,chelonoidis_nigra:0):0):0);
+(Xenopus:0,(Taeniopygia:0,(Gallus:0,((caiman:0,chelonoidis_nigra:0):0,((Monodelphis:0,(Ornithorhynchus:0,Homo:0):0):0,Anolis:0):0):0):0):0);

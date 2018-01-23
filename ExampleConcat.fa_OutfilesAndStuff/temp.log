@@ -1,0 +1,17 @@
+1 trees 
+14 unique clades found
+CLADE: caiman alligator 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: chelonoidis_nigra emys_orbicularis 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: caretta chelonoidis_nigra emys_orbicularis 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: caretta chelonoidis_nigra emys_orbicularis phrynops 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: caiman alligator caretta chelonoidis_nigra emys_orbicularis phrynops 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: Ornithorhynchus Homo 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: Monodelphis Ornithorhynchus Homo 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: podarcis Anolis 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: python podarcis Anolis 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: Monodelphis Ornithorhynchus Homo python podarcis Anolis 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: caiman alligator caretta chelonoidis_nigra emys_orbicularis phrynops Monodelphis Ornithorhynchus Homo python podarcis Anolis 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: Gallus caiman alligator caretta chelonoidis_nigra emys_orbicularis phrynops Monodelphis Ornithorhynchus Homo python podarcis Anolis 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: Taeniopygia Gallus caiman alligator caretta chelonoidis_nigra emys_orbicularis phrynops Monodelphis Ornithorhynchus Homo python podarcis Anolis 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+CLADE: Xenopus Taeniopygia Gallus caiman alligator caretta chelonoidis_nigra emys_orbicularis phrynops Monodelphis Ornithorhynchus Homo python podarcis Anolis 	FREQ:	1.	ICA:	1.	COUNT:	1	TREEFREQ:	1.
+TSCA: 14

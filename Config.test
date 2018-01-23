@@ -29,7 +29,7 @@ What is the name of the tree set file?
 Set: ExampleAllGeneTrees.tre
 
 How many threads should be used?
-Threads: 3
+Threads: 2
 
 Is this a test (True or False)?
 Test: False
