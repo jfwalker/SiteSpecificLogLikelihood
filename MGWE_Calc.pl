@@ -193,7 +193,7 @@ sub top_o_da_conflict {
 	}
 	$hash_size = keys %HASH;
 	@array = (); @trees = (); @likes = ();
-	$temp_like = 0; $temp_tree;
+	$temp_like = 0; $temp_tree = "";
 	foreach $i (0..($hash_size-1)){
 		
 		#print "$i: $HASH{$i}\n";
@@ -371,7 +371,8 @@ foreach $i (0..$#loc){
 		if($t_count != 0){	
 			chomp $line;
 			($one,$two) = split " ", $line, 2;
-			@temp = split " ", $line;
+
+			@temp = split " ", $two;
 			$held = 0;
 			foreach $i (0..$#temp){
 				$held += $temp[$i];

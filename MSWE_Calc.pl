@@ -77,10 +77,12 @@ sub GetBipartitions {
 			}
 		}
 	}
-	print StatsOut "##################Your Conflicts################\n";
-	foreach $i (0..$#array){
+	if($verbose eq "True"){
+		print StatsOut "##################Your Conflicts################\n";
+		foreach $i (0..$#array){
 		
-		print StatsOut "Conflict $i: $array[$i]\n";
+			print StatsOut "Conflict $i: $array[$i]\n";
+		}
 	}
 	return @array;		
 }
@@ -92,7 +94,9 @@ sub TreeBiparts {
 	$tree_count = 0; $clade = "";
 	%TREE_HASH = (); $count = 0;
 	@Conf = (); @Conf_And_Tree = ();
-	print StatsOut "###############Your Trees And their Conflicts##########\n";
+	if($verbose eq "True"){
+		print StatsOut "###############Your Trees And their Conflicts##########\n";
+	}
 	#opens the tree file from the analysis
 	open(trees, "Unique.tre")||die "No tree file\n";
 	while($line = <trees>){
@@ -121,7 +125,9 @@ sub TreeBiparts {
 						delete @comp{@array2};
 						$comp_size = keys %comp;
 						if($comp_size == 0){
-							print StatsOut "Tree: $count Conflict: $i $conflict[$i]\n";
+							if($verbose eq "True"){
+								print StatsOut "Tree: $count Conflict: $i $conflict[$i]\n";
+							}
 							push @Conf, $i;
 						}
 					}
@@ -167,48 +173,92 @@ sub ReadSuperMatrix {
 	
 	
 }
+
 sub top_o_da_conflict {
 	
-	$Likelihoods = ""; local *Likelihoods = $_[0];
+	@ArrayOfGenes = (); local *ArrayOfGenes = $_[0];
 	#Tree is the number and then theres the conflicts it matches
 	@TreeAndCon = (); local *TreeAndCon = $_[1];
-	@array = (); %HASH = ();
-	@array = split " ", $Likelihoods;
-	for $i (0..$#TreeAndCon){
-		
-		$ref = $TreeAndCon[$i];
-		for $j (0..$#{$ref}){
-			
-			#print StatsOut "Tree $i = Conflict $TreeAndCon[$i][$j]\n";
-			$HASH{$TreeAndCon[$i][$j]} .= "$array[$i]:$i,"
-			
-		}
-		
-	}
-	$hash_size = keys %HASH;
 	@array = (); @trees = (); @likes = ();
-	$temp_like = 0; $temp_tree;
-	foreach $i (0..($hash_size-1)){
+	for $i (0..$#ArrayOfGenes){
+	#for $i (0..1){
 		
-		#print "$i: $HASH{$i}\n";
-		@array = split ",", $HASH{$i};
-		$temp_like = -9999999999999.999;
-		foreach $j (0..$#array){
-		
-			($like, $tree) = split ":", $array[$j], 2;
-			if($temp_like < $like){
-				$temp_like = $like;
-				$temp_tree = $tree;
+		@array = split " ", $ArrayOfGenes[$i];
+		%HASH = ();
+		for $j (0..$#TreeAndCon){
+			
+			$ref = $TreeAndCon[$j];
+			for $k (0..$#{$ref}){
+				$HASH{$TreeAndCon[$j][$k]} .= "$array[$j]:$j,"
 			}
 		}
-		push @likes, $temp_like;
-		push @trees, $temp_tree;
-		#print "$i: $temp_tree\t$temp_like\n";
+		#print Dumper(\%HASH);
+		$hash_size = keys %HASH;
+		@new_array = ();
+		$like = 0; $tree = "";
+		$temp_like = 0; $temp_tree = "";
+		$all_tree = ""; $all_like = "";
+		#Edit here for threshold changes etc...
+		foreach $j (0..($hash_size-1)){
+			
+			#print "$i: $HASH{$i}\n";
+			@new_array = split ",", $HASH{$j};
+			$temp_like = -99999999999999.999;
+			foreach $k (0..$#new_array){
+				($like, $tree) = split ":", $new_array[$k], 2;
+				if($temp_like < $like){
+					$temp_like = $like;
+					$temp_tree = $tree;
+				}
+			}
+			#Good for trouble shooting
+			if($Hyper eq "True"){
+				print Hypout "For site $i the best edge $j is from tree $temp_tree with Likelihood $temp_like\n";
+			}
+			$all_tree .= "t$temp_tree ";
+			$all_like .= "$temp_like ";
+		}
+		#print "Here: $all_tree\n";
+		push @trees, $all_tree;
+		push @likes, $all_like;
 	}
 	return (\@likes, \@trees);
-}
-
-
+}	
+#	@array = (); %HASH = ();
+#	@array = split " ", $Likelihoods;
+#	for $i (0..$#TreeAndCon){
+		
+#		$ref = $TreeAndCon[$i];
+#		for $j (0..$#{$ref}){
+			
+			#print StatsOut "Tree $i = Conflict $TreeAndCon[$i][$j]\n";
+#			$HASH{$TreeAndCon[$i][$j]} .= "$array[$i]:$i,"
+			
+#		}
+		
+#	}
+#	$hash_size = keys %HASH;
+#	@array = (); @trees = (); @likes = ();
+#	$temp_like = 0; $temp_tree = "";
+#	foreach $i (0..($hash_size-1)){
+		
+		#print "$i: $HASH{$i}\n";
+#		@array = split ",", $HASH{$i};
+#		$temp_like = -9999999999999.999;
+#		foreach $j (0..$#array){
+#		
+#			($like, $tree) = split ":", $array[$j], 2;
+#			if($temp_like < $like){
+#				$temp_like = $like;
+#				$temp_tree = $tree;
+#			}
+#		}
+#		push @likes, $temp_like;
+#		push @trees, $temp_tree;
+		#print "$i: $temp_tree\t$temp_like\n";
+#	}
+#	return (\@likes, \@trees);
+#}
 
 open(Configure, "$ARGV[0]")||die "Please See Configure File\n";
 while($line = <Configure>){
@@ -241,9 +291,15 @@ while($line = <Configure>){
 		$secret = ($line =~ /.*?: (.*)/)[0];
 	}elsif($line =~ /^Topologies:/){
 		$Topos = ($line =~ /.*?: (.*)/)[0];
+	}elsif($line =~ /^Hyper:/){
+		$Hyper = ($line =~ /.*?: (.*)/)[0];
 	}
 }
 open(StatsOut, ">$outfile")||die "In program give a name of the outfile\n";
+if($Hyper eq "True"){
+
+	open(Hypout,">hyper")||die "No file to output\n";
+}
 print StatsOut "Information for the MSGE Analysis\n";
 print StatsOut "################################################################\n";
 print StatsOut "If any of this is wrong the analysis won't work, double check!!!!\n";
@@ -259,7 +315,9 @@ print StatsOut "Running a test?: $IsItATest\n";
 print StatsOut "You're output folder is: $folder\n";
 print StatsOut "Running it in verbose?: $verbose\n";
 print StatsOut "################################################################\n";
-system("rm -Rf $folder && mkdir $folder");
+if($secret ne "True"){
+	system("rm -Rf $folder && mkdir $folder");
+}
 print StatsOut "You're Edge Info is in bp.log\nYou're Unique Trees are in Unique.tre\n";
 
 system("pxrr -u -t $TreeFile -o trees.unroot");
@@ -280,7 +338,7 @@ print StatsOut "You're total genes: $CountOfGenes\n";
 #element 0 will contain the bipart of interest the
 #rest will be the ones that conflict with it
 @Conflict = ();
-(@Conflict) = GetBipartitions(\$conflicting_node);
+@Conflict = GetBipartitions(\$conflicting_node);
 
 
 #Array of Arrays where tree is the position and
@@ -289,20 +347,25 @@ print StatsOut "You're total genes: $CountOfGenes\n";
 @Tree_Conflict = ();
 @Tree_Conflict = TreeBiparts(\@Conflict);
 print "Trees have been processed now Beginning Gene Likelihoods\n";
-
-print StatsOut "################################################################\n";
-print StatsOut "#HERE ARE THE TAXA AND MISSING ONES FROM EACH GENE:\n";
+if($verbose eq "True"){
+	print StatsOut "################################################################\n";
+	print StatsOut "#HERE ARE THE TAXA AND MISSING ONES FROM EACH GENE:\n";
+}
 %FastaHash = (); $count = 0; %TotalTaxaHash = ();
 %FastaHash = ReadSuperMatrix(\$SuperMatrix);
 $all_seqs = 0;
 $all_seqs = keys %FastaHash;
 
 
-@site_array = (); $sitecount = 0; $genecount = 0;
-@gene_array = (); @like_sum = (); @tree_sum = ();
+$sitecount = 0; $genecount = 0;
+@like_sum = (); @tree_sum = ();
 @parameter_sum = (); @Tree_total = ();
-open(MGWB_BL_OUT, ">SuperMatrixSiteLLsBL.SSLL");
+@gene_lengths = (); @total_gene = ();
 foreach $i (0..$#loc){
+	
+	if($Hyper eq "True"){
+		print Hypout "########Gene $i########\n";
+	}
 	#This block creates a temporary Fasta for the gene
 	open(out, ">temp.fa");
 	($start,$stop) = split "-", $loc[$i], 2;
@@ -328,10 +391,14 @@ foreach $i (0..$#loc){
 		}
 	}
 	#For parameters stores number of taxa
-	print StatsOut "Gene_$i: Has $seq_count in it\n";
+	if($verbose eq "True"){
+		print StatsOut "Gene_$i: Has $seq_count in it\n";
+	}
 	push @parameter_sum, $seq_count;
 	#Anything that was missing from the gene gets eliminated here
-	print StatsOut "These were removed from likelihood calc due to all missing data: $to_remove\n";
+	if($verbose eq "True"){
+		print StatsOut "These were removed from likelihood calc due to all missing data: $to_remove\n";
+	}
 	
 	#Removes taxa from tree set to not interfere with likelihood calc
 	if($to_remove ne ""){
@@ -349,56 +416,79 @@ foreach $i (0..$#loc){
 	
 	#read in SSLL and make a new file of them
 	$t_count = 0;
-	$gene1 = "";
 	$ref_t = ""; $ref_l = "";
 	@best_trees = (); @best_likes = ();
+	@gene_array = ();
 	open(RAXML, "RAxML_perSiteLLs.EX_SSLL");
 	while($line = <RAXML>){
 		
-		$site1 = "";
 		if($t_count != 0){	
 			chomp $line;
 			($one,$two) = split " ", $line, 2;
-			@temp = split " ", $line;
+
+			@temp = split " ", $two;
 			$held = 0;
-			foreach $i (0..$#temp){
-				$held += $temp[$i];
+			foreach $j (0..$#temp){
+				$gene_array[$j] .= "$temp[$j] ";
 			}
-			#@site_array[$genecount] .= "$two ";
-			#@gene_array[$genecount] .= "$held ";
-			$gene1 .= "$held ";
-			$site1 .= "$two ";
+			#push @gene_array, [@temp];
 			$sitecount++;
 		}
 		$t_count++;
 	}
-	($ref_l, $ref_t) = top_o_da_conflict(\$gene1, \@Tree_Conflict);
-	@best_trees = @$ref_t;
-	@best_likes = @$ref_l;
-	$very_best = -9999999999999999.9999999;
-	$temp_tre = "";
-	foreach $i (0..$#best_likes){
-		
-		$like_sum[$i] += $best_likes[$i];	
-		$tree_sum[$i] .= "t$best_trees[$i],";
-		if($very_best < $best_likes[$i]){
-			
-			$very_best = $best_likes[$i];
-			$temp_tre = $i;
-			
+	$ref_l = ""; $ref_t = "";
+	($ref_l, $ref_t) = top_o_da_conflict(\@gene_array, \@Tree_Conflict);
+	@best_trees = @$ref_t; @best_likes = @$ref_l;
+	
+	#print Dumper(\@best_likes);
+	@like_sum = (); @array = ();
+	#gives like sum the total bipartition likelihood for that gene
+	foreach $j (0..$#best_likes){
+	
+		@array = split " ", $best_likes[$j];
+		foreach $k (0..$#array){
+				
+			$like_sum[$k] += $array[$k];
 		}
+	}
+	push @total_gene, [@like_sum];
+	#@Tree_total
+	#gives how many trees were used (Tree_total)
+	@array = (); @tree_sum = ();
+	foreach $j (0..$#best_trees){
+		 
+		@array = split " ", $best_trees[$j];
+		foreach $k (0..$#array){
+			$tree_sum[$k] .= "$array[$k] ";
+		}
+	}
+	#print Dumper(\@tree_sum);
+	#print "$#tree_sum\n";
+	@array = (); %HASH = (); @lot_o_trees = ();
+	foreach $j (0..$#tree_sum){
+		
+		@array = split " ", $tree_sum[$j];			
+		my @unique = do { my %seen; grep { !$seen{$_}++ } @array };
+		$numb_unique = ($#unique + 1);
+		push @lot_o_trees, "$numb_unique:$seq_count";
 		
 	}
-	push @Tree_total, $temp_tre;
-	#print "$temp_tre: $very_best\n";
-	#$genecount++;
+	push @Tree_total, [@lot_o_trees];
 }
-#Tree_total is a way of accessing the best trees
+
+
+#Array of arrays with sum of likelihoods for each edge
+#print Dumper(\@total_gene);
+#Array with tree totals NumberOfTrees:NumberOfTaxa
 #print Dumper(\@Tree_total);
+
+
+#This whole monstrosity of a section of code is about calculating
+#The likelihood for the trees if you don't parameterize branch lengths
 @MatrixLikes = (); $likelihood = "";
 if($secret eq "True"){
 	print "Secret Mode is chosen, not calculating SSLL's for matrix\n";
-	open(File, "MatrixNoBrInfo.SSLL")||die "Did you delete the file MatrixNoBrInfo.SSLL?\nCannot run in secret mode without that file\n";
+	open(File, "$folder/MatrixNoBrInfo.SSLL")||die "Did you delete the file MatrixNoBrInfo.SSLL?\nCannot run in secret mode without that file\n";
 	while($line = <File>){
 			
 		chomp $line;
@@ -456,138 +546,166 @@ if($secret eq "True"){
 
 	}
 }
+#End of the monstrosity of code about branch lengths
 
-
-
-#gene_array is an array where each element contains the best gene likelihoods
-#site_array is the same but for sites
+#This grabs the number of parameters, will be different between
+#supermatrix and edges because supermatrix uses only one
+#set of branch lengths
 print "#################################################\n";
 print "Went through data, now processing final bits\n";
 
-#print Dumper(\@MatrixLikes);
-#Parameters are 6 for GTR and (2n-3) for the branch lengths
-$parameters_of_MGWE = 0; $parameters_of_matrix = 0;
-foreach $i (0..$#parameter_sum){
 
-	$parameters_of_MGWE += (6 + (2*$parameter_sum[$i] -3));
+#Parameters are 6 for GTR+G and (2n-3) for the branch lengths
+#$parameters_of_MGWE = 0; $parameters_of_matrix = 0;
+#foreach $i (0..$#parameter_sum){
+
+#	$parameters_of_MGWE += (6 + (2*$parameter_sum[$i] -3));
 	
-}
-$parameters_of_matrix = ((2*$all_seqs)-3) + (6*($#parameter_sum+1));
+#}
+#$parameters_of_matrix = ((2*$all_seqs)-3) + (6*($#parameter_sum+1));
 
-print StatsOut "#######################Gene Counts###############################\n";
-%HASH = ();
-foreach $i (0..$#Tree_total){
+#print StatsOut "#######################Gene Counts###############################\n";
+#%HASH = (); %HASH_Sites = ();
+#foreach $i (0..$#Tree_total){
 
 	#print "Best Edge is: $Tree_total[$i]\n";
-	if(exists $HASH{$Tree_total[$i]}){
+#	if(exists $HASH{$Tree_total[$i]}){
 		
-		$HASH{$Tree_total[$i]}++;
+#		$HASH{$Tree_total[$i]}++;
+#		$HASH_Sites{$Tree_total[$i]} += $gene_lengths[$i];
 		
-	}else{
+#	}else{
 		
-		$HASH{$Tree_total[$i]} = 1;
-	}	
-}
+#		$HASH{$Tree_total[$i]} = 1;
+#		$HASH_Sites{$Tree_total[$i]} = $gene_lengths[$i];
+#	}	
+#}
 #print Dumper(\%HASH);
-foreach $i (0..$#Conflict){
+#foreach $i (0..$#Conflict){
 	
-	print StatsOut "Conflict $i $Conflict[$i]: $HASH{$i}\n";
+#	print StatsOut "Conflict $i $Conflict[$i]: $HASH{$i}\n";
 	
-}
+#}
+
+#if($verbose eq "True"){
+#	print StatsOut "#######################Site Counts###############################\n";
+	
+#	foreach $i (0..$#Conflict){
+	
+#		print StatsOut "Conflict $i $Conflict[$i]: $HASH_Sites{$i}\n";
+	
+#	}
+#}
 
 
-print StatsOut "#######################Paramater Info############################\n";
-print StatsOut "Parameters of your regular old supermatrix: $parameters_of_matrix\n";
-print StatsOut "Parameters used for the Edge analysis: $parameters_of_MGWE\n";
+#print StatsOut "#######################Paramater Info############################\n";
+#print StatsOut "Parameters of your regular old supermatrix: $parameters_of_matrix\n";
+#print StatsOut "Parameters used for the Edge analysis: $parameters_of_MGWE\n";
 
-print StatsOut "#######################Your Likelihoods##########################\n";
-@temp_sort = (); @sorted = ();
-if($Topos != 0){
+#print StatsOut "#######################Your Likelihoods##########################\n";
+#@temp_sort = (); @sorted = ();
+#if($Topos != 0){
 	
-	foreach $i (0..$#MatrixLikes){
+#	foreach $i (0..$#MatrixLikes){
 		
-		print StatsOut "Tree $i: $MatrixLikes[$i]\n";
-		push @temp_sort, $MatrixLikes[$i];
-	}
+#		print StatsOut "Tree $i: $MatrixLikes[$i]\n";
+#		push @temp_sort, $MatrixLikes[$i];
+#	}
 
-}
-foreach $i (0..$#best_likes){
+#}
+#foreach $i (0..$#best_likes){
 
-	print StatsOut "Edge $i $Conflict[$i]: $like_sum[$i]\n";
-	push @temp_sort, $like_sum[$i];
+#	print StatsOut "Edge $i $Conflict[$i]: $like_sum[$i]\n";
+#	push @temp_sort, $like_sum[$i];
 	
-}
-@sorted = sort {$b <=> $a} @temp_sort;
-print StatsOut "The Best Likelihood is: $sorted[0]\n";
+#}
+#@sorted = sort {$b <=> $a} @temp_sort;
+#print StatsOut "The Best Likelihood is: $sorted[0]\n";
 
-print StatsOut "#####################Your AIC Scores##########################\n";
-@temp_sort = (); $MatrixAIC = 0; @sorted = ();
-if($Topos != 0){
+#print StatsOut "#####################Your AIC Scores##########################\n";
+#@temp_sort = (); $MatrixAIC = 0; @sorted = ();
+#if($Topos != 0){
 	
-	foreach $i (0..$#MatrixLikes){
+#	foreach $i (0..$#MatrixLikes){
 		
-		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
-		print StatsOut "Tree $i: $MatrixAIC\n";
-		push @temp_sort, $MatrixAIC;
-	}
+#		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
+#		print StatsOut "Tree $i: $MatrixAIC\n";
+#		push @temp_sort, $MatrixAIC;
+#	}
 
-}
-foreach $i (0..$#best_likes){
+#}
+#foreach $i (0..$#best_likes){
 
-	$MatrixAIC = (-2*$like_sum[$i]) + (2*$$parameters_of_MGWE);
-	print StatsOut "Edge $i $Conflict[$i]: $MatrixAIC\n";
-	push @temp_sort, $MatrixAIC;
+#	$MatrixAIC = (-2*$like_sum[$i]) + (2*$parameters_of_MGWE);
+#	print StatsOut "Edge $i $Conflict[$i]: $MatrixAIC\n";
+#	push @temp_sort, $MatrixAIC;
 	
-}
-@sorted = sort {$a <=> $b} @temp_sort;
-print StatsOut "The Best AIC is: $sorted[0]\n";
-$best_aic = 0;
-$best_aic = $sorted[0];
-print StatsOut "###################Your Delta AIC Scores#######################\n";
-$MatrixAIC = 0; $DeltaAIC = 0; $TotalDelta = 0;
-if($Topos != 0){
+#}
+#@sorted = sort {$a <=> $b} @temp_sort;
+#print StatsOut "The Best AIC is: $sorted[0]\n";
+#$best_aic = 0;
+#$best_aic = $sorted[0];
+#print StatsOut "###################Your Delta AIC Scores#######################\n";
+#$MatrixAIC = 0; $DeltaAIC = 0; $TotalDelta = 0;
+#if($Topos != 0){
 	
-	foreach $i (0..$#MatrixLikes){
+#	foreach $i (0..$#MatrixLikes){
 		
-		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
-		$DeltaAIC = $MatrixAIC - $best_aic;
-		$TotalDelta += exp(-0.5 * $DeltaAIC);
-		print StatsOut "Tree $i: $DeltaAIC\n";
+#		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
+#		$DeltaAIC = $MatrixAIC - $best_aic;
+#		$TotalDelta += exp(-0.5 * $DeltaAIC);
+#		print StatsOut "Tree $i: $DeltaAIC\n";
 		
-	}
+#	}
 
-}
-foreach $i (0..$#best_likes){
+#}
+#foreach $i (0..$#best_likes){
 
-	$MatrixAIC = (-2*$like_sum[$i]) + (2*$$parameters_of_MGWE);
-	$DeltaAIC = $MatrixAIC - $best_aic;
-	$TotalDelta += exp(-0.5 * $DeltaAIC);
-	print StatsOut "Edge $i $Conflict[$i]: $DeltaAIC\n";
+#	$MatrixAIC = (-2*$like_sum[$i]) + (2*$parameters_of_MGWE);
+#	$DeltaAIC = $MatrixAIC - $best_aic;
+#	$TotalDelta += exp(-0.5 * $DeltaAIC);
+#	print StatsOut "Edge $i $Conflict[$i]: $DeltaAIC\n";
 	
-}
-print StatsOut "###################Your AIC Weigths#########################\n";
-$weight = 0; $MatrixAIC = 0; $DeltaAIC = 0;
-if($Topos != 0){
+#}
+#print StatsOut "###################Your AIC Weigths#########################\n";
+#$weight = 0; $MatrixAIC = 0; $DeltaAIC = 0;
+#if($Topos != 0){
 	
-	foreach $i (0..$#MatrixLikes){
+#	foreach $i (0..$#MatrixLikes){
 		
-		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
-		$DeltaAIC = $MatrixAIC - $best_aic;
-		$weight = (exp(-0.5 * $DeltaAIC) / $TotalDelta);
-		print StatsOut "Tree $i: $weight\n";
+#		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
+#		$DeltaAIC = $MatrixAIC - $best_aic;
+#		$weight = (exp(-0.5 * $DeltaAIC) / $TotalDelta);
+#		print StatsOut "Tree $i: $weight\n";
 		
-	}
+#	}
 
-}
-foreach $i (0..$#best_likes){
+#}
+#foreach $i (0..$#best_likes){
 
-	$MatrixAIC = (-2*$like_sum[$i]) + (2*$$parameters_of_MGWE);
-	$DeltaAIC = $MatrixAIC - $best_aic;
-	$weight = (exp(-0.5 * $DeltaAIC) / $TotalDelta);
-	print StatsOut "Edge $i $Conflict[$i]: $weight\n";
+#	$MatrixAIC = (-2*$like_sum[$i]) + (2*$parameters_of_MGWE);
+#	$DeltaAIC = $MatrixAIC - $best_aic;
+#	$weight = (exp(-0.5 * $DeltaAIC) / $TotalDelta);
+#	print StatsOut "Edge $i $Conflict[$i]: $weight\n";
 	
+#}
+
+if($secret ne "True"){
+	system("mv Unique.tre bp.log trees.unroot MatrixNoBrInfo.SSLL MatrixNoBrSSLLs.SSLL phyx.logfile $folder");
+}else{
+	system("mv Unique.tre bp.log trees.unroot phyx.logfile $folder");
 }
+#system("rm RAxML_info.EX_SSLL RAxML_perSiteLLs.EX_SSLL temp.log temp.fa temptesttre TempTree.tre");
+system("rm RAxML_info.EX_SSLL temp.log temp.fa temptesttre TempTree.tre");
 
 
-
-system("mv Unique.tre bp.log trees.unroot $folder");
+print "################################################################\n";
+print "(☞ﾟヮﾟ)☞ Program is done running please double check results ☜(ﾟヮﾟ☜)\n";
+print "IN THE FOLDER $folder you should have the files:\n";
+print "bp.log: This contains bipartition info for you tree set\n";
+print "MatrixNoBrInfo: This is the info from the Supermatrix Analysis, without Brlengths to check parameters and blah\n";
+print "phyx.logfile: Your phyx logfile to make sure everything ran good and dandy\n";
+print "trees.unroot: Your trees unrooted\n";
+print "Unique.tre: All the unique trees from your tree set\n";
+print "The results of the analysis are in $outfile\n";
+print "################################################################\n";
