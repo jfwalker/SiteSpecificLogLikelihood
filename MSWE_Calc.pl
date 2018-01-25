@@ -299,6 +299,7 @@ open(StatsOut, ">$outfile")||die "In program give a name of the outfile\n";
 if($Hyper eq "True"){
 
 	open(Hypout,">hyper")||die "No file to output\n";
+	open(SiteOut, ">SiteInfo")||die "No site info file\n";
 }
 print StatsOut "Information for the MSGE Analysis\n";
 print StatsOut "################################################################\n";
@@ -361,10 +362,13 @@ $sitecount = 0; $genecount = 0;
 @like_sum = (); @tree_sum = ();
 @parameter_sum = (); @Tree_total = ();
 @gene_lengths = (); @total_gene = ();
+@site_sums = (); %HASH_OF_BEST_SITES = ();
+@final_like = ();
 foreach $i (0..$#loc){
 	
 	if($Hyper eq "True"){
 		print Hypout "########Gene $i########\n";
+		print SiteOut ">Gene_$i\n";
 	}
 	#This block creates a temporary Fasta for the gene
 	open(out, ">temp.fa");
@@ -449,6 +453,7 @@ foreach $i (0..$#loc){
 		foreach $k (0..$#array){
 				
 			$like_sum[$k] += $array[$k];
+			$final_like[$k] += $array[$k];
 		}
 	}
 	push @total_gene, [@like_sum];
@@ -474,8 +479,37 @@ foreach $i (0..$#loc){
 		
 	}
 	push @Tree_total, [@lot_o_trees];
+	#Something needs to be written to get site counts
+	@array = (); $high_like = 0; 
+	foreach $j (0..$#best_likes){
+	
+		@array = split " ", $best_likes[$j];
+		$high_like = -999999999999999.99999999;
+		$high_tree = "";
+		foreach $k (0..$#array){
+				
+			if($high_like < $array[$k]){
+				
+				$high_like = $array[$k];
+				$high_tree = $k;
+			}
+		}
+		if($Hyper eq "True"){
+			print SiteOut "$high_tree,";
+		}
+		
+		if(exists $HASH_OF_BEST_SITES{$high_tree}){
+			$HASH_OF_BEST_SITES{$high_tree}++;
+		}else{
+			$HASH_OF_BEST_SITES{$high_tree} = 1;	
+		}
+	}
+	if($Hyper eq "True"){
+		print SiteOut "\n";
+	}
+		
+		
 }
-
 
 #Array of arrays with sum of likelihoods for each edge
 #print Dumper(\@total_gene);
@@ -548,21 +582,44 @@ if($secret eq "True"){
 }
 #End of the monstrosity of code about branch lengths
 
+
+
+#Array of arrays with sum of likelihoods for each edge
+#print Dumper(\@total_gene);
+#Array with tree totals NumberOfTrees:NumberOfTaxa
+#print Dumper(\@Tree_total);
+
+
+
+
 #This grabs the number of parameters, will be different between
 #supermatrix and edges because supermatrix uses only one
 #set of branch lengths
 print "#################################################\n";
 print "Went through data, now processing final bits\n";
 
-
 #Parameters are 6 for GTR+G and (2n-3) for the branch lengths
-#$parameters_of_MGWE = 0; $parameters_of_matrix = 0;
-#foreach $i (0..$#parameter_sum){
+#Here is where the number of parameters used is calculated
+@parameters_of_MSWE = (); $parameters_of_matrix = 0;
+$trees_used = 0; $taxa = 0;
+foreach $i (0..$#Tree_total){
 
-#	$parameters_of_MGWE += (6 + (2*$parameter_sum[$i] -3));
+	#$parameters_of_MGWE += (6 + (2*$parameter_sum[$i] -3));
+	$ref = $Tree_total[$i];	
+	#in here is the number of trees used and the taxa for those trees
+	for $k (0..$#{$ref}){
+		#print "gene $i bipart $k $Tree_total[$i][$k]\n";
+		($trees_used, $taxa) = split ":", $Tree_total[$i][$k];
+		$parameters_of_MSWE[$k] += ((((2*$taxa) - 3) + 6) * $trees_used);
+	}
 	
-#}
-#$parameters_of_matrix = ((2*$all_seqs)-3) + (6*($#parameter_sum+1));
+}
+#print Dumper(\@parameters_of_MSWE);
+$parameters_of_matrix = ((2*$all_seqs)-3) + (6*($#parameter_sum+1));
+
+
+
+#Do the site counts
 
 #print StatsOut "#######################Gene Counts###############################\n";
 #%HASH = (); %HASH_Sites = ();
@@ -587,116 +644,117 @@ print "Went through data, now processing final bits\n";
 	
 #}
 
-#if($verbose eq "True"){
-#	print StatsOut "#######################Site Counts###############################\n";
+
+print StatsOut "#######################Site Counts###############################\n";
 	
-#	foreach $i (0..$#Conflict){
+foreach $i (0..$#Conflict){
 	
-#		print StatsOut "Conflict $i $Conflict[$i]: $HASH_Sites{$i}\n";
+	print StatsOut "Conflict $i $Conflict[$i]: $HASH_OF_BEST_SITES{$i}\n";
 	
-#	}
-#}
+}
 
 
-#print StatsOut "#######################Paramater Info############################\n";
-#print StatsOut "Parameters of your regular old supermatrix: $parameters_of_matrix\n";
-#print StatsOut "Parameters used for the Edge analysis: $parameters_of_MGWE\n";
 
-#print StatsOut "#######################Your Likelihoods##########################\n";
-#@temp_sort = (); @sorted = ();
-#if($Topos != 0){
+print StatsOut "#######################Paramater Info############################\n";
+print StatsOut "Parameters of your regular old supermatrix: $parameters_of_matrix\n";
+foreach $i (0..$#parameters_of_MSWE){
+	print StatsOut "Edge $i $Conflict[$i]: $parameters_of_MSWE[$i]\n";
 	
-#	foreach $i (0..$#MatrixLikes){
+}
+print StatsOut "#######################Your Likelihoods##########################\n";
+@temp_sort = (); @sorted = ();
+if($Topos != 0){
+	
+	foreach $i (0..$#MatrixLikes){
 		
-#		print StatsOut "Tree $i: $MatrixLikes[$i]\n";
-#		push @temp_sort, $MatrixLikes[$i];
-#	}
+		print StatsOut "Tree $i: $MatrixLikes[$i]\n";
+		push @temp_sort, $MatrixLikes[$i];
+	}
 
-#}
-#foreach $i (0..$#best_likes){
-
-#	print StatsOut "Edge $i $Conflict[$i]: $like_sum[$i]\n";
-#	push @temp_sort, $like_sum[$i];
+}
+foreach $i (0..$#final_like){
 	
-#}
-#@sorted = sort {$b <=> $a} @temp_sort;
-#print StatsOut "The Best Likelihood is: $sorted[0]\n";
-
-#print StatsOut "#####################Your AIC Scores##########################\n";
-#@temp_sort = (); $MatrixAIC = 0; @sorted = ();
-#if($Topos != 0){
+	print StatsOut "Edge $i $Conflict[$i]: $final_like[$i]\n";
+	push @temp_sort, $final_like[$i];
 	
-#	foreach $i (0..$#MatrixLikes){
+}
+@sorted = sort {$b <=> $a} @temp_sort;
+print StatsOut "The Best Likelihood is: $sorted[0]\n";
+
+print StatsOut "#####################Your AIC Scores##########################\n";
+@temp_sort = (); $MatrixAIC = 0; @sorted = ();
+if($Topos != 0){
+	
+	foreach $i (0..$#MatrixLikes){
 		
-#		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
-#		print StatsOut "Tree $i: $MatrixAIC\n";
-#		push @temp_sort, $MatrixAIC;
-#	}
+		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
+		print StatsOut "Tree $i: $MatrixAIC\n";
+		push @temp_sort, $MatrixAIC;
+	}
 
-#}
-#foreach $i (0..$#best_likes){
+}
+foreach $i (0..$#final_like){
 
-#	$MatrixAIC = (-2*$like_sum[$i]) + (2*$parameters_of_MGWE);
-#	print StatsOut "Edge $i $Conflict[$i]: $MatrixAIC\n";
-#	push @temp_sort, $MatrixAIC;
+	$MatrixAIC = (-2*$final_like[$i]) + (2*$parameters_of_MSWE[$i]);
+	print StatsOut "Edge $i $Conflict[$i]: $MatrixAIC\n";
+	push @temp_sort, $MatrixAIC;
 	
-#}
-#@sorted = sort {$a <=> $b} @temp_sort;
-#print StatsOut "The Best AIC is: $sorted[0]\n";
-#$best_aic = 0;
-#$best_aic = $sorted[0];
-#print StatsOut "###################Your Delta AIC Scores#######################\n";
-#$MatrixAIC = 0; $DeltaAIC = 0; $TotalDelta = 0;
-#if($Topos != 0){
+}
+@sorted = sort {$a <=> $b} @temp_sort;
+print StatsOut "The Best AIC is: $sorted[0]\n";
+$best_aic = 0;
+$best_aic = $sorted[0];
+print StatsOut "###################Your Delta AIC Scores#######################\n";
+$MatrixAIC = 0; $DeltaAIC = 0; $TotalDelta = 0;
+if($Topos != 0){
 	
-#	foreach $i (0..$#MatrixLikes){
+	foreach $i (0..$#MatrixLikes){
 		
-#		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
-#		$DeltaAIC = $MatrixAIC - $best_aic;
-#		$TotalDelta += exp(-0.5 * $DeltaAIC);
-#		print StatsOut "Tree $i: $DeltaAIC\n";
+		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
+		$DeltaAIC = $MatrixAIC - $best_aic;
+		$TotalDelta += exp(-0.5 * $DeltaAIC);
+		print StatsOut "Tree $i: $DeltaAIC\n";
 		
-#	}
+	}
 
-#}
-#foreach $i (0..$#best_likes){
+}
+foreach $i (0..$#final_like){
 
-#	$MatrixAIC = (-2*$like_sum[$i]) + (2*$parameters_of_MGWE);
-#	$DeltaAIC = $MatrixAIC - $best_aic;
-#	$TotalDelta += exp(-0.5 * $DeltaAIC);
-#	print StatsOut "Edge $i $Conflict[$i]: $DeltaAIC\n";
+	$MatrixAIC = (-2*$final_like[$i]) + (2*$parameters_of_MSWE[$i]);
+	$DeltaAIC = $MatrixAIC - $best_aic;
+	$TotalDelta += exp(-0.5 * $DeltaAIC);
+	print StatsOut "Edge $i $Conflict[$i]: $DeltaAIC\n";
 	
-#}
-#print StatsOut "###################Your AIC Weigths#########################\n";
-#$weight = 0; $MatrixAIC = 0; $DeltaAIC = 0;
-#if($Topos != 0){
+}
+print StatsOut "###################Your AIC Weigths#########################\n";
+$weight = 0; $MatrixAIC = 0; $DeltaAIC = 0;
+if($Topos != 0){
 	
-#	foreach $i (0..$#MatrixLikes){
+	foreach $i (0..$#MatrixLikes){
 		
-#		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
-#		$DeltaAIC = $MatrixAIC - $best_aic;
-#		$weight = (exp(-0.5 * $DeltaAIC) / $TotalDelta);
-#		print StatsOut "Tree $i: $weight\n";
+		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
+		$DeltaAIC = $MatrixAIC - $best_aic;
+		$weight = (exp(-0.5 * $DeltaAIC) / $TotalDelta);
+		print StatsOut "Tree $i: $weight\n";
 		
-#	}
+	}
 
-#}
-#foreach $i (0..$#best_likes){
+}
+foreach $i (0..$#final_like){
 
-#	$MatrixAIC = (-2*$like_sum[$i]) + (2*$parameters_of_MGWE);
-#	$DeltaAIC = $MatrixAIC - $best_aic;
-#	$weight = (exp(-0.5 * $DeltaAIC) / $TotalDelta);
-#	print StatsOut "Edge $i $Conflict[$i]: $weight\n";
+	$MatrixAIC = (-2*$final_like[$i]) + (2*$parameters_of_MSWE[$i]);
+	$DeltaAIC = $MatrixAIC - $best_aic;
+	$weight = (exp(-0.5 * $DeltaAIC) / $TotalDelta);
+	print StatsOut "Edge $i $Conflict[$i]: $weight\n";
 	
-#}
+}
 
 if($secret ne "True"){
 	system("mv Unique.tre bp.log trees.unroot MatrixNoBrInfo.SSLL MatrixNoBrSSLLs.SSLL phyx.logfile $folder");
 }else{
 	system("mv Unique.tre bp.log trees.unroot phyx.logfile $folder");
 }
-#system("rm RAxML_info.EX_SSLL RAxML_perSiteLLs.EX_SSLL temp.log temp.fa temptesttre TempTree.tre");
-system("rm RAxML_info.EX_SSLL temp.log temp.fa temptesttre TempTree.tre");
+system("rm RAxML_info.EX_SSLL RAxML_perSiteLLs.EX_SSLL temp.log temp.fa temptesttre TempTree.tre");
 
 
 print "################################################################\n";
