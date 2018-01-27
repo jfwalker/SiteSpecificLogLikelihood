@@ -1,6 +1,7 @@
 use Data::Dumper;
 
 #This subroutine gets the different gene lengths
+#This passes all tests
 sub GetParts {
 	
 	@temp_array = ();
@@ -13,6 +14,13 @@ sub GetParts {
 
 		chomp $line;
 		$location = ($line =~ m/.*? = (.*)/)[0];
+		if($location eq ""){
+			print "Error program killed check outfile\n";
+			print StatsOut "!!!!!!!!!!!!!!Error!!!!!!!!!!!!!!\n";
+			print StatsOut "Need to fix parts file so it matches: ";
+			print StatsOut "name_of_gene = start-stop\n";
+			die;
+		}
 		#This can be used to specify only a few genes
 		#CHANGE AFTER TESTING!!!!!!!!!!!!!!!!
 		if($IsItATest eq "True"){
@@ -30,10 +38,12 @@ sub GetParts {
 }
 
 #This subroutine gets the bipartition information
+#This passes all tests
 sub GetBipartitions {
 	
 	$conflict = ""; local *conflict = $_[0];
 	$clade = ""; @array = ();
+	#This array will hold all relationships being examined
 	push @array, $conflict;
 	open(log_file, "bp.log") || die "No log File";
 	while($line = <log_file>){
@@ -73,7 +83,7 @@ sub GetBipartitions {
 			}elsif($line =~ /FREQ/){
 				
 				$ICA = ($line =~ m/.*?ICA:\t(.*?)\t.*/)[0];
-				print StatsOut "The ICA for this relationship is: $ICA\n";
+				print StatsOut "The ICA for unique trees in this relationship is: $ICA\n";
 			}
 		}
 	}
@@ -88,6 +98,7 @@ sub GetBipartitions {
 }
 
 #Get the bipartitions that each tree is associated with
+#everything seems functional
 sub TreeBiparts {
 	
 	@conflict = (); local *conflict = $_[0];
@@ -143,6 +154,7 @@ sub TreeBiparts {
 }
 
 #Read in the Supermatrix
+#This seems good
 sub ReadSuperMatrix {
 	
 	
@@ -250,7 +262,7 @@ while($line = <Configure>){
 	}
 }
 open(StatsOut, ">$outfile")||die "In program give a name of the outfile\n";
-print StatsOut "Information for the MSGE Analysis\n";
+print StatsOut "Information for the MGWE Analysis\n";
 print StatsOut "################################################################\n";
 print StatsOut "If any of this is wrong the analysis won't work, double check!!!!\n";
 print StatsOut "You have set pxrmt to be in the path: $pxrmt\n";
@@ -627,5 +639,5 @@ print "MatrixNoBrInfo: This is the info from the Supermatrix Analysis, without B
 print "phyx.logfile: Your phyx logfile to make sure everything ran good and dandy\n";
 print "trees.unroot: Your trees unrooted\n";
 print "Unique.tre: All the unique trees from your tree set\n";
-print "The results of the analysis are in $outfile\n";
+print "The results of the analysis are in the file $outfile\n";
 print "################################################################\n";
