@@ -13,8 +13,11 @@ sub GetParts {
 
 		chomp $line;
 		$location = ($line =~ m/.*? = (.*)/)[0];
-		#This can be used to specify only a few genes
-		#CHANGE AFTER TESTING!!!!!!!!!!!!!!!!
+		if($location eq ""){
+
+			print StatsOut "!!!!!!!!!!!!!!!!!!!!!!CheckPartsFile\n"; 
+		}
+		#This can be used to specify only a few genes for a test
 		if($IsItATest eq "True"){
 			if($CountOfGenes < 2){
 				
@@ -298,10 +301,10 @@ while($line = <Configure>){
 open(StatsOut, ">$outfile")||die "In program give a name of the outfile\n";
 if($Hyper eq "True"){
 
-	open(Hypout,">hyper")||die "No file to output\n";
-	open(SiteOut, ">SiteInfo")||die "No site info file\n";
+	open(Hypout,">VeryVerboseSiteResults")||die "No file to output\n";
+	open(SiteOut, ">SiteByGeneResults")||die "No site info file\n";
 }
-print StatsOut "Information for the MSGE Analysis\n";
+print StatsOut "Information for the MSWE Analysis\n";
 print StatsOut "################################################################\n";
 print StatsOut "If any of this is wrong the analysis won't work, double check!!!!\n";
 print StatsOut "You have set pxrmt to be in the path: $pxrmt\n";
@@ -451,7 +454,7 @@ foreach $i (0..$#loc){
 	
 		@array = split " ", $best_likes[$j];
 		foreach $k (0..$#array){
-				
+			
 			$like_sum[$k] += $array[$k];
 			$final_like[$k] += $array[$k];
 		}
@@ -620,31 +623,6 @@ $parameters_of_matrix = ((2*$all_seqs)-3) + (6*($#parameter_sum+1));
 
 
 #Do the site counts
-
-#print StatsOut "#######################Gene Counts###############################\n";
-#%HASH = (); %HASH_Sites = ();
-#foreach $i (0..$#Tree_total){
-
-	#print "Best Edge is: $Tree_total[$i]\n";
-#	if(exists $HASH{$Tree_total[$i]}){
-		
-#		$HASH{$Tree_total[$i]}++;
-#		$HASH_Sites{$Tree_total[$i]} += $gene_lengths[$i];
-		
-#	}else{
-		
-#		$HASH{$Tree_total[$i]} = 1;
-#		$HASH_Sites{$Tree_total[$i]} = $gene_lengths[$i];
-#	}	
-#}
-#print Dumper(\%HASH);
-#foreach $i (0..$#Conflict){
-	
-#	print StatsOut "Conflict $i $Conflict[$i]: $HASH{$i}\n";
-	
-#}
-
-
 print StatsOut "#######################Site Counts###############################\n";
 	
 foreach $i (0..$#Conflict){
@@ -755,6 +733,7 @@ if($secret ne "True"){
 	system("mv Unique.tre bp.log trees.unroot phyx.logfile $folder");
 }
 system("rm RAxML_info.EX_SSLL RAxML_perSiteLLs.EX_SSLL temp.log temp.fa temptesttre TempTree.tre");
+#system("rm RAxML_info.EX_SSLL temp.log temp.fa temptesttre TempTree.tre");
 
 
 print "################################################################\n";
@@ -766,4 +745,10 @@ print "phyx.logfile: Your phyx logfile to make sure everything ran good and dand
 print "trees.unroot: Your trees unrooted\n";
 print "Unique.tre: All the unique trees from your tree set\n";
 print "The results of the analysis are in $outfile\n";
+if($Hyper eq "True"){
+	
+	print "This was run with extra verbosity than the normal verbose the following outfiles were made:\n";
+	print "VeryVerboseSiteResults: This file contains best site for an edge, tree it came from and Likelihood\n";
+	print "SiteByGeneResults: In fasta format which tree each site came from\n";
+}
 print "################################################################\n";

@@ -1,0 +1,2031 @@
+
+
+This is RAxML version 8.2.10 released by Alexandros Stamatakis on March 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 80234 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 35.25%
+
+RAxML computation of per-site log likelihoods
+Using 248 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 190
+Name: my_ENSGALG00000000041.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 260
+Name: my_ENSGALG00000000169.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 427
+Name: my_ENSGALG00000000223.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 3
+Alignment Patterns: 575
+Name: my_ENSGALG00000000374.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 4
+Alignment Patterns: 301
+Name: my_ENSGALG00000000707.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 5
+Alignment Patterns: 262
+Name: my_ENSGALG00000000811.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 6
+Alignment Patterns: 276
+Name: my_ENSGALG00000000814.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 7
+Alignment Patterns: 289
+Name: my_ENSGALG00000000921.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 8
+Alignment Patterns: 510
+Name: my_ENSGALG00000001000.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 9
+Alignment Patterns: 394
+Name: my_ENSGALG00000001005.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 10
+Alignment Patterns: 312
+Name: my_ENSGALG00000001179.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 11
+Alignment Patterns: 388
+Name: my_ENSGALG00000001217.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 12
+Alignment Patterns: 168
+Name: my_ENSGALG00000001241.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 13
+Alignment Patterns: 308
+Name: my_ENSGALG00000001250.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 14
+Alignment Patterns: 235
+Name: my_ENSGALG00000001362.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 15
+Alignment Patterns: 396
+Name: my_ENSGALG00000001413.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 16
+Alignment Patterns: 422
+Name: my_ENSGALG00000001452.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 17
+Alignment Patterns: 281
+Name: my_ENSGALG00000001529.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 18
+Alignment Patterns: 218
+Name: my_ENSGALG00000001550.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 19
+Alignment Patterns: 458
+Name: my_ENSGALG00000001568.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 20
+Alignment Patterns: 121
+Name: my_ENSGALG00000001668.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 21
+Alignment Patterns: 341
+Name: my_ENSGALG00000001689.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 22
+Alignment Patterns: 383
+Name: my_ENSGALG00000001741.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 23
+Alignment Patterns: 419
+Name: my_ENSGALG00000001750.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 24
+Alignment Patterns: 241
+Name: my_ENSGALG00000001782.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 25
+Alignment Patterns: 272
+Name: my_ENSGALG00000001803.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 26
+Alignment Patterns: 458
+Name: my_ENSGALG00000001949.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 27
+Alignment Patterns: 572
+Name: my_ENSGALG00000001976.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 28
+Alignment Patterns: 264
+Name: my_ENSGALG00000002002.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 29
+Alignment Patterns: 453
+Name: my_ENSGALG00000002194.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 30
+Alignment Patterns: 227
+Name: my_ENSGALG00000002210.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 31
+Alignment Patterns: 338
+Name: my_ENSGALG00000002262.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 32
+Alignment Patterns: 387
+Name: my_ENSGALG00000002433.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 33
+Alignment Patterns: 557
+Name: my_ENSGALG00000002490.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 34
+Alignment Patterns: 603
+Name: my_ENSGALG00000002504.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 35
+Alignment Patterns: 326
+Name: my_ENSGALG00000002514.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 36
+Alignment Patterns: 215
+Name: my_ENSGALG00000002745.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 37
+Alignment Patterns: 345
+Name: my_ENSGALG00000002774.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 38
+Alignment Patterns: 504
+Name: my_ENSGALG00000002921.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 39
+Alignment Patterns: 223
+Name: my_ENSGALG00000002969.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 40
+Alignment Patterns: 279
+Name: my_ENSGALG00000002973.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 41
+Alignment Patterns: 221
+Name: my_ENSGALG00000003046.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 42
+Alignment Patterns: 588
+Name: my_ENSGALG00000003107.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 43
+Alignment Patterns: 317
+Name: my_ENSGALG00000003331.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 44
+Alignment Patterns: 419
+Name: my_ENSGALG00000003337.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 45
+Alignment Patterns: 363
+Name: my_ENSGALG00000003700.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 46
+Alignment Patterns: 572
+Name: my_ENSGALG00000003702.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 47
+Alignment Patterns: 515
+Name: my_ENSGALG00000003709.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 48
+Alignment Patterns: 251
+Name: my_ENSGALG00000003807.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 49
+Alignment Patterns: 262
+Name: my_ENSGALG00000003907.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 50
+Alignment Patterns: 333
+Name: my_ENSGALG00000003924.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 51
+Alignment Patterns: 310
+Name: my_ENSGALG00000003936.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 52
+Alignment Patterns: 192
+Name: my_ENSGALG00000003954.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 53
+Alignment Patterns: 256
+Name: my_ENSGALG00000004143.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 54
+Alignment Patterns: 488
+Name: my_ENSGALG00000004220.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 55
+Alignment Patterns: 439
+Name: my_ENSGALG00000004259.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 56
+Alignment Patterns: 344
+Name: my_ENSGALG00000004269.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 57
+Alignment Patterns: 597
+Name: my_ENSGALG00000004302.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 58
+Alignment Patterns: 471
+Name: my_ENSGALG00000004357.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 59
+Alignment Patterns: 226
+Name: my_ENSGALG00000004372.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 60
+Alignment Patterns: 224
+Name: my_ENSGALG00000004431.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 61
+Alignment Patterns: 250
+Name: my_ENSGALG00000004554.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 62
+Alignment Patterns: 355
+Name: my_ENSGALG00000004583.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 63
+Alignment Patterns: 136
+Name: my_ENSGALG00000004588.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 64
+Alignment Patterns: 313
+Name: my_ENSGALG00000004686.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 65
+Alignment Patterns: 201
+Name: my_ENSGALG00000004696.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 66
+Alignment Patterns: 162
+Name: my_ENSGALG00000004773.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 67
+Alignment Patterns: 298
+Name: my_ENSGALG00000004779.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 68
+Alignment Patterns: 304
+Name: my_ENSGALG00000004818.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 69
+Alignment Patterns: 422
+Name: my_ENSGALG00000004825.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 70
+Alignment Patterns: 606
+Name: my_ENSGALG00000004899.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 71
+Alignment Patterns: 229
+Name: my_ENSGALG00000004953.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 72
+Alignment Patterns: 276
+Name: my_ENSGALG00000005002.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 73
+Alignment Patterns: 377
+Name: my_ENSGALG00000005182.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 74
+Alignment Patterns: 244
+Name: my_ENSGALG00000005229.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 75
+Alignment Patterns: 183
+Name: my_ENSGALG00000005309.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 76
+Alignment Patterns: 275
+Name: my_ENSGALG00000005337.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 77
+Alignment Patterns: 449
+Name: my_ENSGALG00000005516.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 78
+Alignment Patterns: 516
+Name: my_ENSGALG00000005670.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 79
+Alignment Patterns: 270
+Name: my_ENSGALG00000005694.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 80
+Alignment Patterns: 500
+Name: my_ENSGALG00000005758.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 81
+Alignment Patterns: 167
+Name: my_ENSGALG00000005807.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 82
+Alignment Patterns: 259
+Name: my_ENSGALG00000005820.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 83
+Alignment Patterns: 341
+Name: my_ENSGALG00000005832.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 84
+Alignment Patterns: 232
+Name: my_ENSGALG00000005834.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 85
+Alignment Patterns: 469
+Name: my_ENSGALG00000005900.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 86
+Alignment Patterns: 201
+Name: my_ENSGALG00000005902.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 87
+Alignment Patterns: 341
+Name: my_ENSGALG00000006001.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 88
+Alignment Patterns: 257
+Name: my_ENSGALG00000006066.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 89
+Alignment Patterns: 100
+Name: my_ENSGALG00000006113.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 90
+Alignment Patterns: 495
+Name: my_ENSGALG00000006156.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 91
+Alignment Patterns: 149
+Name: my_ENSGALG00000006206.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 92
+Alignment Patterns: 407
+Name: my_ENSGALG00000006276.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 93
+Alignment Patterns: 333
+Name: my_ENSGALG00000006425.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 94
+Alignment Patterns: 415
+Name: my_ENSGALG00000006439.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 95
+Alignment Patterns: 447
+Name: my_ENSGALG00000006619.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 96
+Alignment Patterns: 380
+Name: my_ENSGALG00000006731.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 97
+Alignment Patterns: 508
+Name: my_ENSGALG00000006767.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 98
+Alignment Patterns: 326
+Name: my_ENSGALG00000006824.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 99
+Alignment Patterns: 279
+Name: my_ENSGALG00000006856.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 100
+Alignment Patterns: 514
+Name: my_ENSGALG00000006974.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 101
+Alignment Patterns: 211
+Name: my_ENSGALG00000007024.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 102
+Alignment Patterns: 265
+Name: my_ENSGALG00000007289.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 103
+Alignment Patterns: 236
+Name: my_ENSGALG00000007315.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 104
+Alignment Patterns: 398
+Name: my_ENSGALG00000007484.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 105
+Alignment Patterns: 235
+Name: my_ENSGALG00000007492.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 106
+Alignment Patterns: 195
+Name: my_ENSGALG00000007520.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 107
+Alignment Patterns: 448
+Name: my_ENSGALG00000007591.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 108
+Alignment Patterns: 265
+Name: my_ENSGALG00000007705.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 109
+Alignment Patterns: 334
+Name: my_ENSGALG00000007711.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 110
+Alignment Patterns: 377
+Name: my_ENSGALG00000007931.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 111
+Alignment Patterns: 242
+Name: my_ENSGALG00000008108.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 112
+Alignment Patterns: 245
+Name: my_ENSGALG00000008130.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 113
+Alignment Patterns: 290
+Name: my_ENSGALG00000008138.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 114
+Alignment Patterns: 362
+Name: my_ENSGALG00000008172.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 115
+Alignment Patterns: 240
+Name: my_ENSGALG00000008229.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 116
+Alignment Patterns: 173
+Name: my_ENSGALG00000008314.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 117
+Alignment Patterns: 437
+Name: my_ENSGALG00000008338.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 118
+Alignment Patterns: 265
+Name: my_ENSGALG00000008454.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 119
+Alignment Patterns: 250
+Name: my_ENSGALG00000008496.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 120
+Alignment Patterns: 190
+Name: my_ENSGALG00000008517.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 121
+Alignment Patterns: 385
+Name: my_ENSGALG00000008632.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 122
+Alignment Patterns: 279
+Name: my_ENSGALG00000008758.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 123
+Alignment Patterns: 367
+Name: my_ENSGALG00000008812.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 124
+Alignment Patterns: 257
+Name: my_ENSGALG00000008916.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 125
+Alignment Patterns: 297
+Name: my_ENSGALG00000009061.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 126
+Alignment Patterns: 366
+Name: my_ENSGALG00000009085.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 127
+Alignment Patterns: 556
+Name: my_ENSGALG00000009228.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 128
+Alignment Patterns: 274
+Name: my_ENSGALG00000009264.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 129
+Alignment Patterns: 284
+Name: my_ENSGALG00000009288.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 130
+Alignment Patterns: 249
+Name: my_ENSGALG00000009313.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 131
+Alignment Patterns: 274
+Name: my_ENSGALG00000009369.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 132
+Alignment Patterns: 209
+Name: my_ENSGALG00000009829.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 133
+Alignment Patterns: 344
+Name: my_ENSGALG00000009879.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 134
+Alignment Patterns: 301
+Name: my_ENSGALG00000009961.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 135
+Alignment Patterns: 371
+Name: my_ENSGALG00000009975.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 136
+Alignment Patterns: 214
+Name: my_ENSGALG00000010005.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 137
+Alignment Patterns: 730
+Name: my_ENSGALG00000010178.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 138
+Alignment Patterns: 282
+Name: my_ENSGALG00000010243.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 139
+Alignment Patterns: 247
+Name: my_ENSGALG00000010298.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 140
+Alignment Patterns: 406
+Name: my_ENSGALG00000010315.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 141
+Alignment Patterns: 320
+Name: my_ENSGALG00000010618.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 142
+Alignment Patterns: 358
+Name: my_ENSGALG00000010641.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 143
+Alignment Patterns: 476
+Name: my_ENSGALG00000010671.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 144
+Alignment Patterns: 255
+Name: my_ENSGALG00000010848.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 145
+Alignment Patterns: 333
+Name: my_ENSGALG00000011174.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 146
+Alignment Patterns: 194
+Name: my_ENSGALG00000011184.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 147
+Alignment Patterns: 380
+Name: my_ENSGALG00000011192.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 148
+Alignment Patterns: 434
+Name: my_ENSGALG00000011323.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 149
+Alignment Patterns: 485
+Name: my_ENSGALG00000011403.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 150
+Alignment Patterns: 240
+Name: my_ENSGALG00000011434.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 151
+Alignment Patterns: 272
+Name: my_ENSGALG00000011452.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 152
+Alignment Patterns: 177
+Name: my_ENSGALG00000011555.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 153
+Alignment Patterns: 330
+Name: my_ENSGALG00000011649.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 154
+Alignment Patterns: 478
+Name: my_ENSGALG00000011885.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 155
+Alignment Patterns: 257
+Name: my_ENSGALG00000011887.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 156
+Alignment Patterns: 628
+Name: my_ENSGALG00000011905.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 157
+Alignment Patterns: 268
+Name: my_ENSGALG00000011917.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 158
+Alignment Patterns: 284
+Name: my_ENSGALG00000011950.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 159
+Alignment Patterns: 296
+Name: my_ENSGALG00000011965.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 160
+Alignment Patterns: 228
+Name: my_ENSGALG00000011966.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 161
+Alignment Patterns: 255
+Name: my_ENSGALG00000012011.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 162
+Alignment Patterns: 377
+Name: my_ENSGALG00000012013.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 163
+Alignment Patterns: 456
+Name: my_ENSGALG00000012034.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 164
+Alignment Patterns: 411
+Name: my_ENSGALG00000012109.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 165
+Alignment Patterns: 394
+Name: my_ENSGALG00000012149.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 166
+Alignment Patterns: 463
+Name: my_ENSGALG00000012196.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 167
+Alignment Patterns: 173
+Name: my_ENSGALG00000012233.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 168
+Alignment Patterns: 339
+Name: my_ENSGALG00000012244.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 169
+Alignment Patterns: 313
+Name: my_ENSGALG00000012259.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 170
+Alignment Patterns: 349
+Name: my_ENSGALG00000012312.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 171
+Alignment Patterns: 253
+Name: my_ENSGALG00000012355.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 172
+Alignment Patterns: 363
+Name: my_ENSGALG00000012365.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 173
+Alignment Patterns: 225
+Name: my_ENSGALG00000012379.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 174
+Alignment Patterns: 364
+Name: my_ENSGALG00000012529.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 175
+Alignment Patterns: 264
+Name: my_ENSGALG00000012543.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 176
+Alignment Patterns: 231
+Name: my_ENSGALG00000012568.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 177
+Alignment Patterns: 364
+Name: my_ENSGALG00000012611.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 178
+Alignment Patterns: 452
+Name: my_ENSGALG00000012724.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 179
+Alignment Patterns: 236
+Name: my_ENSGALG00000012798.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 180
+Alignment Patterns: 231
+Name: my_ENSGALG00000012964.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 181
+Alignment Patterns: 384
+Name: my_ENSGALG00000013021.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 182
+Alignment Patterns: 215
+Name: my_ENSGALG00000013041.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 183
+Alignment Patterns: 181
+Name: my_ENSGALG00000013160.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 184
+Alignment Patterns: 415
+Name: my_ENSGALG00000013227.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 185
+Alignment Patterns: 189
+Name: my_ENSGALG00000013352.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 186
+Alignment Patterns: 402
+Name: my_ENSGALG00000013599.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 187
+Alignment Patterns: 308
+Name: my_ENSGALG00000013863.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 188
+Alignment Patterns: 590
+Name: my_ENSGALG00000013962.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 189
+Alignment Patterns: 242
+Name: my_ENSGALG00000014038.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 190
+Alignment Patterns: 312
+Name: my_ENSGALG00000014115.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 191
+Alignment Patterns: 316
+Name: my_ENSGALG00000014163.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 192
+Alignment Patterns: 297
+Name: my_ENSGALG00000014226.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 193
+Alignment Patterns: 368
+Name: my_ENSGALG00000014247.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 194
+Alignment Patterns: 277
+Name: my_ENSGALG00000014445.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 195
+Alignment Patterns: 268
+Name: my_ENSGALG00000014447.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 196
+Alignment Patterns: 393
+Name: my_ENSGALG00000014570.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 197
+Alignment Patterns: 166
+Name: my_ENSGALG00000014648.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 198
+Alignment Patterns: 146
+Name: my_ENSGALG00000014786.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 199
+Alignment Patterns: 236
+Name: my_ENSGALG00000014824.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 200
+Alignment Patterns: 565
+Name: my_ENSGALG00000014862.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 201
+Alignment Patterns: 278
+Name: my_ENSGALG00000014920.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 202
+Alignment Patterns: 297
+Name: my_ENSGALG00000014991.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 203
+Alignment Patterns: 198
+Name: my_ENSGALG00000015200.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 204
+Alignment Patterns: 356
+Name: my_ENSGALG00000015225.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 205
+Alignment Patterns: 290
+Name: my_ENSGALG00000015240.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 206
+Alignment Patterns: 311
+Name: my_ENSGALG00000015285.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 207
+Alignment Patterns: 287
+Name: my_ENSGALG00000015308.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 208
+Alignment Patterns: 289
+Name: my_ENSGALG00000015326.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 209
+Alignment Patterns: 157
+Name: my_ENSGALG00000015330.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 210
+Alignment Patterns: 389
+Name: my_ENSGALG00000015334.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 211
+Alignment Patterns: 180
+Name: my_ENSGALG00000015339.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 212
+Alignment Patterns: 272
+Name: my_ENSGALG00000015397.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 213
+Alignment Patterns: 286
+Name: my_ENSGALG00000015402.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 214
+Alignment Patterns: 305
+Name: my_ENSGALG00000015405.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 215
+Alignment Patterns: 305
+Name: my_ENSGALG00000015436.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 216
+Alignment Patterns: 198
+Name: my_ENSGALG00000015439.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 217
+Alignment Patterns: 334
+Name: my_ENSGALG00000015451.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 218
+Alignment Patterns: 602
+Name: my_ENSGALG00000015485.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 219
+Alignment Patterns: 296
+Name: my_ENSGALG00000015689.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 220
+Alignment Patterns: 284
+Name: my_ENSGALG00000015729.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 221
+Alignment Patterns: 443
+Name: my_ENSGALG00000015889.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 222
+Alignment Patterns: 301
+Name: my_ENSGALG00000015917.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 223
+Alignment Patterns: 170
+Name: my_ENSGALG00000015976.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 224
+Alignment Patterns: 233
+Name: my_ENSGALG00000015995.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 225
+Alignment Patterns: 233
+Name: my_ENSGALG00000016053.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 226
+Alignment Patterns: 257
+Name: my_ENSGALG00000016119.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 227
+Alignment Patterns: 231
+Name: my_ENSGALG00000016122.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 228
+Alignment Patterns: 348
+Name: my_ENSGALG00000016241.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 229
+Alignment Patterns: 340
+Name: my_ENSGALG00000016320.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 230
+Alignment Patterns: 246
+Name: my_ENSGALG00000016357.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 231
+Alignment Patterns: 156
+Name: my_ENSGALG00000016409.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 232
+Alignment Patterns: 298
+Name: my_ENSGALG00000016479.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 233
+Alignment Patterns: 398
+Name: my_ENSGALG00000016536.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 234
+Alignment Patterns: 187
+Name: my_ENSGALG00000016633.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 235
+Alignment Patterns: 402
+Name: my_ENSGALG00000016666.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 236
+Alignment Patterns: 354
+Name: my_ENSGALG00000016731.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 237
+Alignment Patterns: 366
+Name: my_ENSGALG00000016753.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 238
+Alignment Patterns: 562
+Name: my_ENSGALG00000016847.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 239
+Alignment Patterns: 168
+Name: my_ENSGALG00000016909.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 240
+Alignment Patterns: 275
+Name: my_ENSGALG00000016973.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 241
+Alignment Patterns: 317
+Name: my_ENSGALG00000016996.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 242
+Alignment Patterns: 263
+Name: my_ENSGALG00000017125.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 243
+Alignment Patterns: 152
+Name: my_ENSGALG00000017129.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 244
+Alignment Patterns: 299
+Name: my_ENSGALG00000017153.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 245
+Alignment Patterns: 410
+Name: my_ENSGALG00000017289.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 246
+Alignment Patterns: 250
+Name: my_ENSGALG00000017447.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 247
+Alignment Patterns: 263
+Name: my_ENSGALG00000020605.macse_DNA_gb.nex
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/usr/bin/raxmlHPC-PTHREADS-AVX -f g -T 3 -s ExampleConcat.fa -q ExampleGenes.model -m GTRGAMMA -z Questionable.tre -n Topologies_SSLL 
+
+
+
+
+Found 2 trees in File Questionable.tre
+
+Tree 0: -1047406.056279
+Tree 1: -1047410.075015
+
+
+Time for Optimization of per-site log likelihoods 167.096911
+Per-site Log Likelihoods written to File /home/jfwalker/Desktop/ForDryadSSLL/TestForRevision/RAxML_perSiteLLs.Topologies_SSLL in Tree-Puzzle format
+Execution information file written to :  /home/jfwalker/Desktop/ForDryadSSLL/TestForRevision/RAxML_info.Topologies_SSLL
