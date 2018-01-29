@@ -1,0 +1,9943 @@
+
+
+This is RAxML version 8.2.10 released by Alexandros Stamatakis on March 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 983663 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 9.28%
+
+RAxML computation of per-site log likelihoods
+Using 1237 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 498
+Name: cluster3345rr.1to1ortho.fa.aln-cln_gene1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 1205
+Name: cluster3073rr.1to1ortho.fa.aln-cln_gene2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 570
+Name: cluster2108rr.1to1ortho.fa.aln-cln_gene3
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 3
+Alignment Patterns: 326
+Name: cluster4939rr.1to1ortho.fa.aln-cln_gene4
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 4
+Alignment Patterns: 670
+Name: cluster2488rr.1to1ortho.fa.aln-cln_gene5
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 5
+Alignment Patterns: 756
+Name: cluster3759rr.1to1ortho.fa.aln-cln_gene6
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 6
+Alignment Patterns: 834
+Name: cluster2514rr.1to1ortho.fa.aln-cln_gene7
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 7
+Alignment Patterns: 816
+Name: cluster5000rr.1to1ortho.fa.aln-cln_gene8
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 8
+Alignment Patterns: 855
+Name: cluster4000rr.1to1ortho.fa.aln-cln_gene9
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 9
+Alignment Patterns: 731
+Name: cluster4051rr.1to1ortho.fa.aln-cln_gene10
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 10
+Alignment Patterns: 619
+Name: cluster1546rr.1to1ortho.fa.aln-cln_gene11
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 11
+Alignment Patterns: 785
+Name: cluster1539rr.1to1ortho.fa.aln-cln_gene12
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 12
+Alignment Patterns: 1518
+Name: cluster4838rr.1to1ortho.fa.aln-cln_gene13
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 13
+Alignment Patterns: 1261
+Name: cluster2288rr.1to1ortho.fa.aln-cln_gene14
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 14
+Alignment Patterns: 458
+Name: cluster4400rr.1to1ortho.fa.aln-cln_gene15
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 15
+Alignment Patterns: 651
+Name: cluster1807rr.1to1ortho.fa.aln-cln_gene16
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 16
+Alignment Patterns: 730
+Name: cluster2064rr.1to1ortho.fa.aln-cln_gene17
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 17
+Alignment Patterns: 1460
+Name: cluster3164rr.1to1ortho.fa.aln-cln_gene18
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 18
+Alignment Patterns: 543
+Name: cluster3550rr.1to1ortho.fa.aln-cln_gene19
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 19
+Alignment Patterns: 1041
+Name: cluster3343rr.1to1ortho.fa.aln-cln_gene20
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 20
+Alignment Patterns: 547
+Name: cluster4422rr.1to1ortho.fa.aln-cln_gene21
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 21
+Alignment Patterns: 908
+Name: cluster4947rr.1to1ortho.fa.aln-cln_gene22
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 22
+Alignment Patterns: 873
+Name: cluster2831rr.1to1ortho.fa.aln-cln_gene23
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 23
+Alignment Patterns: 296
+Name: cluster3305rr.1to1ortho.fa.aln-cln_gene24
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 24
+Alignment Patterns: 594
+Name: cluster2197rr.1to1ortho.fa.aln-cln_gene25
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 25
+Alignment Patterns: 221
+Name: cluster2845rr.1to1ortho.fa.aln-cln_gene26
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 26
+Alignment Patterns: 459
+Name: cluster1784rr.1to1ortho.fa.aln-cln_gene27
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 27
+Alignment Patterns: 867
+Name: cluster2625rr.1to1ortho.fa.aln-cln_gene28
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 28
+Alignment Patterns: 887
+Name: cluster1909rr.1to1ortho.fa.aln-cln_gene29
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 29
+Alignment Patterns: 1800
+Name: cluster1862rr.1to1ortho.fa.aln-cln_gene30
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 30
+Alignment Patterns: 1542
+Name: cluster2502rr.1to1ortho.fa.aln-cln_gene31
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 31
+Alignment Patterns: 1351
+Name: cluster2652rr.1to1ortho.fa.aln-cln_gene32
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 32
+Alignment Patterns: 1446
+Name: cluster4530rr.1to1ortho.fa.aln-cln_gene33
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 33
+Alignment Patterns: 751
+Name: cluster2790rr.1to1ortho.fa.aln-cln_gene34
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 34
+Alignment Patterns: 1307
+Name: cluster4241rr.1to1ortho.fa.aln-cln_gene35
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 35
+Alignment Patterns: 521
+Name: cluster2988rr.1to1ortho.fa.aln-cln_gene36
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 36
+Alignment Patterns: 551
+Name: cluster1523rr.1to1ortho.fa.aln-cln_gene37
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 37
+Alignment Patterns: 742
+Name: cluster3233rr.1to1ortho.fa.aln-cln_gene38
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 38
+Alignment Patterns: 642
+Name: cluster4183rr.1to1ortho.fa.aln-cln_gene39
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 39
+Alignment Patterns: 354
+Name: cluster4783rr.1to1ortho.fa.aln-cln_gene40
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 40
+Alignment Patterns: 1348
+Name: cluster2598rr.1to1ortho.fa.aln-cln_gene41
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 41
+Alignment Patterns: 808
+Name: cluster3050rr.1to1ortho.fa.aln-cln_gene42
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 42
+Alignment Patterns: 573
+Name: cluster4432rr.1to1ortho.fa.aln-cln_gene43
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 43
+Alignment Patterns: 969
+Name: cluster2932rr.1to1ortho.fa.aln-cln_gene44
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 44
+Alignment Patterns: 2397
+Name: cluster2941rr.1to1ortho.fa.aln-cln_gene45
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 45
+Alignment Patterns: 781
+Name: cluster4862rr.1to1ortho.fa.aln-cln_gene46
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 46
+Alignment Patterns: 1183
+Name: cluster2754rr.1to1ortho.fa.aln-cln_gene47
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 47
+Alignment Patterns: 1163
+Name: cluster1634rr.1to1ortho.fa.aln-cln_gene48
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 48
+Alignment Patterns: 544
+Name: cluster2444rr.1to1ortho.fa.aln-cln_gene49
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 49
+Alignment Patterns: 516
+Name: cluster4892rr.1to1ortho.fa.aln-cln_gene50
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 50
+Alignment Patterns: 1060
+Name: cluster3888rr.1to1ortho.fa.aln-cln_gene51
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 51
+Alignment Patterns: 588
+Name: cluster1415rr.1to1ortho.fa.aln-cln_gene52
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 52
+Alignment Patterns: 1594
+Name: cluster4758rr.1to1ortho.fa.aln-cln_gene53
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 53
+Alignment Patterns: 1442
+Name: cluster4216rr.1to1ortho.fa.aln-cln_gene54
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 54
+Alignment Patterns: 460
+Name: cluster2588rr.1to1ortho.fa.aln-cln_gene55
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 55
+Alignment Patterns: 604
+Name: cluster3787rr.1to1ortho.fa.aln-cln_gene56
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 56
+Alignment Patterns: 1452
+Name: cluster2033rr.1to1ortho.fa.aln-cln_gene57
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 57
+Alignment Patterns: 1666
+Name: cluster5558rr.1to1ortho.fa.aln-cln_gene58
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 58
+Alignment Patterns: 859
+Name: cluster1680rr.1to1ortho.fa.aln-cln_gene59
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 59
+Alignment Patterns: 834
+Name: cluster1132rr.1to1ortho.fa.aln-cln_gene60
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 60
+Alignment Patterns: 779
+Name: cluster5415rr.1to1ortho.fa.aln-cln_gene61
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 61
+Alignment Patterns: 505
+Name: cluster3273rr.1to1ortho.fa.aln-cln_gene62
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 62
+Alignment Patterns: 1546
+Name: cluster1912rr.1to1ortho.fa.aln-cln_gene63
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 63
+Alignment Patterns: 1197
+Name: cluster3539rr.1to1ortho.fa.aln-cln_gene64
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 64
+Alignment Patterns: 374
+Name: cluster2114rr.1to1ortho.fa.aln-cln_gene65
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 65
+Alignment Patterns: 730
+Name: cluster290rr.1to1ortho.fa.aln-cln_gene66
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 66
+Alignment Patterns: 1492
+Name: cluster1386rr.1to1ortho.fa.aln-cln_gene67
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 67
+Alignment Patterns: 580
+Name: cluster2145rr.1to1ortho.fa.aln-cln_gene68
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 68
+Alignment Patterns: 647
+Name: cluster2999rr.1to1ortho.fa.aln-cln_gene69
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 69
+Alignment Patterns: 681
+Name: cluster4296rr.1to1ortho.fa.aln-cln_gene70
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 70
+Alignment Patterns: 1562
+Name: cluster2005rr.1to1ortho.fa.aln-cln_gene71
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 71
+Alignment Patterns: 441
+Name: cluster880rr.1to1ortho.fa.aln-cln_gene72
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 72
+Alignment Patterns: 598
+Name: cluster3374rr.1to1ortho.fa.aln-cln_gene73
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 73
+Alignment Patterns: 648
+Name: cluster2952rr.1to1ortho.fa.aln-cln_gene74
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 74
+Alignment Patterns: 805
+Name: cluster3014rr.1to1ortho.fa.aln-cln_gene75
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 75
+Alignment Patterns: 595
+Name: cluster4164rr.1to1ortho.fa.aln-cln_gene76
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 76
+Alignment Patterns: 209
+Name: cluster3271rr.1to1ortho.fa.aln-cln_gene77
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 77
+Alignment Patterns: 415
+Name: cluster4923rr.1to1ortho.fa.aln-cln_gene78
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 78
+Alignment Patterns: 481
+Name: cluster835rr.1to1ortho.fa.aln-cln_gene79
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 79
+Alignment Patterns: 438
+Name: cluster3015rr.1to1ortho.fa.aln-cln_gene80
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 80
+Alignment Patterns: 1399
+Name: cluster5440rr.1to1ortho.fa.aln-cln_gene81
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 81
+Alignment Patterns: 604
+Name: cluster3640rr.1to1ortho.fa.aln-cln_gene82
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 82
+Alignment Patterns: 1033
+Name: cluster911rr.1to1ortho.fa.aln-cln_gene83
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 83
+Alignment Patterns: 637
+Name: cluster4289rr.1to1ortho.fa.aln-cln_gene84
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 84
+Alignment Patterns: 893
+Name: cluster2492rr.1to1ortho.fa.aln-cln_gene85
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 85
+Alignment Patterns: 1003
+Name: cluster2899rr.1to1ortho.fa.aln-cln_gene86
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 86
+Alignment Patterns: 590
+Name: cluster2432rr.1to1ortho.fa.aln-cln_gene87
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 87
+Alignment Patterns: 526
+Name: cluster4937rr.1to1ortho.fa.aln-cln_gene88
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 88
+Alignment Patterns: 585
+Name: cluster1562rr.1to1ortho.fa.aln-cln_gene89
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 89
+Alignment Patterns: 450
+Name: cluster1771rr.1to1ortho.fa.aln-cln_gene90
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 90
+Alignment Patterns: 1167
+Name: cluster4474rr.1to1ortho.fa.aln-cln_gene91
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 91
+Alignment Patterns: 606
+Name: cluster1916rr.1to1ortho.fa.aln-cln_gene92
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 92
+Alignment Patterns: 832
+Name: cluster2258rr.1to1ortho.fa.aln-cln_gene93
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 93
+Alignment Patterns: 559
+Name: cluster3407rr.1to1ortho.fa.aln-cln_gene94
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 94
+Alignment Patterns: 617
+Name: cluster3168rr.1to1ortho.fa.aln-cln_gene95
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 95
+Alignment Patterns: 1962
+Name: cluster4292rr.1to1ortho.fa.aln-cln_gene96
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 96
+Alignment Patterns: 632
+Name: cluster3204rr.1to1ortho.fa.aln-cln_gene97
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 97
+Alignment Patterns: 1873
+Name: cluster1619rr.1to1ortho.fa.aln-cln_gene98
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 98
+Alignment Patterns: 381
+Name: cluster4170rr.1to1ortho.fa.aln-cln_gene99
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 99
+Alignment Patterns: 617
+Name: cluster1633rr.1to1ortho.fa.aln-cln_gene100
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 100
+Alignment Patterns: 1183
+Name: cluster1507rr.1to1ortho.fa.aln-cln_gene101
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 101
+Alignment Patterns: 726
+Name: cluster2829rr.1to1ortho.fa.aln-cln_gene102
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 102
+Alignment Patterns: 571
+Name: cluster2956rr.1to1ortho.fa.aln-cln_gene103
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 103
+Alignment Patterns: 449
+Name: cluster619rr.1to1ortho.fa.aln-cln_gene104
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 104
+Alignment Patterns: 1809
+Name: cluster3691rr.1to1ortho.fa.aln-cln_gene105
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 105
+Alignment Patterns: 919
+Name: cluster2938rr.1to1ortho.fa.aln-cln_gene106
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 106
+Alignment Patterns: 870
+Name: cluster1211rr.1to1ortho.fa.aln-cln_gene107
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 107
+Alignment Patterns: 644
+Name: cluster4583rr.1to1ortho.fa.aln-cln_gene108
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 108
+Alignment Patterns: 1015
+Name: cluster5016rr.1to1ortho.fa.aln-cln_gene109
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 109
+Alignment Patterns: 845
+Name: cluster2184rr.1to1ortho.fa.aln-cln_gene110
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 110
+Alignment Patterns: 1652
+Name: cluster3330rr.1to1ortho.fa.aln-cln_gene111
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 111
+Alignment Patterns: 1172
+Name: cluster4224rr.1to1ortho.fa.aln-cln_gene112
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 112
+Alignment Patterns: 706
+Name: cluster1031rr.1to1ortho.fa.aln-cln_gene113
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 113
+Alignment Patterns: 1433
+Name: cluster3234rr.1to1ortho.fa.aln-cln_gene114
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 114
+Alignment Patterns: 544
+Name: cluster4401rr.1to1ortho.fa.aln-cln_gene115
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 115
+Alignment Patterns: 986
+Name: cluster1445rr.1to1ortho.fa.aln-cln_gene116
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 116
+Alignment Patterns: 816
+Name: cluster1911rr.1to1ortho.fa.aln-cln_gene117
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 117
+Alignment Patterns: 1285
+Name: cluster3209rr.1to1ortho.fa.aln-cln_gene118
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 118
+Alignment Patterns: 714
+Name: cluster2068rr.1to1ortho.fa.aln-cln_gene119
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 119
+Alignment Patterns: 1661
+Name: cluster4562rr.1to1ortho.fa.aln-cln_gene120
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 120
+Alignment Patterns: 1045
+Name: cluster3202rr.1to1ortho.fa.aln-cln_gene121
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 121
+Alignment Patterns: 1351
+Name: cluster1143rr.1to1ortho.fa.aln-cln_gene122
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 122
+Alignment Patterns: 905
+Name: cluster3038rr.1to1ortho.fa.aln-cln_gene123
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 123
+Alignment Patterns: 838
+Name: cluster4462rr.1to1ortho.fa.aln-cln_gene124
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 124
+Alignment Patterns: 765
+Name: cluster3947rr.1to1ortho.fa.aln-cln_gene125
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 125
+Alignment Patterns: 1044
+Name: cluster2262rr.1to1ortho.fa.aln-cln_gene126
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 126
+Alignment Patterns: 623
+Name: cluster2234rr.1to1ortho.fa.aln-cln_gene127
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 127
+Alignment Patterns: 584
+Name: cluster2835rr.1to1ortho.fa.aln-cln_gene128
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 128
+Alignment Patterns: 631
+Name: cluster4586rr.1to1ortho.fa.aln-cln_gene129
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 129
+Alignment Patterns: 1197
+Name: cluster4327rr.1to1ortho.fa.aln-cln_gene130
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 130
+Alignment Patterns: 483
+Name: cluster3818rr.1to1ortho.fa.aln-cln_gene131
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 131
+Alignment Patterns: 630
+Name: cluster5535rr.1to1ortho.fa.aln-cln_gene132
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 132
+Alignment Patterns: 1482
+Name: cluster297rr.1to1ortho.fa.aln-cln_gene133
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 133
+Alignment Patterns: 1135
+Name: cluster2305rr.1to1ortho.fa.aln-cln_gene134
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 134
+Alignment Patterns: 643
+Name: cluster4339rr.1to1ortho.fa.aln-cln_gene135
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 135
+Alignment Patterns: 654
+Name: cluster405rr.1to1ortho.fa.aln-cln_gene136
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 136
+Alignment Patterns: 1174
+Name: cluster5579rr.1to1ortho.fa.aln-cln_gene137
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 137
+Alignment Patterns: 1209
+Name: cluster1592rr.1to1ortho.fa.aln-cln_gene138
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 138
+Alignment Patterns: 290
+Name: cluster1382rr.1to1ortho.fa.aln-cln_gene139
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 139
+Alignment Patterns: 832
+Name: cluster4746rr.1to1ortho.fa.aln-cln_gene140
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 140
+Alignment Patterns: 880
+Name: cluster3831rr.1to1ortho.fa.aln-cln_gene141
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 141
+Alignment Patterns: 405
+Name: cluster807rr.1to1ortho.fa.aln-cln_gene142
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 142
+Alignment Patterns: 585
+Name: cluster1961rr.1to1ortho.fa.aln-cln_gene143
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 143
+Alignment Patterns: 547
+Name: cluster2659rr.1to1ortho.fa.aln-cln_gene144
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 144
+Alignment Patterns: 1242
+Name: cluster2993rr.1to1ortho.fa.aln-cln_gene145
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 145
+Alignment Patterns: 1453
+Name: cluster3529rr.1to1ortho.fa.aln-cln_gene146
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 146
+Alignment Patterns: 537
+Name: cluster3917rr.1to1ortho.fa.aln-cln_gene147
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 147
+Alignment Patterns: 940
+Name: cluster3490rr.1to1ortho.fa.aln-cln_gene148
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 148
+Alignment Patterns: 956
+Name: cluster4243rr.1to1ortho.fa.aln-cln_gene149
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 149
+Alignment Patterns: 445
+Name: cluster2472rr.1to1ortho.fa.aln-cln_gene150
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 150
+Alignment Patterns: 674
+Name: cluster1810rr.1to1ortho.fa.aln-cln_gene151
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 151
+Alignment Patterns: 577
+Name: cluster5437rr.1to1ortho.fa.aln-cln_gene152
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 152
+Alignment Patterns: 1144
+Name: cluster1263rr.1to1ortho.fa.aln-cln_gene153
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 153
+Alignment Patterns: 421
+Name: cluster2789rr.1to1ortho.fa.aln-cln_gene154
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 154
+Alignment Patterns: 421
+Name: cluster1114rr.1to1ortho.fa.aln-cln_gene155
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 155
+Alignment Patterns: 825
+Name: cluster2089rr.1to1ortho.fa.aln-cln_gene156
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 156
+Alignment Patterns: 786
+Name: cluster4436rr.1to1ortho.fa.aln-cln_gene157
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 157
+Alignment Patterns: 615
+Name: cluster3334rr.1to1ortho.fa.aln-cln_gene158
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 158
+Alignment Patterns: 436
+Name: cluster5062rr.1to1ortho.fa.aln-cln_gene159
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 159
+Alignment Patterns: 903
+Name: cluster1611rr.1to1ortho.fa.aln-cln_gene160
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 160
+Alignment Patterns: 847
+Name: cluster1267rr.1to1ortho.fa.aln-cln_gene161
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 161
+Alignment Patterns: 924
+Name: cluster3012rr.1to1ortho.fa.aln-cln_gene162
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 162
+Alignment Patterns: 1510
+Name: cluster3210rr.1to1ortho.fa.aln-cln_gene163
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 163
+Alignment Patterns: 2016
+Name: cluster1820rr.1to1ortho.fa.aln-cln_gene164
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 164
+Alignment Patterns: 509
+Name: cluster726rr.1to1ortho.fa.aln-cln_gene165
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 165
+Alignment Patterns: 498
+Name: cluster4442rr.1to1ortho.fa.aln-cln_gene166
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 166
+Alignment Patterns: 451
+Name: cluster4016rr.1to1ortho.fa.aln-cln_gene167
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 167
+Alignment Patterns: 1400
+Name: cluster3887rr.1to1ortho.fa.aln-cln_gene168
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 168
+Alignment Patterns: 493
+Name: cluster2110rr.1to1ortho.fa.aln-cln_gene169
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 169
+Alignment Patterns: 786
+Name: cluster1939rr.1to1ortho.fa.aln-cln_gene170
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 170
+Alignment Patterns: 472
+Name: cluster1552rr.1to1ortho.fa.aln-cln_gene171
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 171
+Alignment Patterns: 500
+Name: cluster3553rr.1to1ortho.fa.aln-cln_gene172
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 172
+Alignment Patterns: 1098
+Name: cluster4979rr.1to1ortho.fa.aln-cln_gene173
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 173
+Alignment Patterns: 1116
+Name: cluster4911rr.1to1ortho.fa.aln-cln_gene174
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 174
+Alignment Patterns: 662
+Name: cluster4735rr.1to1ortho.fa.aln-cln_gene175
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 175
+Alignment Patterns: 1080
+Name: cluster3420rr.1to1ortho.fa.aln-cln_gene176
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 176
+Alignment Patterns: 929
+Name: cluster2906rr.1to1ortho.fa.aln-cln_gene177
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 177
+Alignment Patterns: 867
+Name: cluster2220rr.1to1ortho.fa.aln-cln_gene178
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 178
+Alignment Patterns: 487
+Name: cluster1281rr.1to1ortho.fa.aln-cln_gene179
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 179
+Alignment Patterns: 330
+Name: cluster2257rr.1to1ortho.fa.aln-cln_gene180
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 180
+Alignment Patterns: 1477
+Name: cluster3660rr.1to1ortho.fa.aln-cln_gene181
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 181
+Alignment Patterns: 496
+Name: cluster3455rr.1to1ortho.fa.aln-cln_gene182
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 182
+Alignment Patterns: 868
+Name: cluster1444rr.1to1ortho.fa.aln-cln_gene183
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 183
+Alignment Patterns: 356
+Name: cluster2800rr.1to1ortho.fa.aln-cln_gene184
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 184
+Alignment Patterns: 784
+Name: cluster481rr.1to1ortho.fa.aln-cln_gene185
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 185
+Alignment Patterns: 907
+Name: cluster3025rr.1to1ortho.fa.aln-cln_gene186
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 186
+Alignment Patterns: 615
+Name: cluster4282rr.1to1ortho.fa.aln-cln_gene187
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 187
+Alignment Patterns: 1198
+Name: cluster2099rr.1to1ortho.fa.aln-cln_gene188
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 188
+Alignment Patterns: 615
+Name: cluster3886rr.1to1ortho.fa.aln-cln_gene189
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 189
+Alignment Patterns: 705
+Name: cluster3466rr.1to1ortho.fa.aln-cln_gene190
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 190
+Alignment Patterns: 910
+Name: cluster2576rr.1to1ortho.fa.aln-cln_gene191
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 191
+Alignment Patterns: 517
+Name: cluster2181rr.1to1ortho.fa.aln-cln_gene192
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 192
+Alignment Patterns: 1797
+Name: cluster1686rr.1to1ortho.fa.aln-cln_gene193
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 193
+Alignment Patterns: 842
+Name: cluster5082rr.1to1ortho.fa.aln-cln_gene194
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 194
+Alignment Patterns: 1638
+Name: cluster4581rr.1to1ortho.fa.aln-cln_gene195
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 195
+Alignment Patterns: 465
+Name: cluster2167rr.1to1ortho.fa.aln-cln_gene196
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 196
+Alignment Patterns: 526
+Name: cluster2762rr.1to1ortho.fa.aln-cln_gene197
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 197
+Alignment Patterns: 337
+Name: cluster2471rr.1to1ortho.fa.aln-cln_gene198
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 198
+Alignment Patterns: 1135
+Name: cluster5504rr.1to1ortho.fa.aln-cln_gene199
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 199
+Alignment Patterns: 252
+Name: cluster3908rr.1to1ortho.fa.aln-cln_gene200
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 200
+Alignment Patterns: 671
+Name: cluster1874rr.1to1ortho.fa.aln-cln_gene201
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 201
+Alignment Patterns: 273
+Name: cluster1876rr.1to1ortho.fa.aln-cln_gene202
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 202
+Alignment Patterns: 303
+Name: cluster3641rr.1to1ortho.fa.aln-cln_gene203
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 203
+Alignment Patterns: 314
+Name: cluster2429rr.1to1ortho.fa.aln-cln_gene204
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 204
+Alignment Patterns: 867
+Name: cluster2599rr.1to1ortho.fa.aln-cln_gene205
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 205
+Alignment Patterns: 633
+Name: cluster3983rr.1to1ortho.fa.aln-cln_gene206
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 206
+Alignment Patterns: 560
+Name: cluster3428rr.1to1ortho.fa.aln-cln_gene207
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 207
+Alignment Patterns: 1059
+Name: cluster3154rr.1to1ortho.fa.aln-cln_gene208
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 208
+Alignment Patterns: 1270
+Name: cluster3509rr.1to1ortho.fa.aln-cln_gene209
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 209
+Alignment Patterns: 1299
+Name: cluster4731rr.1to1ortho.fa.aln-cln_gene210
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 210
+Alignment Patterns: 561
+Name: cluster3051rr.1to1ortho.fa.aln-cln_gene211
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 211
+Alignment Patterns: 535
+Name: cluster1591rr.1to1ortho.fa.aln-cln_gene212
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 212
+Alignment Patterns: 750
+Name: cluster4366rr.1to1ortho.fa.aln-cln_gene213
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 213
+Alignment Patterns: 1417
+Name: cluster3147rr.1to1ortho.fa.aln-cln_gene214
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 214
+Alignment Patterns: 1015
+Name: cluster1494rr.1to1ortho.fa.aln-cln_gene215
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 215
+Alignment Patterns: 1070
+Name: cluster998rr.1to1ortho.fa.aln-cln_gene216
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 216
+Alignment Patterns: 659
+Name: cluster367rr.1to1ortho.fa.aln-cln_gene217
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 217
+Alignment Patterns: 489
+Name: cluster672rr.1to1ortho.fa.aln-cln_gene218
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 218
+Alignment Patterns: 764
+Name: cluster1250rr.1to1ortho.fa.aln-cln_gene219
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 219
+Alignment Patterns: 553
+Name: cluster2148rr.1to1ortho.fa.aln-cln_gene220
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 220
+Alignment Patterns: 681
+Name: cluster3825rr.1to1ortho.fa.aln-cln_gene221
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 221
+Alignment Patterns: 846
+Name: cluster1767rr.1to1ortho.fa.aln-cln_gene222
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 222
+Alignment Patterns: 649
+Name: cluster4410rr.1to1ortho.fa.aln-cln_gene223
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 223
+Alignment Patterns: 1449
+Name: cluster334rr.1to1ortho.fa.aln-cln_gene224
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 224
+Alignment Patterns: 1100
+Name: cluster3711rr.1to1ortho.fa.aln-cln_gene225
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 225
+Alignment Patterns: 461
+Name: cluster2905rr.1to1ortho.fa.aln-cln_gene226
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 226
+Alignment Patterns: 441
+Name: cluster1925rr.1to1ortho.fa.aln-cln_gene227
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 227
+Alignment Patterns: 491
+Name: cluster411rr.1to1ortho.fa.aln-cln_gene228
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 228
+Alignment Patterns: 1002
+Name: cluster4203rr.1to1ortho.fa.aln-cln_gene229
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 229
+Alignment Patterns: 626
+Name: cluster3830rr.1to1ortho.fa.aln-cln_gene230
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 230
+Alignment Patterns: 1094
+Name: cluster3054rr.1to1ortho.fa.aln-cln_gene231
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 231
+Alignment Patterns: 1122
+Name: cluster4944rr.1to1ortho.fa.aln-cln_gene232
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 232
+Alignment Patterns: 900
+Name: cluster2566rr.1to1ortho.fa.aln-cln_gene233
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 233
+Alignment Patterns: 828
+Name: cluster2526rr.1to1ortho.fa.aln-cln_gene234
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 234
+Alignment Patterns: 728
+Name: cluster1928rr.1to1ortho.fa.aln-cln_gene235
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 235
+Alignment Patterns: 520
+Name: cluster4857rr.1to1ortho.fa.aln-cln_gene236
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 236
+Alignment Patterns: 639
+Name: cluster1551rr.1to1ortho.fa.aln-cln_gene237
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 237
+Alignment Patterns: 1290
+Name: cluster4281rr.1to1ortho.fa.aln-cln_gene238
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 238
+Alignment Patterns: 1136
+Name: cluster1220rr.1to1ortho.fa.aln-cln_gene239
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 239
+Alignment Patterns: 770
+Name: cluster3267rr.1to1ortho.fa.aln-cln_gene240
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 240
+Alignment Patterns: 440
+Name: cluster1019rr.1to1ortho.fa.aln-cln_gene241
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 241
+Alignment Patterns: 1178
+Name: cluster3170rr.1to1ortho.fa.aln-cln_gene242
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 242
+Alignment Patterns: 1148
+Name: cluster3717rr.1to1ortho.fa.aln-cln_gene243
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 243
+Alignment Patterns: 783
+Name: cluster3788rr.1to1ortho.fa.aln-cln_gene244
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 244
+Alignment Patterns: 728
+Name: cluster3763rr.1to1ortho.fa.aln-cln_gene245
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 245
+Alignment Patterns: 241
+Name: cluster3218rr.1to1ortho.fa.aln-cln_gene246
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 246
+Alignment Patterns: 624
+Name: cluster1224rr.1to1ortho.fa.aln-cln_gene247
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 247
+Alignment Patterns: 352
+Name: cluster3812rr.1to1ortho.fa.aln-cln_gene248
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 248
+Alignment Patterns: 546
+Name: cluster1657rr.1to1ortho.fa.aln-cln_gene249
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 249
+Alignment Patterns: 617
+Name: cluster1908rr.1to1ortho.fa.aln-cln_gene250
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 250
+Alignment Patterns: 867
+Name: cluster773rr.1to1ortho.fa.aln-cln_gene251
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 251
+Alignment Patterns: 849
+Name: cluster2075rr.1to1ortho.fa.aln-cln_gene252
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 252
+Alignment Patterns: 602
+Name: cluster3916rr.1to1ortho.fa.aln-cln_gene253
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 253
+Alignment Patterns: 251
+Name: cluster2394rr.1to1ortho.fa.aln-cln_gene254
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 254
+Alignment Patterns: 545
+Name: cluster2076rr.1to1ortho.fa.aln-cln_gene255
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 255
+Alignment Patterns: 606
+Name: cluster2911rr.1to1ortho.fa.aln-cln_gene256
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 256
+Alignment Patterns: 767
+Name: cluster4147rr.1to1ortho.fa.aln-cln_gene257
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 257
+Alignment Patterns: 1297
+Name: cluster4441rr.1to1ortho.fa.aln-cln_gene258
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 258
+Alignment Patterns: 479
+Name: cluster820rr.1to1ortho.fa.aln-cln_gene259
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 259
+Alignment Patterns: 843
+Name: cluster1158rr.1to1ortho.fa.aln-cln_gene260
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 260
+Alignment Patterns: 529
+Name: cluster4415rr.1to1ortho.fa.aln-cln_gene261
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 261
+Alignment Patterns: 951
+Name: cluster3894rr.1to1ortho.fa.aln-cln_gene262
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 262
+Alignment Patterns: 618
+Name: cluster4319rr.1to1ortho.fa.aln-cln_gene263
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 263
+Alignment Patterns: 987
+Name: cluster4466rr.1to1ortho.fa.aln-cln_gene264
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 264
+Alignment Patterns: 503
+Name: cluster2860rr.1to1ortho.fa.aln-cln_gene265
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 265
+Alignment Patterns: 345
+Name: cluster4222rr.1to1ortho.fa.aln-cln_gene266
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 266
+Alignment Patterns: 2370
+Name: cluster5438rr.1to1ortho.fa.aln-cln_gene267
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 267
+Alignment Patterns: 1029
+Name: cluster1167rr.1to1ortho.fa.aln-cln_gene268
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 268
+Alignment Patterns: 1139
+Name: cluster3350rr.1to1ortho.fa.aln-cln_gene269
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 269
+Alignment Patterns: 553
+Name: cluster3869rr.1to1ortho.fa.aln-cln_gene270
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 270
+Alignment Patterns: 1077
+Name: cluster1849rr.1to1ortho.fa.aln-cln_gene271
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 271
+Alignment Patterns: 900
+Name: cluster2047rr.1to1ortho.fa.aln-cln_gene272
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 272
+Alignment Patterns: 1178
+Name: cluster3351rr.1to1ortho.fa.aln-cln_gene273
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 273
+Alignment Patterns: 863
+Name: cluster1516rr.1to1ortho.fa.aln-cln_gene274
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 274
+Alignment Patterns: 1018
+Name: cluster355rr.1to1ortho.fa.aln-cln_gene275
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 275
+Alignment Patterns: 605
+Name: cluster2412rr.1to1ortho.fa.aln-cln_gene276
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 276
+Alignment Patterns: 980
+Name: cluster4351rr.1to1ortho.fa.aln-cln_gene277
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 277
+Alignment Patterns: 834
+Name: cluster2077rr.1to1ortho.fa.aln-cln_gene278
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 278
+Alignment Patterns: 411
+Name: cluster4298rr.1to1ortho.fa.aln-cln_gene279
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 279
+Alignment Patterns: 530
+Name: cluster5105rr.1to1ortho.fa.aln-cln_gene280
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 280
+Alignment Patterns: 1527
+Name: cluster2784rr.1to1ortho.fa.aln-cln_gene281
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 281
+Alignment Patterns: 730
+Name: cluster923rr.1to1ortho.fa.aln-cln_gene282
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 282
+Alignment Patterns: 454
+Name: cluster1491rr.1to1ortho.fa.aln-cln_gene283
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 283
+Alignment Patterns: 595
+Name: cluster2430rr.1to1ortho.fa.aln-cln_gene284
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 284
+Alignment Patterns: 459
+Name: cluster2063rr.1to1ortho.fa.aln-cln_gene285
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 285
+Alignment Patterns: 857
+Name: cluster2732rr.1to1ortho.fa.aln-cln_gene286
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 286
+Alignment Patterns: 1121
+Name: cluster2613rr.1to1ortho.fa.aln-cln_gene287
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 287
+Alignment Patterns: 916
+Name: cluster709rr.1to1ortho.fa.aln-cln_gene288
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 288
+Alignment Patterns: 671
+Name: cluster4883rr.1to1ortho.fa.aln-cln_gene289
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 289
+Alignment Patterns: 950
+Name: cluster2914rr.1to1ortho.fa.aln-cln_gene290
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 290
+Alignment Patterns: 1894
+Name: cluster2796rr.1to1ortho.fa.aln-cln_gene291
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 291
+Alignment Patterns: 1579
+Name: cluster3303rr.1to1ortho.fa.aln-cln_gene292
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 292
+Alignment Patterns: 845
+Name: cluster2557rr.1to1ortho.fa.aln-cln_gene293
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 293
+Alignment Patterns: 954
+Name: cluster2226rr.1to1ortho.fa.aln-cln_gene294
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 294
+Alignment Patterns: 457
+Name: cluster4505rr.1to1ortho.fa.aln-cln_gene295
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 295
+Alignment Patterns: 472
+Name: cluster3220rr.1to1ortho.fa.aln-cln_gene296
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 296
+Alignment Patterns: 780
+Name: cluster1526rr.1to1ortho.fa.aln-cln_gene297
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 297
+Alignment Patterns: 612
+Name: cluster5555rr.1to1ortho.fa.aln-cln_gene298
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 298
+Alignment Patterns: 223
+Name: cluster4582rr.1to1ortho.fa.aln-cln_gene299
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 299
+Alignment Patterns: 1223
+Name: cluster1169rr.1to1ortho.fa.aln-cln_gene300
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 300
+Alignment Patterns: 849
+Name: cluster531rr.1to1ortho.fa.aln-cln_gene301
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 301
+Alignment Patterns: 482
+Name: cluster3855rr.1to1ortho.fa.aln-cln_gene302
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 302
+Alignment Patterns: 1056
+Name: cluster1782rr.1to1ortho.fa.aln-cln_gene303
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 303
+Alignment Patterns: 965
+Name: cluster3304rr.1to1ortho.fa.aln-cln_gene304
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 304
+Alignment Patterns: 187
+Name: cluster5422rr.1to1ortho.fa.aln-cln_gene305
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 305
+Alignment Patterns: 753
+Name: cluster3341rr.1to1ortho.fa.aln-cln_gene306
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 306
+Alignment Patterns: 535
+Name: cluster2611rr.1to1ortho.fa.aln-cln_gene307
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 307
+Alignment Patterns: 1044
+Name: cluster2589rr.1to1ortho.fa.aln-cln_gene308
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 308
+Alignment Patterns: 465
+Name: cluster2057rr.1to1ortho.fa.aln-cln_gene309
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 309
+Alignment Patterns: 456
+Name: cluster4867rr.1to1ortho.fa.aln-cln_gene310
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 310
+Alignment Patterns: 554
+Name: cluster3520rr.1to1ortho.fa.aln-cln_gene311
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 311
+Alignment Patterns: 544
+Name: cluster4878rr.1to1ortho.fa.aln-cln_gene312
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 312
+Alignment Patterns: 614
+Name: cluster4820rr.1to1ortho.fa.aln-cln_gene313
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 313
+Alignment Patterns: 709
+Name: cluster3749rr.1to1ortho.fa.aln-cln_gene314
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 314
+Alignment Patterns: 623
+Name: cluster3008rr.1to1ortho.fa.aln-cln_gene315
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 315
+Alignment Patterns: 1037
+Name: cluster907rr.1to1ortho.fa.aln-cln_gene316
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 316
+Alignment Patterns: 628
+Name: cluster1739rr.1to1ortho.fa.aln-cln_gene317
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 317
+Alignment Patterns: 403
+Name: cluster5098rr.1to1ortho.fa.aln-cln_gene318
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 318
+Alignment Patterns: 459
+Name: cluster764rr.1to1ortho.fa.aln-cln_gene319
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 319
+Alignment Patterns: 569
+Name: cluster4357rr.1to1ortho.fa.aln-cln_gene320
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 320
+Alignment Patterns: 306
+Name: cluster2758rr.1to1ortho.fa.aln-cln_gene321
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 321
+Alignment Patterns: 926
+Name: cluster1518rr.1to1ortho.fa.aln-cln_gene322
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 322
+Alignment Patterns: 491
+Name: cluster988rr.1to1ortho.fa.aln-cln_gene323
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 323
+Alignment Patterns: 655
+Name: cluster181rr.1to1ortho.fa.aln-cln_gene324
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 324
+Alignment Patterns: 1061
+Name: cluster2236rr.1to1ortho.fa.aln-cln_gene325
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 325
+Alignment Patterns: 996
+Name: cluster1252rr.1to1ortho.fa.aln-cln_gene326
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 326
+Alignment Patterns: 1170
+Name: cluster1293rr.1to1ortho.fa.aln-cln_gene327
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 327
+Alignment Patterns: 586
+Name: cluster3436rr.1to1ortho.fa.aln-cln_gene328
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 328
+Alignment Patterns: 528
+Name: cluster410rr.1to1ortho.fa.aln-cln_gene329
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 329
+Alignment Patterns: 857
+Name: cluster2216rr.1to1ortho.fa.aln-cln_gene330
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 330
+Alignment Patterns: 408
+Name: cluster2023rr.1to1ortho.fa.aln-cln_gene331
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 331
+Alignment Patterns: 822
+Name: cluster1462rr.1to1ortho.fa.aln-cln_gene332
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 332
+Alignment Patterns: 788
+Name: cluster588rr.1to1ortho.fa.aln-cln_gene333
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 333
+Alignment Patterns: 1052
+Name: cluster4214rr.1to1ortho.fa.aln-cln_gene334
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 334
+Alignment Patterns: 859
+Name: cluster555rr.1to1ortho.fa.aln-cln_gene335
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 335
+Alignment Patterns: 700
+Name: cluster1676rr.1to1ortho.fa.aln-cln_gene336
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 336
+Alignment Patterns: 1189
+Name: cluster2074rr.1to1ortho.fa.aln-cln_gene337
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 337
+Alignment Patterns: 350
+Name: cluster3725rr.1to1ortho.fa.aln-cln_gene338
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 338
+Alignment Patterns: 452
+Name: cluster1210rr.1to1ortho.fa.aln-cln_gene339
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 339
+Alignment Patterns: 756
+Name: cluster2832rr.1to1ortho.fa.aln-cln_gene340
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 340
+Alignment Patterns: 521
+Name: cluster3644rr.1to1ortho.fa.aln-cln_gene341
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 341
+Alignment Patterns: 385
+Name: cluster4374rr.1to1ortho.fa.aln-cln_gene342
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 342
+Alignment Patterns: 831
+Name: cluster2782rr.1to1ortho.fa.aln-cln_gene343
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 343
+Alignment Patterns: 437
+Name: cluster4547rr.1to1ortho.fa.aln-cln_gene344
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 344
+Alignment Patterns: 681
+Name: cluster3135rr.1to1ortho.fa.aln-cln_gene345
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 345
+Alignment Patterns: 778
+Name: cluster4484rr.1to1ortho.fa.aln-cln_gene346
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 346
+Alignment Patterns: 557
+Name: cluster3006rr.1to1ortho.fa.aln-cln_gene347
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 347
+Alignment Patterns: 325
+Name: cluster2493rr.1to1ortho.fa.aln-cln_gene348
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 348
+Alignment Patterns: 548
+Name: cluster2937rr.1to1ortho.fa.aln-cln_gene349
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 349
+Alignment Patterns: 366
+Name: cluster3884rr.1to1ortho.fa.aln-cln_gene350
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 350
+Alignment Patterns: 561
+Name: cluster2051rr.1to1ortho.fa.aln-cln_gene351
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 351
+Alignment Patterns: 943
+Name: cluster1469rr.1to1ortho.fa.aln-cln_gene352
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 352
+Alignment Patterns: 696
+Name: cluster1108rr.1to1ortho.fa.aln-cln_gene353
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 353
+Alignment Patterns: 469
+Name: cluster4279rr.1to1ortho.fa.aln-cln_gene354
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 354
+Alignment Patterns: 744
+Name: cluster2067rr.1to1ortho.fa.aln-cln_gene355
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 355
+Alignment Patterns: 743
+Name: cluster3893rr.1to1ortho.fa.aln-cln_gene356
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 356
+Alignment Patterns: 748
+Name: cluster3727rr.1to1ortho.fa.aln-cln_gene357
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 357
+Alignment Patterns: 521
+Name: cluster5371rr.1to1ortho.fa.aln-cln_gene358
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 358
+Alignment Patterns: 471
+Name: cluster2462rr.1to1ortho.fa.aln-cln_gene359
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 359
+Alignment Patterns: 746
+Name: cluster4732rr.1to1ortho.fa.aln-cln_gene360
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 360
+Alignment Patterns: 1086
+Name: cluster1455rr.1to1ortho.fa.aln-cln_gene361
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 361
+Alignment Patterns: 1325
+Name: cluster4238rr.1to1ortho.fa.aln-cln_gene362
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 362
+Alignment Patterns: 1018
+Name: cluster649rr.1to1ortho.fa.aln-cln_gene363
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 363
+Alignment Patterns: 865
+Name: cluster1496rr.1to1ortho.fa.aln-cln_gene364
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 364
+Alignment Patterns: 325
+Name: cluster5013rr.1to1ortho.fa.aln-cln_gene365
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 365
+Alignment Patterns: 1963
+Name: cluster2811rr.1to1ortho.fa.aln-cln_gene366
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 366
+Alignment Patterns: 447
+Name: cluster4907rr.1to1ortho.fa.aln-cln_gene367
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 367
+Alignment Patterns: 450
+Name: cluster2423rr.1to1ortho.fa.aln-cln_gene368
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 368
+Alignment Patterns: 675
+Name: cluster3435rr.1to1ortho.fa.aln-cln_gene369
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 369
+Alignment Patterns: 1801
+Name: cluster1730rr.1to1ortho.fa.aln-cln_gene370
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 370
+Alignment Patterns: 1125
+Name: cluster4205rr.1to1ortho.fa.aln-cln_gene371
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 371
+Alignment Patterns: 340
+Name: cluster3288rr.1to1ortho.fa.aln-cln_gene372
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 372
+Alignment Patterns: 1503
+Name: cluster1638rr.1to1ortho.fa.aln-cln_gene373
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 373
+Alignment Patterns: 1304
+Name: cluster4846rr.1to1ortho.fa.aln-cln_gene374
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 374
+Alignment Patterns: 1576
+Name: cluster3277rr.1to1ortho.fa.aln-cln_gene375
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 375
+Alignment Patterns: 567
+Name: cluster1778rr.1to1ortho.fa.aln-cln_gene376
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 376
+Alignment Patterns: 646
+Name: cluster2449rr.1to1ortho.fa.aln-cln_gene377
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 377
+Alignment Patterns: 1834
+Name: cluster1303rr.1to1ortho.fa.aln-cln_gene378
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 378
+Alignment Patterns: 698
+Name: cluster5290rr.1to1ortho.fa.aln-cln_gene379
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 379
+Alignment Patterns: 313
+Name: cluster2386rr.1to1ortho.fa.aln-cln_gene380
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 380
+Alignment Patterns: 738
+Name: cluster2755rr.1to1ortho.fa.aln-cln_gene381
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 381
+Alignment Patterns: 1534
+Name: cluster5022rr.1to1ortho.fa.aln-cln_gene382
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 382
+Alignment Patterns: 799
+Name: cluster2302rr.1to1ortho.fa.aln-cln_gene383
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 383
+Alignment Patterns: 328
+Name: cluster2657rr.1to1ortho.fa.aln-cln_gene384
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 384
+Alignment Patterns: 519
+Name: cluster4834rr.1to1ortho.fa.aln-cln_gene385
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 385
+Alignment Patterns: 650
+Name: cluster3470rr.1to1ortho.fa.aln-cln_gene386
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 386
+Alignment Patterns: 270
+Name: cluster2973rr.1to1ortho.fa.aln-cln_gene387
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 387
+Alignment Patterns: 584
+Name: cluster916rr.1to1ortho.fa.aln-cln_gene388
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 388
+Alignment Patterns: 273
+Name: cluster3849rr.1to1ortho.fa.aln-cln_gene389
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 389
+Alignment Patterns: 800
+Name: cluster774rr.1to1ortho.fa.aln-cln_gene390
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 390
+Alignment Patterns: 706
+Name: cluster4932rr.1to1ortho.fa.aln-cln_gene391
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 391
+Alignment Patterns: 780
+Name: cluster3069rr.1to1ortho.fa.aln-cln_gene392
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 392
+Alignment Patterns: 726
+Name: cluster2549rr.1to1ortho.fa.aln-cln_gene393
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 393
+Alignment Patterns: 1231
+Name: cluster3670rr.1to1ortho.fa.aln-cln_gene394
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 394
+Alignment Patterns: 1102
+Name: cluster4322rr.1to1ortho.fa.aln-cln_gene395
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 395
+Alignment Patterns: 625
+Name: cluster1146rr.1to1ortho.fa.aln-cln_gene396
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 396
+Alignment Patterns: 1523
+Name: cluster4805rr.1to1ortho.fa.aln-cln_gene397
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 397
+Alignment Patterns: 1184
+Name: cluster4052rr.1to1ortho.fa.aln-cln_gene398
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 398
+Alignment Patterns: 706
+Name: cluster4751rr.1to1ortho.fa.aln-cln_gene399
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 399
+Alignment Patterns: 683
+Name: cluster3895rr.1to1ortho.fa.aln-cln_gene400
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 400
+Alignment Patterns: 289
+Name: cluster5576rr.1to1ortho.fa.aln-cln_gene401
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 401
+Alignment Patterns: 1007
+Name: cluster3386rr.1to1ortho.fa.aln-cln_gene402
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 402
+Alignment Patterns: 530
+Name: cluster4249rr.1to1ortho.fa.aln-cln_gene403
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 403
+Alignment Patterns: 1330
+Name: cluster671rr.1to1ortho.fa.aln-cln_gene404
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 404
+Alignment Patterns: 434
+Name: cluster1690rr.1to1ortho.fa.aln-cln_gene405
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 405
+Alignment Patterns: 548
+Name: cluster2570rr.1to1ortho.fa.aln-cln_gene406
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 406
+Alignment Patterns: 364
+Name: cluster4946rr.1to1ortho.fa.aln-cln_gene407
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 407
+Alignment Patterns: 367
+Name: cluster2496rr.1to1ortho.fa.aln-cln_gene408
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 408
+Alignment Patterns: 1297
+Name: cluster5093rr.1to1ortho.fa.aln-cln_gene409
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 409
+Alignment Patterns: 943
+Name: cluster4372rr.1to1ortho.fa.aln-cln_gene410
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 410
+Alignment Patterns: 457
+Name: cluster1025rr.1to1ortho.fa.aln-cln_gene411
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 411
+Alignment Patterns: 543
+Name: cluster4920rr.1to1ortho.fa.aln-cln_gene412
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 412
+Alignment Patterns: 729
+Name: cluster683rr.1to1ortho.fa.aln-cln_gene413
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 413
+Alignment Patterns: 906
+Name: cluster5112rr.1to1ortho.fa.aln-cln_gene414
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 414
+Alignment Patterns: 1007
+Name: cluster2763rr.1to1ortho.fa.aln-cln_gene415
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 415
+Alignment Patterns: 576
+Name: cluster2641rr.1to1ortho.fa.aln-cln_gene416
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 416
+Alignment Patterns: 920
+Name: cluster3854rr.1to1ortho.fa.aln-cln_gene417
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 417
+Alignment Patterns: 943
+Name: cluster1144rr.1to1ortho.fa.aln-cln_gene418
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 418
+Alignment Patterns: 874
+Name: cluster5482rr.1to1ortho.fa.aln-cln_gene419
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 419
+Alignment Patterns: 1843
+Name: cluster3752rr.1to1ortho.fa.aln-cln_gene420
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 420
+Alignment Patterns: 571
+Name: cluster267rr.1to1ortho.fa.aln-cln_gene421
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 421
+Alignment Patterns: 568
+Name: cluster4317rr.1to1ortho.fa.aln-cln_gene422
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 422
+Alignment Patterns: 2055
+Name: cluster5361rr.1to1ortho.fa.aln-cln_gene423
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 423
+Alignment Patterns: 881
+Name: cluster2380rr.1to1ortho.fa.aln-cln_gene424
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 424
+Alignment Patterns: 469
+Name: cluster452rr.1to1ortho.fa.aln-cln_gene425
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 425
+Alignment Patterns: 1399
+Name: cluster997rr.1to1ortho.fa.aln-cln_gene426
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 426
+Alignment Patterns: 801
+Name: cluster804rr.1to1ortho.fa.aln-cln_gene427
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 427
+Alignment Patterns: 710
+Name: cluster2301rr.1to1ortho.fa.aln-cln_gene428
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 428
+Alignment Patterns: 821
+Name: cluster2994rr.1to1ortho.fa.aln-cln_gene429
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 429
+Alignment Patterns: 465
+Name: cluster2163rr.1to1ortho.fa.aln-cln_gene430
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 430
+Alignment Patterns: 724
+Name: cluster5584rr.1to1ortho.fa.aln-cln_gene431
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 431
+Alignment Patterns: 483
+Name: cluster1853rr.1to1ortho.fa.aln-cln_gene432
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 432
+Alignment Patterns: 1429
+Name: cluster1575rr.1to1ortho.fa.aln-cln_gene433
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 433
+Alignment Patterns: 1105
+Name: cluster2982rr.1to1ortho.fa.aln-cln_gene434
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 434
+Alignment Patterns: 862
+Name: cluster4806rr.1to1ortho.fa.aln-cln_gene435
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 435
+Alignment Patterns: 494
+Name: cluster1104rr.1to1ortho.fa.aln-cln_gene436
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 436
+Alignment Patterns: 918
+Name: cluster3360rr.1to1ortho.fa.aln-cln_gene437
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 437
+Alignment Patterns: 603
+Name: cluster2045rr.1to1ortho.fa.aln-cln_gene438
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 438
+Alignment Patterns: 686
+Name: cluster3467rr.1to1ortho.fa.aln-cln_gene439
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 439
+Alignment Patterns: 820
+Name: cluster1859rr.1to1ortho.fa.aln-cln_gene440
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 440
+Alignment Patterns: 1100
+Name: cluster1683rr.1to1ortho.fa.aln-cln_gene441
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 441
+Alignment Patterns: 489
+Name: cluster2622rr.1to1ortho.fa.aln-cln_gene442
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 442
+Alignment Patterns: 892
+Name: cluster4395rr.1to1ortho.fa.aln-cln_gene443
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 443
+Alignment Patterns: 1047
+Name: cluster2848rr.1to1ortho.fa.aln-cln_gene444
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 444
+Alignment Patterns: 1668
+Name: cluster4965rr.1to1ortho.fa.aln-cln_gene445
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 445
+Alignment Patterns: 726
+Name: cluster5525rr.1to1ortho.fa.aln-cln_gene446
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 446
+Alignment Patterns: 481
+Name: cluster2195rr.1to1ortho.fa.aln-cln_gene447
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 447
+Alignment Patterns: 2097
+Name: cluster1026rr.1to1ortho.fa.aln-cln_gene448
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 448
+Alignment Patterns: 730
+Name: cluster2407rr.1to1ortho.fa.aln-cln_gene449
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 449
+Alignment Patterns: 415
+Name: cluster2388rr.1to1ortho.fa.aln-cln_gene450
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 450
+Alignment Patterns: 553
+Name: cluster3683rr.1to1ortho.fa.aln-cln_gene451
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 451
+Alignment Patterns: 853
+Name: cluster2920rr.1to1ortho.fa.aln-cln_gene452
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 452
+Alignment Patterns: 822
+Name: cluster3364rr.1to1ortho.fa.aln-cln_gene453
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 453
+Alignment Patterns: 1583
+Name: cluster1738rr.1to1ortho.fa.aln-cln_gene454
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 454
+Alignment Patterns: 307
+Name: cluster2491rr.1to1ortho.fa.aln-cln_gene455
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 455
+Alignment Patterns: 1112
+Name: cluster5606rr.1to1ortho.fa.aln-cln_gene456
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 456
+Alignment Patterns: 891
+Name: cluster3528rr.1to1ortho.fa.aln-cln_gene457
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 457
+Alignment Patterns: 775
+Name: cluster1631rr.1to1ortho.fa.aln-cln_gene458
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 458
+Alignment Patterns: 440
+Name: cluster2943rr.1to1ortho.fa.aln-cln_gene459
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 459
+Alignment Patterns: 1274
+Name: cluster2307rr.1to1ortho.fa.aln-cln_gene460
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 460
+Alignment Patterns: 790
+Name: cluster3394rr.1to1ortho.fa.aln-cln_gene461
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 461
+Alignment Patterns: 813
+Name: cluster5113rr.1to1ortho.fa.aln-cln_gene462
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 462
+Alignment Patterns: 660
+Name: cluster2954rr.1to1ortho.fa.aln-cln_gene463
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 463
+Alignment Patterns: 1536
+Name: cluster2265rr.1to1ortho.fa.aln-cln_gene464
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 464
+Alignment Patterns: 373
+Name: cluster4930rr.1to1ortho.fa.aln-cln_gene465
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 465
+Alignment Patterns: 199
+Name: cluster4528rr.1to1ortho.fa.aln-cln_gene466
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 466
+Alignment Patterns: 667
+Name: cluster2177rr.1to1ortho.fa.aln-cln_gene467
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 467
+Alignment Patterns: 797
+Name: cluster3834rr.1to1ortho.fa.aln-cln_gene468
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 468
+Alignment Patterns: 494
+Name: cluster4574rr.1to1ortho.fa.aln-cln_gene469
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 469
+Alignment Patterns: 965
+Name: cluster3171rr.1to1ortho.fa.aln-cln_gene470
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 470
+Alignment Patterns: 1625
+Name: cluster4825rr.1to1ortho.fa.aln-cln_gene471
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 471
+Alignment Patterns: 743
+Name: cluster3166rr.1to1ortho.fa.aln-cln_gene472
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 472
+Alignment Patterns: 633
+Name: cluster2206rr.1to1ortho.fa.aln-cln_gene473
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 473
+Alignment Patterns: 590
+Name: cluster4013rr.1to1ortho.fa.aln-cln_gene474
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 474
+Alignment Patterns: 951
+Name: cluster4744rr.1to1ortho.fa.aln-cln_gene475
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 475
+Alignment Patterns: 824
+Name: cluster4873rr.1to1ortho.fa.aln-cln_gene476
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 476
+Alignment Patterns: 682
+Name: cluster3668rr.1to1ortho.fa.aln-cln_gene477
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 477
+Alignment Patterns: 662
+Name: cluster2587rr.1to1ortho.fa.aln-cln_gene478
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 478
+Alignment Patterns: 716
+Name: cluster2027rr.1to1ortho.fa.aln-cln_gene479
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 479
+Alignment Patterns: 891
+Name: cluster5498rr.1to1ortho.fa.aln-cln_gene480
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 480
+Alignment Patterns: 544
+Name: cluster4900rr.1to1ortho.fa.aln-cln_gene481
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 481
+Alignment Patterns: 204
+Name: cluster3424rr.1to1ortho.fa.aln-cln_gene482
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 482
+Alignment Patterns: 332
+Name: cluster4861rr.1to1ortho.fa.aln-cln_gene483
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 483
+Alignment Patterns: 785
+Name: cluster3013rr.1to1ortho.fa.aln-cln_gene484
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 484
+Alignment Patterns: 588
+Name: cluster2006rr.1to1ortho.fa.aln-cln_gene485
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 485
+Alignment Patterns: 986
+Name: cluster4217rr.1to1ortho.fa.aln-cln_gene486
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 486
+Alignment Patterns: 489
+Name: cluster3928rr.1to1ortho.fa.aln-cln_gene487
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 487
+Alignment Patterns: 577
+Name: cluster5280rr.1to1ortho.fa.aln-cln_gene488
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 488
+Alignment Patterns: 1000
+Name: cluster4185rr.1to1ortho.fa.aln-cln_gene489
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 489
+Alignment Patterns: 1194
+Name: cluster3248rr.1to1ortho.fa.aln-cln_gene490
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 490
+Alignment Patterns: 1435
+Name: cluster2584rr.1to1ortho.fa.aln-cln_gene491
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 491
+Alignment Patterns: 603
+Name: cluster2664rr.1to1ortho.fa.aln-cln_gene492
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 492
+Alignment Patterns: 1300
+Name: cluster1200rr.1to1ortho.fa.aln-cln_gene493
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 493
+Alignment Patterns: 539
+Name: cluster5401rr.1to1ortho.fa.aln-cln_gene494
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 494
+Alignment Patterns: 553
+Name: cluster1550rr.1to1ortho.fa.aln-cln_gene495
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 495
+Alignment Patterns: 1592
+Name: cluster5021rr.1to1ortho.fa.aln-cln_gene496
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 496
+Alignment Patterns: 662
+Name: cluster3741rr.1to1ortho.fa.aln-cln_gene497
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 497
+Alignment Patterns: 880
+Name: cluster4286rr.1to1ortho.fa.aln-cln_gene498
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 498
+Alignment Patterns: 517
+Name: cluster2793rr.1to1ortho.fa.aln-cln_gene499
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 499
+Alignment Patterns: 2471
+Name: cluster5302rr.1to1ortho.fa.aln-cln_gene500
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 500
+Alignment Patterns: 823
+Name: cluster900rr.1to1ortho.fa.aln-cln_gene501
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 501
+Alignment Patterns: 542
+Name: cluster2039rr.1to1ortho.fa.aln-cln_gene502
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 502
+Alignment Patterns: 1038
+Name: cluster2862rr.1to1ortho.fa.aln-cln_gene503
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 503
+Alignment Patterns: 1816
+Name: cluster3750rr.1to1ortho.fa.aln-cln_gene504
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 504
+Alignment Patterns: 547
+Name: cluster4007rr.1to1ortho.fa.aln-cln_gene505
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 505
+Alignment Patterns: 497
+Name: cluster3473rr.1to1ortho.fa.aln-cln_gene506
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 506
+Alignment Patterns: 637
+Name: cluster4311rr.1to1ortho.fa.aln-cln_gene507
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 507
+Alignment Patterns: 1338
+Name: cluster2247rr.1to1ortho.fa.aln-cln_gene508
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 508
+Alignment Patterns: 327
+Name: cluster4728rr.1to1ortho.fa.aln-cln_gene509
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 509
+Alignment Patterns: 659
+Name: cluster641rr.1to1ortho.fa.aln-cln_gene510
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 510
+Alignment Patterns: 412
+Name: cluster2437rr.1to1ortho.fa.aln-cln_gene511
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 511
+Alignment Patterns: 926
+Name: cluster2761rr.1to1ortho.fa.aln-cln_gene512
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 512
+Alignment Patterns: 604
+Name: cluster5487rr.1to1ortho.fa.aln-cln_gene513
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 513
+Alignment Patterns: 393
+Name: cluster2480rr.1to1ortho.fa.aln-cln_gene514
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 514
+Alignment Patterns: 806
+Name: cluster2465rr.1to1ortho.fa.aln-cln_gene515
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 515
+Alignment Patterns: 571
+Name: cluster2168rr.1to1ortho.fa.aln-cln_gene516
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 516
+Alignment Patterns: 794
+Name: cluster2085rr.1to1ortho.fa.aln-cln_gene517
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 517
+Alignment Patterns: 533
+Name: cluster4477rr.1to1ortho.fa.aln-cln_gene518
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 518
+Alignment Patterns: 1240
+Name: cluster2569rr.1to1ortho.fa.aln-cln_gene519
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 519
+Alignment Patterns: 525
+Name: cluster3149rr.1to1ortho.fa.aln-cln_gene520
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 520
+Alignment Patterns: 889
+Name: cluster1279rr.1to1ortho.fa.aln-cln_gene521
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 521
+Alignment Patterns: 485
+Name: cluster3418rr.1to1ortho.fa.aln-cln_gene522
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 522
+Alignment Patterns: 716
+Name: cluster3333rr.1to1ortho.fa.aln-cln_gene523
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 523
+Alignment Patterns: 772
+Name: cluster1159rr.1to1ortho.fa.aln-cln_gene524
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 524
+Alignment Patterns: 548
+Name: cluster721rr.1to1ortho.fa.aln-cln_gene525
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 525
+Alignment Patterns: 381
+Name: cluster2061rr.1to1ortho.fa.aln-cln_gene526
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 526
+Alignment Patterns: 688
+Name: cluster2091rr.1to1ortho.fa.aln-cln_gene527
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 527
+Alignment Patterns: 384
+Name: cluster2815rr.1to1ortho.fa.aln-cln_gene528
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 528
+Alignment Patterns: 1089
+Name: cluster2562rr.1to1ortho.fa.aln-cln_gene529
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 529
+Alignment Patterns: 542
+Name: cluster3705rr.1to1ortho.fa.aln-cln_gene530
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 530
+Alignment Patterns: 1253
+Name: cluster2069rr.1to1ortho.fa.aln-cln_gene531
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 531
+Alignment Patterns: 1524
+Name: cluster3366rr.1to1ortho.fa.aln-cln_gene532
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 532
+Alignment Patterns: 798
+Name: cluster1395rr.1to1ortho.fa.aln-cln_gene533
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 533
+Alignment Patterns: 689
+Name: cluster754rr.1to1ortho.fa.aln-cln_gene534
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 534
+Alignment Patterns: 1198
+Name: cluster2015rr.1to1ortho.fa.aln-cln_gene535
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 535
+Alignment Patterns: 694
+Name: cluster1934rr.1to1ortho.fa.aln-cln_gene536
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 536
+Alignment Patterns: 689
+Name: cluster4476rr.1to1ortho.fa.aln-cln_gene537
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 537
+Alignment Patterns: 603
+Name: cluster2392rr.1to1ortho.fa.aln-cln_gene538
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 538
+Alignment Patterns: 1179
+Name: cluster3890rr.1to1ortho.fa.aln-cln_gene539
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 539
+Alignment Patterns: 516
+Name: cluster4263rr.1to1ortho.fa.aln-cln_gene540
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 540
+Alignment Patterns: 711
+Name: cluster4469rr.1to1ortho.fa.aln-cln_gene541
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 541
+Alignment Patterns: 312
+Name: cluster3764rr.1to1ortho.fa.aln-cln_gene542
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 542
+Alignment Patterns: 827
+Name: cluster1093rr.1to1ortho.fa.aln-cln_gene543
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 543
+Alignment Patterns: 1012
+Name: cluster5548rr.1to1ortho.fa.aln-cln_gene544
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 544
+Alignment Patterns: 854
+Name: cluster1396rr.1to1ortho.fa.aln-cln_gene545
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 545
+Alignment Patterns: 1010
+Name: cluster3402rr.1to1ortho.fa.aln-cln_gene546
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 546
+Alignment Patterns: 904
+Name: cluster2487rr.1to1ortho.fa.aln-cln_gene547
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 547
+Alignment Patterns: 380
+Name: cluster1765rr.1to1ortho.fa.aln-cln_gene548
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 548
+Alignment Patterns: 1987
+Name: cluster3926rr.1to1ortho.fa.aln-cln_gene549
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 549
+Alignment Patterns: 848
+Name: cluster3927rr.1to1ortho.fa.aln-cln_gene550
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 550
+Alignment Patterns: 569
+Name: cluster4913rr.1to1ortho.fa.aln-cln_gene551
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 551
+Alignment Patterns: 507
+Name: cluster3421rr.1to1ortho.fa.aln-cln_gene552
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 552
+Alignment Patterns: 815
+Name: cluster3878rr.1to1ortho.fa.aln-cln_gene553
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 553
+Alignment Patterns: 1440
+Name: cluster3525rr.1to1ortho.fa.aln-cln_gene554
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 554
+Alignment Patterns: 519
+Name: cluster3961rr.1to1ortho.fa.aln-cln_gene555
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 555
+Alignment Patterns: 846
+Name: cluster4957rr.1to1ortho.fa.aln-cln_gene556
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 556
+Alignment Patterns: 1027
+Name: cluster3680rr.1to1ortho.fa.aln-cln_gene557
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 557
+Alignment Patterns: 1446
+Name: cluster1731rr.1to1ortho.fa.aln-cln_gene558
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 558
+Alignment Patterns: 662
+Name: cluster3777rr.1to1ortho.fa.aln-cln_gene559
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 559
+Alignment Patterns: 838
+Name: cluster5078rr.1to1ortho.fa.aln-cln_gene560
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 560
+Alignment Patterns: 1257
+Name: cluster1261rr.1to1ortho.fa.aln-cln_gene561
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 561
+Alignment Patterns: 684
+Name: cluster1184rr.1to1ortho.fa.aln-cln_gene562
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 562
+Alignment Patterns: 1224
+Name: cluster4042rr.1to1ortho.fa.aln-cln_gene563
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 563
+Alignment Patterns: 847
+Name: cluster4842rr.1to1ortho.fa.aln-cln_gene564
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 564
+Alignment Patterns: 651
+Name: cluster4977rr.1to1ortho.fa.aln-cln_gene565
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 565
+Alignment Patterns: 710
+Name: cluster2858rr.1to1ortho.fa.aln-cln_gene566
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 566
+Alignment Patterns: 373
+Name: cluster2777rr.1to1ortho.fa.aln-cln_gene567
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 567
+Alignment Patterns: 396
+Name: cluster2539rr.1to1ortho.fa.aln-cln_gene568
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 568
+Alignment Patterns: 618
+Name: cluster2053rr.1to1ortho.fa.aln-cln_gene569
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 569
+Alignment Patterns: 670
+Name: cluster4416rr.1to1ortho.fa.aln-cln_gene570
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 570
+Alignment Patterns: 708
+Name: cluster2144rr.1to1ortho.fa.aln-cln_gene571
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 571
+Alignment Patterns: 716
+Name: cluster2137rr.1to1ortho.fa.aln-cln_gene572
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 572
+Alignment Patterns: 511
+Name: cluster1948rr.1to1ortho.fa.aln-cln_gene573
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 573
+Alignment Patterns: 285
+Name: cluster3696rr.1to1ortho.fa.aln-cln_gene574
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 574
+Alignment Patterns: 407
+Name: cluster2747rr.1to1ortho.fa.aln-cln_gene575
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 575
+Alignment Patterns: 392
+Name: cluster2292rr.1to1ortho.fa.aln-cln_gene576
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 576
+Alignment Patterns: 501
+Name: cluster4740rr.1to1ortho.fa.aln-cln_gene577
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 577
+Alignment Patterns: 742
+Name: cluster1957rr.1to1ortho.fa.aln-cln_gene578
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 578
+Alignment Patterns: 1381
+Name: cluster1314rr.1to1ortho.fa.aln-cln_gene579
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 579
+Alignment Patterns: 529
+Name: cluster3396rr.1to1ortho.fa.aln-cln_gene580
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 580
+Alignment Patterns: 694
+Name: cluster4769rr.1to1ortho.fa.aln-cln_gene581
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 581
+Alignment Patterns: 1234
+Name: cluster2046rr.1to1ortho.fa.aln-cln_gene582
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 582
+Alignment Patterns: 1093
+Name: cluster4235rr.1to1ortho.fa.aln-cln_gene583
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 583
+Alignment Patterns: 602
+Name: cluster4784rr.1to1ortho.fa.aln-cln_gene584
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 584
+Alignment Patterns: 773
+Name: cluster981rr.1to1ortho.fa.aln-cln_gene585
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 585
+Alignment Patterns: 698
+Name: cluster4283rr.1to1ortho.fa.aln-cln_gene586
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 586
+Alignment Patterns: 234
+Name: cluster3213rr.1to1ortho.fa.aln-cln_gene587
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 587
+Alignment Patterns: 1049
+Name: cluster1419rr.1to1ortho.fa.aln-cln_gene588
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 588
+Alignment Patterns: 1247
+Name: cluster489rr.1to1ortho.fa.aln-cln_gene589
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 589
+Alignment Patterns: 239
+Name: cluster3151rr.1to1ortho.fa.aln-cln_gene590
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 590
+Alignment Patterns: 275
+Name: cluster4290rr.1to1ortho.fa.aln-cln_gene591
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 591
+Alignment Patterns: 1142
+Name: cluster4734rr.1to1ortho.fa.aln-cln_gene592
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 592
+Alignment Patterns: 684
+Name: cluster5292rr.1to1ortho.fa.aln-cln_gene593
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 593
+Alignment Patterns: 845
+Name: cluster1642rr.1to1ortho.fa.aln-cln_gene594
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 594
+Alignment Patterns: 677
+Name: cluster887rr.1to1ortho.fa.aln-cln_gene595
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 595
+Alignment Patterns: 687
+Name: cluster5370rr.1to1ortho.fa.aln-cln_gene596
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 596
+Alignment Patterns: 761
+Name: cluster1814rr.1to1ortho.fa.aln-cln_gene597
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 597
+Alignment Patterns: 755
+Name: cluster5562rr.1to1ortho.fa.aln-cln_gene598
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 598
+Alignment Patterns: 1139
+Name: cluster589rr.1to1ortho.fa.aln-cln_gene599
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 599
+Alignment Patterns: 674
+Name: cluster4858rr.1to1ortho.fa.aln-cln_gene600
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 600
+Alignment Patterns: 268
+Name: cluster3542rr.1to1ortho.fa.aln-cln_gene601
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 601
+Alignment Patterns: 761
+Name: cluster492rr.1to1ortho.fa.aln-cln_gene602
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 602
+Alignment Patterns: 700
+Name: cluster4321rr.1to1ortho.fa.aln-cln_gene603
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 603
+Alignment Patterns: 733
+Name: cluster1889rr.1to1ortho.fa.aln-cln_gene604
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 604
+Alignment Patterns: 273
+Name: cluster2924rr.1to1ortho.fa.aln-cln_gene605
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 605
+Alignment Patterns: 714
+Name: cluster982rr.1to1ortho.fa.aln-cln_gene606
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 606
+Alignment Patterns: 1689
+Name: cluster2008rr.1to1ortho.fa.aln-cln_gene607
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 607
+Alignment Patterns: 785
+Name: cluster3219rr.1to1ortho.fa.aln-cln_gene608
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 608
+Alignment Patterns: 453
+Name: cluster3514rr.1to1ortho.fa.aln-cln_gene609
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 609
+Alignment Patterns: 311
+Name: cluster4370rr.1to1ortho.fa.aln-cln_gene610
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 610
+Alignment Patterns: 1603
+Name: cluster1059rr.1to1ortho.fa.aln-cln_gene611
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 611
+Alignment Patterns: 504
+Name: cluster2823rr.1to1ortho.fa.aln-cln_gene612
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 612
+Alignment Patterns: 1271
+Name: cluster2289rr.1to1ortho.fa.aln-cln_gene613
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 613
+Alignment Patterns: 375
+Name: cluster3297rr.1to1ortho.fa.aln-cln_gene614
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 614
+Alignment Patterns: 1082
+Name: cluster1197rr.1to1ortho.fa.aln-cln_gene615
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 615
+Alignment Patterns: 574
+Name: cluster2306rr.1to1ortho.fa.aln-cln_gene616
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 616
+Alignment Patterns: 588
+Name: cluster4006rr.1to1ortho.fa.aln-cln_gene617
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 617
+Alignment Patterns: 633
+Name: cluster3444rr.1to1ortho.fa.aln-cln_gene618
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 618
+Alignment Patterns: 769
+Name: cluster3662rr.1to1ortho.fa.aln-cln_gene619
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 619
+Alignment Patterns: 688
+Name: cluster4488rr.1to1ortho.fa.aln-cln_gene620
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 620
+Alignment Patterns: 610
+Name: cluster1409rr.1to1ortho.fa.aln-cln_gene621
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 621
+Alignment Patterns: 708
+Name: cluster1903rr.1to1ortho.fa.aln-cln_gene622
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 622
+Alignment Patterns: 731
+Name: cluster2130rr.1to1ortho.fa.aln-cln_gene623
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 623
+Alignment Patterns: 1171
+Name: cluster984rr.1to1ortho.fa.aln-cln_gene624
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 624
+Alignment Patterns: 428
+Name: cluster2980rr.1to1ortho.fa.aln-cln_gene625
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 625
+Alignment Patterns: 425
+Name: cluster824rr.1to1ortho.fa.aln-cln_gene626
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 626
+Alignment Patterns: 762
+Name: cluster986rr.1to1ortho.fa.aln-cln_gene627
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 627
+Alignment Patterns: 700
+Name: cluster1885rr.1to1ortho.fa.aln-cln_gene628
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 628
+Alignment Patterns: 1118
+Name: cluster5071rr.1to1ortho.fa.aln-cln_gene629
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 629
+Alignment Patterns: 1412
+Name: cluster2217rr.1to1ortho.fa.aln-cln_gene630
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 630
+Alignment Patterns: 596
+Name: cluster978rr.1to1ortho.fa.aln-cln_gene631
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 631
+Alignment Patterns: 756
+Name: cluster2898rr.1to1ortho.fa.aln-cln_gene632
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 632
+Alignment Patterns: 821
+Name: cluster4802rr.1to1ortho.fa.aln-cln_gene633
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 633
+Alignment Patterns: 204
+Name: cluster4026rr.1to1ortho.fa.aln-cln_gene634
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 634
+Alignment Patterns: 830
+Name: cluster5110rr.1to1ortho.fa.aln-cln_gene635
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 635
+Alignment Patterns: 1754
+Name: cluster3811rr.1to1ortho.fa.aln-cln_gene636
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 636
+Alignment Patterns: 688
+Name: cluster2877rr.1to1ortho.fa.aln-cln_gene637
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 637
+Alignment Patterns: 1107
+Name: cluster2839rr.1to1ortho.fa.aln-cln_gene638
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 638
+Alignment Patterns: 591
+Name: cluster3891rr.1to1ortho.fa.aln-cln_gene639
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 639
+Alignment Patterns: 501
+Name: cluster5015rr.1to1ortho.fa.aln-cln_gene640
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 640
+Alignment Patterns: 1319
+Name: cluster1513rr.1to1ortho.fa.aln-cln_gene641
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 641
+Alignment Patterns: 725
+Name: cluster2869rr.1to1ortho.fa.aln-cln_gene642
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 642
+Alignment Patterns: 439
+Name: cluster4044rr.1to1ortho.fa.aln-cln_gene643
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 643
+Alignment Patterns: 2245
+Name: cluster5080rr.1to1ortho.fa.aln-cln_gene644
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 644
+Alignment Patterns: 1287
+Name: cluster5466rr.1to1ortho.fa.aln-cln_gene645
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 645
+Alignment Patterns: 816
+Name: cluster2548rr.1to1ortho.fa.aln-cln_gene646
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 646
+Alignment Patterns: 427
+Name: cluster3024rr.1to1ortho.fa.aln-cln_gene647
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 647
+Alignment Patterns: 1657
+Name: cluster1171rr.1to1ortho.fa.aln-cln_gene648
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 648
+Alignment Patterns: 1052
+Name: cluster4149rr.1to1ortho.fa.aln-cln_gene649
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 649
+Alignment Patterns: 234
+Name: cluster3950rr.1to1ortho.fa.aln-cln_gene650
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 650
+Alignment Patterns: 215
+Name: cluster3162rr.1to1ortho.fa.aln-cln_gene651
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 651
+Alignment Patterns: 789
+Name: cluster4394rr.1to1ortho.fa.aln-cln_gene652
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 652
+Alignment Patterns: 479
+Name: cluster3137rr.1to1ortho.fa.aln-cln_gene653
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 653
+Alignment Patterns: 753
+Name: cluster2507rr.1to1ortho.fa.aln-cln_gene654
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 654
+Alignment Patterns: 915
+Name: cluster4585rr.1to1ortho.fa.aln-cln_gene655
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 655
+Alignment Patterns: 1245
+Name: cluster3298rr.1to1ortho.fa.aln-cln_gene656
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 656
+Alignment Patterns: 1359
+Name: cluster4167rr.1to1ortho.fa.aln-cln_gene657
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 657
+Alignment Patterns: 918
+Name: cluster3018rr.1to1ortho.fa.aln-cln_gene658
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 658
+Alignment Patterns: 565
+Name: cluster2816rr.1to1ortho.fa.aln-cln_gene659
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 659
+Alignment Patterns: 781
+Name: cluster2276rr.1to1ortho.fa.aln-cln_gene660
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 660
+Alignment Patterns: 364
+Name: cluster178rr.1to1ortho.fa.aln-cln_gene661
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 661
+Alignment Patterns: 904
+Name: cluster1135rr.1to1ortho.fa.aln-cln_gene662
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 662
+Alignment Patterns: 465
+Name: cluster2658rr.1to1ortho.fa.aln-cln_gene663
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 663
+Alignment Patterns: 1696
+Name: cluster4211rr.1to1ortho.fa.aln-cln_gene664
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 664
+Alignment Patterns: 647
+Name: cluster781rr.1to1ortho.fa.aln-cln_gene665
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 665
+Alignment Patterns: 873
+Name: cluster1576rr.1to1ortho.fa.aln-cln_gene666
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 666
+Alignment Patterns: 456
+Name: cluster2801rr.1to1ortho.fa.aln-cln_gene667
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 667
+Alignment Patterns: 475
+Name: cluster2950rr.1to1ortho.fa.aln-cln_gene668
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 668
+Alignment Patterns: 1395
+Name: cluster575rr.1to1ortho.fa.aln-cln_gene669
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 669
+Alignment Patterns: 556
+Name: cluster455rr.1to1ortho.fa.aln-cln_gene670
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 670
+Alignment Patterns: 770
+Name: cluster4404rr.1to1ortho.fa.aln-cln_gene671
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 671
+Alignment Patterns: 428
+Name: cluster5414rr.1to1ortho.fa.aln-cln_gene672
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 672
+Alignment Patterns: 594
+Name: cluster3485rr.1to1ortho.fa.aln-cln_gene673
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 673
+Alignment Patterns: 1108
+Name: cluster2555rr.1to1ortho.fa.aln-cln_gene674
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 674
+Alignment Patterns: 599
+Name: cluster706rr.1to1ortho.fa.aln-cln_gene675
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 675
+Alignment Patterns: 1016
+Name: cluster2637rr.1to1ortho.fa.aln-cln_gene676
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 676
+Alignment Patterns: 720
+Name: cluster3445rr.1to1ortho.fa.aln-cln_gene677
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 677
+Alignment Patterns: 1207
+Name: cluster3324rr.1to1ortho.fa.aln-cln_gene678
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 678
+Alignment Patterns: 977
+Name: cluster4378rr.1to1ortho.fa.aln-cln_gene679
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 679
+Alignment Patterns: 535
+Name: cluster5356rr.1to1ortho.fa.aln-cln_gene680
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 680
+Alignment Patterns: 2248
+Name: cluster1391rr.1to1ortho.fa.aln-cln_gene681
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 681
+Alignment Patterns: 365
+Name: cluster2161rr.1to1ortho.fa.aln-cln_gene682
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 682
+Alignment Patterns: 1088
+Name: cluster2525rr.1to1ortho.fa.aln-cln_gene683
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 683
+Alignment Patterns: 752
+Name: cluster1493rr.1to1ortho.fa.aln-cln_gene684
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 684
+Alignment Patterns: 723
+Name: cluster2014rr.1to1ortho.fa.aln-cln_gene685
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 685
+Alignment Patterns: 803
+Name: cluster2096rr.1to1ortho.fa.aln-cln_gene686
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 686
+Alignment Patterns: 589
+Name: cluster3365rr.1to1ortho.fa.aln-cln_gene687
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 687
+Alignment Patterns: 550
+Name: cluster3919rr.1to1ortho.fa.aln-cln_gene688
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 688
+Alignment Patterns: 721
+Name: cluster1095rr.1to1ortho.fa.aln-cln_gene689
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 689
+Alignment Patterns: 467
+Name: cluster3767rr.1to1ortho.fa.aln-cln_gene690
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 690
+Alignment Patterns: 682
+Name: cluster4171rr.1to1ortho.fa.aln-cln_gene691
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 691
+Alignment Patterns: 368
+Name: cluster2231rr.1to1ortho.fa.aln-cln_gene692
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 692
+Alignment Patterns: 832
+Name: cluster4385rr.1to1ortho.fa.aln-cln_gene693
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 693
+Alignment Patterns: 624
+Name: cluster302rr.1to1ortho.fa.aln-cln_gene694
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 694
+Alignment Patterns: 310
+Name: cluster2783rr.1to1ortho.fa.aln-cln_gene695
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 695
+Alignment Patterns: 1507
+Name: cluster1054rr.1to1ortho.fa.aln-cln_gene696
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 696
+Alignment Patterns: 663
+Name: cluster4959rr.1to1ortho.fa.aln-cln_gene697
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 697
+Alignment Patterns: 376
+Name: cluster3247rr.1to1ortho.fa.aln-cln_gene698
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 698
+Alignment Patterns: 428
+Name: cluster2878rr.1to1ortho.fa.aln-cln_gene699
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 699
+Alignment Patterns: 449
+Name: cluster2315rr.1to1ortho.fa.aln-cln_gene700
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 700
+Alignment Patterns: 1228
+Name: cluster4760rr.1to1ortho.fa.aln-cln_gene701
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 701
+Alignment Patterns: 1235
+Name: cluster4499rr.1to1ortho.fa.aln-cln_gene702
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 702
+Alignment Patterns: 926
+Name: cluster1102rr.1to1ortho.fa.aln-cln_gene703
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 703
+Alignment Patterns: 838
+Name: cluster2171rr.1to1ortho.fa.aln-cln_gene704
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 704
+Alignment Patterns: 470
+Name: cluster5087rr.1to1ortho.fa.aln-cln_gene705
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 705
+Alignment Patterns: 583
+Name: cluster5030rr.1to1ortho.fa.aln-cln_gene706
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 706
+Alignment Patterns: 1413
+Name: cluster2189rr.1to1ortho.fa.aln-cln_gene707
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 707
+Alignment Patterns: 632
+Name: cluster3527rr.1to1ortho.fa.aln-cln_gene708
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 708
+Alignment Patterns: 574
+Name: cluster2826rr.1to1ortho.fa.aln-cln_gene709
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 709
+Alignment Patterns: 715
+Name: cluster2624rr.1to1ortho.fa.aln-cln_gene710
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 710
+Alignment Patterns: 993
+Name: cluster4040rr.1to1ortho.fa.aln-cln_gene711
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 711
+Alignment Patterns: 632
+Name: cluster2863rr.1to1ortho.fa.aln-cln_gene712
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 712
+Alignment Patterns: 566
+Name: cluster5342rr.1to1ortho.fa.aln-cln_gene713
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 713
+Alignment Patterns: 510
+Name: cluster2275rr.1to1ortho.fa.aln-cln_gene714
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 714
+Alignment Patterns: 1147
+Name: cluster536rr.1to1ortho.fa.aln-cln_gene715
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 715
+Alignment Patterns: 1014
+Name: cluster480rr.1to1ortho.fa.aln-cln_gene716
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 716
+Alignment Patterns: 350
+Name: cluster1800rr.1to1ortho.fa.aln-cln_gene717
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 717
+Alignment Patterns: 819
+Name: cluster1126rr.1to1ortho.fa.aln-cln_gene718
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 718
+Alignment Patterns: 1535
+Name: cluster1953rr.1to1ortho.fa.aln-cln_gene719
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 719
+Alignment Patterns: 527
+Name: cluster4780rr.1to1ortho.fa.aln-cln_gene720
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 720
+Alignment Patterns: 335
+Name: cluster2025rr.1to1ortho.fa.aln-cln_gene721
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 721
+Alignment Patterns: 328
+Name: cluster3433rr.1to1ortho.fa.aln-cln_gene722
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 722
+Alignment Patterns: 673
+Name: cluster1649rr.1to1ortho.fa.aln-cln_gene723
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 723
+Alignment Patterns: 681
+Name: cluster1129rr.1to1ortho.fa.aln-cln_gene724
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 724
+Alignment Patterns: 750
+Name: cluster3647rr.1to1ortho.fa.aln-cln_gene725
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 725
+Alignment Patterns: 651
+Name: cluster4986rr.1to1ortho.fa.aln-cln_gene726
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 726
+Alignment Patterns: 1012
+Name: cluster2532rr.1to1ortho.fa.aln-cln_gene727
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 727
+Alignment Patterns: 672
+Name: cluster4546rr.1to1ortho.fa.aln-cln_gene728
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 728
+Alignment Patterns: 1438
+Name: cluster3694rr.1to1ortho.fa.aln-cln_gene729
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 729
+Alignment Patterns: 680
+Name: cluster996rr.1to1ortho.fa.aln-cln_gene730
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 730
+Alignment Patterns: 712
+Name: cluster662rr.1to1ortho.fa.aln-cln_gene731
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 731
+Alignment Patterns: 500
+Name: cluster762rr.1to1ortho.fa.aln-cln_gene732
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 732
+Alignment Patterns: 588
+Name: cluster2105rr.1to1ortho.fa.aln-cln_gene733
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 733
+Alignment Patterns: 1280
+Name: cluster4794rr.1to1ortho.fa.aln-cln_gene734
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 734
+Alignment Patterns: 425
+Name: cluster2639rr.1to1ortho.fa.aln-cln_gene735
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 735
+Alignment Patterns: 402
+Name: cluster2153rr.1to1ortho.fa.aln-cln_gene736
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 736
+Alignment Patterns: 1133
+Name: cluster4463rr.1to1ortho.fa.aln-cln_gene737
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 737
+Alignment Patterns: 1204
+Name: cluster2002rr.1to1ortho.fa.aln-cln_gene738
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 738
+Alignment Patterns: 364
+Name: cluster3835rr.1to1ortho.fa.aln-cln_gene739
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 739
+Alignment Patterns: 671
+Name: cluster3731rr.1to1ortho.fa.aln-cln_gene740
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 740
+Alignment Patterns: 279
+Name: cluster4178rr.1to1ortho.fa.aln-cln_gene741
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 741
+Alignment Patterns: 1063
+Name: cluster3940rr.1to1ortho.fa.aln-cln_gene742
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 742
+Alignment Patterns: 1084
+Name: cluster838rr.1to1ortho.fa.aln-cln_gene743
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 743
+Alignment Patterns: 1383
+Name: cluster3663rr.1to1ortho.fa.aln-cln_gene744
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 744
+Alignment Patterns: 578
+Name: cluster2648rr.1to1ortho.fa.aln-cln_gene745
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 745
+Alignment Patterns: 865
+Name: cluster396rr.1to1ortho.fa.aln-cln_gene746
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 746
+Alignment Patterns: 1425
+Name: cluster1625rr.1to1ortho.fa.aln-cln_gene747
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 747
+Alignment Patterns: 849
+Name: cluster2028rr.1to1ortho.fa.aln-cln_gene748
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 748
+Alignment Patterns: 876
+Name: cluster368rr.1to1ortho.fa.aln-cln_gene749
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 749
+Alignment Patterns: 516
+Name: cluster618rr.1to1ortho.fa.aln-cln_gene750
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 750
+Alignment Patterns: 1607
+Name: cluster3437rr.1to1ortho.fa.aln-cln_gene751
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 751
+Alignment Patterns: 559
+Name: cluster3387rr.1to1ortho.fa.aln-cln_gene752
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 752
+Alignment Patterns: 580
+Name: cluster2274rr.1to1ortho.fa.aln-cln_gene753
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 753
+Alignment Patterns: 818
+Name: cluster2203rr.1to1ortho.fa.aln-cln_gene754
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 754
+Alignment Patterns: 1102
+Name: cluster4278rr.1to1ortho.fa.aln-cln_gene755
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 755
+Alignment Patterns: 600
+Name: cluster2259rr.1to1ortho.fa.aln-cln_gene756
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 756
+Alignment Patterns: 736
+Name: cluster3408rr.1to1ortho.fa.aln-cln_gene757
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 757
+Alignment Patterns: 450
+Name: cluster1819rr.1to1ortho.fa.aln-cln_gene758
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 758
+Alignment Patterns: 937
+Name: cluster496rr.1to1ortho.fa.aln-cln_gene759
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 759
+Alignment Patterns: 948
+Name: cluster3367rr.1to1ortho.fa.aln-cln_gene760
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 760
+Alignment Patterns: 378
+Name: cluster2591rr.1to1ortho.fa.aln-cln_gene761
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 761
+Alignment Patterns: 685
+Name: cluster3145rr.1to1ortho.fa.aln-cln_gene762
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 762
+Alignment Patterns: 469
+Name: cluster2972rr.1to1ortho.fa.aln-cln_gene763
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 763
+Alignment Patterns: 709
+Name: cluster3047rr.1to1ortho.fa.aln-cln_gene764
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 764
+Alignment Patterns: 772
+Name: cluster3912rr.1to1ortho.fa.aln-cln_gene765
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 765
+Alignment Patterns: 598
+Name: cluster2825rr.1to1ortho.fa.aln-cln_gene766
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 766
+Alignment Patterns: 764
+Name: cluster1841rr.1to1ortho.fa.aln-cln_gene767
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 767
+Alignment Patterns: 623
+Name: cluster3962rr.1to1ortho.fa.aln-cln_gene768
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 768
+Alignment Patterns: 571
+Name: cluster2426rr.1to1ortho.fa.aln-cln_gene769
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 769
+Alignment Patterns: 396
+Name: cluster4839rr.1to1ortho.fa.aln-cln_gene770
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 770
+Alignment Patterns: 671
+Name: cluster3190rr.1to1ortho.fa.aln-cln_gene771
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 771
+Alignment Patterns: 632
+Name: cluster5026rr.1to1ortho.fa.aln-cln_gene772
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 772
+Alignment Patterns: 1121
+Name: cluster541rr.1to1ortho.fa.aln-cln_gene773
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 773
+Alignment Patterns: 589
+Name: cluster4246rr.1to1ortho.fa.aln-cln_gene774
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 774
+Alignment Patterns: 384
+Name: cluster1472rr.1to1ortho.fa.aln-cln_gene775
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 775
+Alignment Patterns: 738
+Name: cluster3918rr.1to1ortho.fa.aln-cln_gene776
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 776
+Alignment Patterns: 867
+Name: cluster2250rr.1to1ortho.fa.aln-cln_gene777
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 777
+Alignment Patterns: 661
+Name: cluster992rr.1to1ortho.fa.aln-cln_gene778
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 778
+Alignment Patterns: 793
+Name: cluster3837rr.1to1ortho.fa.aln-cln_gene779
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 779
+Alignment Patterns: 852
+Name: cluster1673rr.1to1ortho.fa.aln-cln_gene780
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 780
+Alignment Patterns: 189
+Name: cluster4018rr.1to1ortho.fa.aln-cln_gene781
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 781
+Alignment Patterns: 1210
+Name: cluster1497rr.1to1ortho.fa.aln-cln_gene782
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 782
+Alignment Patterns: 737
+Name: cluster5425rr.1to1ortho.fa.aln-cln_gene783
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 783
+Alignment Patterns: 466
+Name: cluster3646rr.1to1ortho.fa.aln-cln_gene784
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 784
+Alignment Patterns: 906
+Name: cluster2128rr.1to1ortho.fa.aln-cln_gene785
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 785
+Alignment Patterns: 1016
+Name: cluster4162rr.1to1ortho.fa.aln-cln_gene786
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 786
+Alignment Patterns: 1048
+Name: cluster2597rr.1to1ortho.fa.aln-cln_gene787
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 787
+Alignment Patterns: 691
+Name: cluster747rr.1to1ortho.fa.aln-cln_gene788
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 788
+Alignment Patterns: 383
+Name: cluster2760rr.1to1ortho.fa.aln-cln_gene789
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 789
+Alignment Patterns: 771
+Name: cluster3780rr.1to1ortho.fa.aln-cln_gene790
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 790
+Alignment Patterns: 643
+Name: cluster2035rr.1to1ortho.fa.aln-cln_gene791
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 791
+Alignment Patterns: 446
+Name: cluster2223rr.1to1ortho.fa.aln-cln_gene792
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 792
+Alignment Patterns: 639
+Name: cluster2814rr.1to1ortho.fa.aln-cln_gene793
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 793
+Alignment Patterns: 405
+Name: cluster1935rr.1to1ortho.fa.aln-cln_gene794
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 794
+Alignment Patterns: 1004
+Name: cluster2264rr.1to1ortho.fa.aln-cln_gene795
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 795
+Alignment Patterns: 1028
+Name: cluster1813rr.1to1ortho.fa.aln-cln_gene796
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 796
+Alignment Patterns: 650
+Name: cluster1311rr.1to1ortho.fa.aln-cln_gene797
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 797
+Alignment Patterns: 975
+Name: cluster2235rr.1to1ortho.fa.aln-cln_gene798
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 798
+Alignment Patterns: 325
+Name: cluster3309rr.1to1ortho.fa.aln-cln_gene799
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 799
+Alignment Patterns: 288
+Name: cluster4248rr.1to1ortho.fa.aln-cln_gene800
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 800
+Alignment Patterns: 562
+Name: cluster902rr.1to1ortho.fa.aln-cln_gene801
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 801
+Alignment Patterns: 436
+Name: cluster2608rr.1to1ortho.fa.aln-cln_gene802
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 802
+Alignment Patterns: 994
+Name: cluster1508rr.1to1ortho.fa.aln-cln_gene803
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 803
+Alignment Patterns: 624
+Name: cluster4021rr.1to1ortho.fa.aln-cln_gene804
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 804
+Alignment Patterns: 617
+Name: cluster3790rr.1to1ortho.fa.aln-cln_gene805
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 805
+Alignment Patterns: 960
+Name: cluster5121rr.1to1ortho.fa.aln-cln_gene806
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 806
+Alignment Patterns: 765
+Name: cluster2554rr.1to1ortho.fa.aln-cln_gene807
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 807
+Alignment Patterns: 628
+Name: cluster1585rr.1to1ortho.fa.aln-cln_gene808
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 808
+Alignment Patterns: 773
+Name: cluster4148rr.1to1ortho.fa.aln-cln_gene809
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 809
+Alignment Patterns: 499
+Name: cluster2568rr.1to1ortho.fa.aln-cln_gene810
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 810
+Alignment Patterns: 579
+Name: cluster2663rr.1to1ortho.fa.aln-cln_gene811
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 811
+Alignment Patterns: 630
+Name: cluster846rr.1to1ortho.fa.aln-cln_gene812
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 812
+Alignment Patterns: 446
+Name: cluster4885rr.1to1ortho.fa.aln-cln_gene813
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 813
+Alignment Patterns: 1019
+Name: cluster599rr.1to1ortho.fa.aln-cln_gene814
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 814
+Alignment Patterns: 251
+Name: cluster3260rr.1to1ortho.fa.aln-cln_gene815
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 815
+Alignment Patterns: 447
+Name: cluster3187rr.1to1ortho.fa.aln-cln_gene816
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 816
+Alignment Patterns: 534
+Name: cluster960rr.1to1ortho.fa.aln-cln_gene817
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 817
+Alignment Patterns: 697
+Name: cluster888rr.1to1ortho.fa.aln-cln_gene818
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 818
+Alignment Patterns: 766
+Name: cluster4566rr.1to1ortho.fa.aln-cln_gene819
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 819
+Alignment Patterns: 766
+Name: cluster4295rr.1to1ortho.fa.aln-cln_gene820
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 820
+Alignment Patterns: 913
+Name: cluster4910rr.1to1ortho.fa.aln-cln_gene821
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 821
+Alignment Patterns: 317
+Name: cluster3229rr.1to1ortho.fa.aln-cln_gene822
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 822
+Alignment Patterns: 744
+Name: cluster3797rr.1to1ortho.fa.aln-cln_gene823
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 823
+Alignment Patterns: 750
+Name: cluster1786rr.1to1ortho.fa.aln-cln_gene824
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 824
+Alignment Patterns: 719
+Name: cluster2604rr.1to1ortho.fa.aln-cln_gene825
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 825
+Alignment Patterns: 308
+Name: cluster1897rr.1to1ortho.fa.aln-cln_gene826
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 826
+Alignment Patterns: 876
+Name: cluster3263rr.1to1ortho.fa.aln-cln_gene827
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 827
+Alignment Patterns: 2114
+Name: cluster2455rr.1to1ortho.fa.aln-cln_gene828
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 828
+Alignment Patterns: 299
+Name: cluster3442rr.1to1ortho.fa.aln-cln_gene829
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 829
+Alignment Patterns: 549
+Name: cluster3824rr.1to1ortho.fa.aln-cln_gene830
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 830
+Alignment Patterns: 920
+Name: cluster4737rr.1to1ortho.fa.aln-cln_gene831
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 831
+Alignment Patterns: 600
+Name: cluster2781rr.1to1ortho.fa.aln-cln_gene832
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 832
+Alignment Patterns: 1054
+Name: cluster3390rr.1to1ortho.fa.aln-cln_gene833
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 833
+Alignment Patterns: 723
+Name: cluster4500rr.1to1ortho.fa.aln-cln_gene834
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 834
+Alignment Patterns: 539
+Name: cluster2759rr.1to1ortho.fa.aln-cln_gene835
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 835
+Alignment Patterns: 562
+Name: cluster4206rr.1to1ortho.fa.aln-cln_gene836
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 836
+Alignment Patterns: 475
+Name: cluster3862rr.1to1ortho.fa.aln-cln_gene837
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 837
+Alignment Patterns: 894
+Name: cluster1888rr.1to1ortho.fa.aln-cln_gene838
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 838
+Alignment Patterns: 698
+Name: cluster1406rr.1to1ortho.fa.aln-cln_gene839
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 839
+Alignment Patterns: 2182
+Name: cluster3522rr.1to1ortho.fa.aln-cln_gene840
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 840
+Alignment Patterns: 910
+Name: cluster4512rr.1to1ortho.fa.aln-cln_gene841
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 841
+Alignment Patterns: 473
+Name: cluster2524rr.1to1ortho.fa.aln-cln_gene842
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 842
+Alignment Patterns: 472
+Name: cluster2578rr.1to1ortho.fa.aln-cln_gene843
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 843
+Alignment Patterns: 621
+Name: cluster5570rr.1to1ortho.fa.aln-cln_gene844
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 844
+Alignment Patterns: 310
+Name: cluster4287rr.1to1ortho.fa.aln-cln_gene845
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 845
+Alignment Patterns: 272
+Name: cluster2290rr.1to1ortho.fa.aln-cln_gene846
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 846
+Alignment Patterns: 1494
+Name: cluster4537rr.1to1ortho.fa.aln-cln_gene847
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 847
+Alignment Patterns: 1021
+Name: cluster4381rr.1to1ortho.fa.aln-cln_gene848
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 848
+Alignment Patterns: 689
+Name: cluster2054rr.1to1ortho.fa.aln-cln_gene849
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 849
+Alignment Patterns: 313
+Name: cluster5046rr.1to1ortho.fa.aln-cln_gene850
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 850
+Alignment Patterns: 387
+Name: cluster3832rr.1to1ortho.fa.aln-cln_gene851
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 851
+Alignment Patterns: 248
+Name: cluster3294rr.1to1ortho.fa.aln-cln_gene852
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 852
+Alignment Patterns: 499
+Name: cluster2541rr.1to1ortho.fa.aln-cln_gene853
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 853
+Alignment Patterns: 577
+Name: cluster4882rr.1to1ortho.fa.aln-cln_gene854
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 854
+Alignment Patterns: 818
+Name: cluster2593rr.1to1ortho.fa.aln-cln_gene855
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 855
+Alignment Patterns: 593
+Name: cluster5072rr.1to1ortho.fa.aln-cln_gene856
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 856
+Alignment Patterns: 506
+Name: cluster3211rr.1to1ortho.fa.aln-cln_gene857
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 857
+Alignment Patterns: 497
+Name: cluster2221rr.1to1ortho.fa.aln-cln_gene858
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 858
+Alignment Patterns: 769
+Name: cluster1215rr.1to1ortho.fa.aln-cln_gene859
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 859
+Alignment Patterns: 974
+Name: cluster915rr.1to1ortho.fa.aln-cln_gene860
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 860
+Alignment Patterns: 891
+Name: cluster2498rr.1to1ortho.fa.aln-cln_gene861
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 861
+Alignment Patterns: 1499
+Name: cluster5521rr.1to1ortho.fa.aln-cln_gene862
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 862
+Alignment Patterns: 760
+Name: cluster2968rr.1to1ortho.fa.aln-cln_gene863
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 863
+Alignment Patterns: 1380
+Name: cluster2673rr.1to1ortho.fa.aln-cln_gene864
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 864
+Alignment Patterns: 609
+Name: cluster1601rr.1to1ortho.fa.aln-cln_gene865
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 865
+Alignment Patterns: 1169
+Name: cluster3921rr.1to1ortho.fa.aln-cln_gene866
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 866
+Alignment Patterns: 410
+Name: cluster3430rr.1to1ortho.fa.aln-cln_gene867
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 867
+Alignment Patterns: 1024
+Name: cluster4275rr.1to1ortho.fa.aln-cln_gene868
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 868
+Alignment Patterns: 932
+Name: cluster4906rr.1to1ortho.fa.aln-cln_gene869
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 869
+Alignment Patterns: 430
+Name: cluster5086rr.1to1ortho.fa.aln-cln_gene870
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 870
+Alignment Patterns: 1969
+Name: cluster4989rr.1to1ortho.fa.aln-cln_gene871
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 871
+Alignment Patterns: 668
+Name: cluster3274rr.1to1ortho.fa.aln-cln_gene872
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 872
+Alignment Patterns: 712
+Name: cluster1949rr.1to1ortho.fa.aln-cln_gene873
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 873
+Alignment Patterns: 1221
+Name: cluster925rr.1to1ortho.fa.aln-cln_gene874
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 874
+Alignment Patterns: 791
+Name: cluster1201rr.1to1ortho.fa.aln-cln_gene875
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 875
+Alignment Patterns: 1761
+Name: cluster3376rr.1to1ortho.fa.aln-cln_gene876
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 876
+Alignment Patterns: 407
+Name: cluster958rr.1to1ortho.fa.aln-cln_gene877
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 877
+Alignment Patterns: 309
+Name: cluster1863rr.1to1ortho.fa.aln-cln_gene878
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 878
+Alignment Patterns: 1411
+Name: cluster1127rr.1to1ortho.fa.aln-cln_gene879
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 879
+Alignment Patterns: 951
+Name: cluster2739rr.1to1ortho.fa.aln-cln_gene880
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 880
+Alignment Patterns: 657
+Name: cluster2623rr.1to1ortho.fa.aln-cln_gene881
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 881
+Alignment Patterns: 613
+Name: cluster4517rr.1to1ortho.fa.aln-cln_gene882
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 882
+Alignment Patterns: 340
+Name: cluster4229rr.1to1ortho.fa.aln-cln_gene883
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 883
+Alignment Patterns: 1140
+Name: cluster2787rr.1to1ortho.fa.aln-cln_gene884
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 884
+Alignment Patterns: 294
+Name: cluster1641rr.1to1ortho.fa.aln-cln_gene885
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 885
+Alignment Patterns: 866
+Name: cluster357rr.1to1ortho.fa.aln-cln_gene886
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 886
+Alignment Patterns: 697
+Name: cluster1128rr.1to1ortho.fa.aln-cln_gene887
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 887
+Alignment Patterns: 481
+Name: cluster2818rr.1to1ortho.fa.aln-cln_gene888
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 888
+Alignment Patterns: 1013
+Name: cluster2273rr.1to1ortho.fa.aln-cln_gene889
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 889
+Alignment Patterns: 413
+Name: cluster4350rr.1to1ortho.fa.aln-cln_gene890
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 890
+Alignment Patterns: 248
+Name: cluster2850rr.1to1ortho.fa.aln-cln_gene891
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 891
+Alignment Patterns: 834
+Name: cluster782rr.1to1ortho.fa.aln-cln_gene892
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 892
+Alignment Patterns: 501
+Name: cluster4919rr.1to1ortho.fa.aln-cln_gene893
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 893
+Alignment Patterns: 505
+Name: cluster3293rr.1to1ortho.fa.aln-cln_gene894
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 894
+Alignment Patterns: 1261
+Name: cluster2291rr.1to1ortho.fa.aln-cln_gene895
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 895
+Alignment Patterns: 580
+Name: cluster1745rr.1to1ortho.fa.aln-cln_gene896
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 896
+Alignment Patterns: 936
+Name: cluster2902rr.1to1ortho.fa.aln-cln_gene897
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 897
+Alignment Patterns: 1092
+Name: cluster4397rr.1to1ortho.fa.aln-cln_gene898
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 898
+Alignment Patterns: 746
+Name: cluster5527rr.1to1ortho.fa.aln-cln_gene899
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 899
+Alignment Patterns: 602
+Name: cluster2065rr.1to1ortho.fa.aln-cln_gene900
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 900
+Alignment Patterns: 1043
+Name: cluster1039rr.1to1ortho.fa.aln-cln_gene901
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 901
+Alignment Patterns: 535
+Name: cluster2410rr.1to1ortho.fa.aln-cln_gene902
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 902
+Alignment Patterns: 1344
+Name: cluster3199rr.1to1ortho.fa.aln-cln_gene903
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 903
+Alignment Patterns: 401
+Name: cluster3043rr.1to1ortho.fa.aln-cln_gene904
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 904
+Alignment Patterns: 445
+Name: cluster2656rr.1to1ortho.fa.aln-cln_gene905
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 905
+Alignment Patterns: 849
+Name: cluster4796rr.1to1ortho.fa.aln-cln_gene906
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 906
+Alignment Patterns: 588
+Name: cluster2312rr.1to1ortho.fa.aln-cln_gene907
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 907
+Alignment Patterns: 1515
+Name: cluster2975rr.1to1ortho.fa.aln-cln_gene908
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 908
+Alignment Patterns: 728
+Name: cluster3786rr.1to1ortho.fa.aln-cln_gene909
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 909
+Alignment Patterns: 921
+Name: cluster1420rr.1to1ortho.fa.aln-cln_gene910
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 910
+Alignment Patterns: 687
+Name: cluster3650rr.1to1ortho.fa.aln-cln_gene911
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 911
+Alignment Patterns: 644
+Name: cluster2281rr.1to1ortho.fa.aln-cln_gene912
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 912
+Alignment Patterns: 1127
+Name: cluster479rr.1to1ortho.fa.aln-cln_gene913
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 913
+Alignment Patterns: 772
+Name: cluster2834rr.1to1ortho.fa.aln-cln_gene914
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 914
+Alignment Patterns: 423
+Name: cluster1847rr.1to1ortho.fa.aln-cln_gene915
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 915
+Alignment Patterns: 372
+Name: cluster5549rr.1to1ortho.fa.aln-cln_gene916
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 916
+Alignment Patterns: 1098
+Name: cluster4868rr.1to1ortho.fa.aln-cln_gene917
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 917
+Alignment Patterns: 548
+Name: cluster3944rr.1to1ortho.fa.aln-cln_gene918
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 918
+Alignment Patterns: 635
+Name: cluster1892rr.1to1ortho.fa.aln-cln_gene919
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 919
+Alignment Patterns: 1014
+Name: cluster2596rr.1to1ortho.fa.aln-cln_gene920
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 920
+Alignment Patterns: 278
+Name: cluster3776rr.1to1ortho.fa.aln-cln_gene921
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 921
+Alignment Patterns: 1088
+Name: cluster3906rr.1to1ortho.fa.aln-cln_gene922
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 922
+Alignment Patterns: 575
+Name: cluster2134rr.1to1ortho.fa.aln-cln_gene923
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 923
+Alignment Patterns: 449
+Name: cluster3160rr.1to1ortho.fa.aln-cln_gene924
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 924
+Alignment Patterns: 171
+Name: cluster3347rr.1to1ortho.fa.aln-cln_gene925
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 925
+Alignment Patterns: 433
+Name: cluster3460rr.1to1ortho.fa.aln-cln_gene926
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 926
+Alignment Patterns: 642
+Name: cluster1288rr.1to1ortho.fa.aln-cln_gene927
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 927
+Alignment Patterns: 1229
+Name: cluster3536rr.1to1ortho.fa.aln-cln_gene928
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 928
+Alignment Patterns: 642
+Name: cluster3189rr.1to1ortho.fa.aln-cln_gene929
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 929
+Alignment Patterns: 1116
+Name: cluster3342rr.1to1ortho.fa.aln-cln_gene930
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 930
+Alignment Patterns: 991
+Name: cluster1413rr.1to1ortho.fa.aln-cln_gene931
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 931
+Alignment Patterns: 395
+Name: cluster2583rr.1to1ortho.fa.aln-cln_gene932
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 932
+Alignment Patterns: 569
+Name: cluster4852rr.1to1ortho.fa.aln-cln_gene933
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 933
+Alignment Patterns: 644
+Name: cluster4741rr.1to1ortho.fa.aln-cln_gene934
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 934
+Alignment Patterns: 566
+Name: cluster5387rr.1to1ortho.fa.aln-cln_gene935
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 935
+Alignment Patterns: 468
+Name: cluster4218rr.1to1ortho.fa.aln-cln_gene936
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 936
+Alignment Patterns: 858
+Name: cluster3279rr.1to1ortho.fa.aln-cln_gene937
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 937
+Alignment Patterns: 1224
+Name: cluster3969rr.1to1ortho.fa.aln-cln_gene938
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 938
+Alignment Patterns: 996
+Name: cluster3781rr.1to1ortho.fa.aln-cln_gene939
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 939
+Alignment Patterns: 815
+Name: cluster3419rr.1to1ortho.fa.aln-cln_gene940
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 940
+Alignment Patterns: 772
+Name: cluster4538rr.1to1ortho.fa.aln-cln_gene941
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 941
+Alignment Patterns: 724
+Name: cluster3325rr.1to1ortho.fa.aln-cln_gene942
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 942
+Alignment Patterns: 556
+Name: cluster5079rr.1to1ortho.fa.aln-cln_gene943
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 943
+Alignment Patterns: 2773
+Name: cluster4159rr.1to1ortho.fa.aln-cln_gene944
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 944
+Alignment Patterns: 902
+Name: cluster1643rr.1to1ortho.fa.aln-cln_gene945
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 945
+Alignment Patterns: 917
+Name: cluster3980rr.1to1ortho.fa.aln-cln_gene946
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 946
+Alignment Patterns: 997
+Name: cluster2769rr.1to1ortho.fa.aln-cln_gene947
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 947
+Alignment Patterns: 494
+Name: cluster1593rr.1to1ortho.fa.aln-cln_gene948
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 948
+Alignment Patterns: 433
+Name: cluster2621rr.1to1ortho.fa.aln-cln_gene949
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 949
+Alignment Patterns: 1676
+Name: cluster4200rr.1to1ortho.fa.aln-cln_gene950
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 950
+Alignment Patterns: 551
+Name: cluster776rr.1to1ortho.fa.aln-cln_gene951
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 951
+Alignment Patterns: 726
+Name: cluster3770rr.1to1ortho.fa.aln-cln_gene952
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 952
+Alignment Patterns: 419
+Name: cluster1955rr.1to1ortho.fa.aln-cln_gene953
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 953
+Alignment Patterns: 615
+Name: cluster3036rr.1to1ortho.fa.aln-cln_gene954
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 954
+Alignment Patterns: 1523
+Name: cluster1468rr.1to1ortho.fa.aln-cln_gene955
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 955
+Alignment Patterns: 1379
+Name: cluster5471rr.1to1ortho.fa.aln-cln_gene956
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 956
+Alignment Patterns: 390
+Name: cluster4330rr.1to1ortho.fa.aln-cln_gene957
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 957
+Alignment Patterns: 1098
+Name: cluster1795rr.1to1ortho.fa.aln-cln_gene958
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 958
+Alignment Patterns: 402
+Name: cluster1931rr.1to1ortho.fa.aln-cln_gene959
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 959
+Alignment Patterns: 883
+Name: cluster4265rr.1to1ortho.fa.aln-cln_gene960
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 960
+Alignment Patterns: 823
+Name: cluster3989rr.1to1ortho.fa.aln-cln_gene961
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 961
+Alignment Patterns: 540
+Name: cluster4487rr.1to1ortho.fa.aln-cln_gene962
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 962
+Alignment Patterns: 1397
+Name: cluster3017rr.1to1ortho.fa.aln-cln_gene963
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 963
+Alignment Patterns: 404
+Name: cluster2820rr.1to1ortho.fa.aln-cln_gene964
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 964
+Alignment Patterns: 348
+Name: cluster899rr.1to1ortho.fa.aln-cln_gene965
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 965
+Alignment Patterns: 664
+Name: cluster2603rr.1to1ortho.fa.aln-cln_gene966
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 966
+Alignment Patterns: 726
+Name: cluster4306rr.1to1ortho.fa.aln-cln_gene967
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 967
+Alignment Patterns: 773
+Name: cluster5594rr.1to1ortho.fa.aln-cln_gene968
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 968
+Alignment Patterns: 1657
+Name: cluster4822rr.1to1ortho.fa.aln-cln_gene969
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 969
+Alignment Patterns: 941
+Name: cluster3924rr.1to1ortho.fa.aln-cln_gene970
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 970
+Alignment Patterns: 1560
+Name: cluster4521rr.1to1ortho.fa.aln-cln_gene971
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 971
+Alignment Patterns: 1492
+Name: cluster3300rr.1to1ortho.fa.aln-cln_gene972
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 972
+Alignment Patterns: 1305
+Name: cluster3993rr.1to1ortho.fa.aln-cln_gene973
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 973
+Alignment Patterns: 338
+Name: cluster2600rr.1to1ortho.fa.aln-cln_gene974
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 974
+Alignment Patterns: 643
+Name: cluster1556rr.1to1ortho.fa.aln-cln_gene975
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 975
+Alignment Patterns: 890
+Name: cluster4304rr.1to1ortho.fa.aln-cln_gene976
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 976
+Alignment Patterns: 1009
+Name: cluster3173rr.1to1ortho.fa.aln-cln_gene977
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 977
+Alignment Patterns: 516
+Name: cluster3651rr.1to1ortho.fa.aln-cln_gene978
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 978
+Alignment Patterns: 460
+Name: cluster4971rr.1to1ortho.fa.aln-cln_gene979
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 979
+Alignment Patterns: 764
+Name: cluster2165rr.1to1ortho.fa.aln-cln_gene980
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 980
+Alignment Patterns: 586
+Name: cluster4343rr.1to1ortho.fa.aln-cln_gene981
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 981
+Alignment Patterns: 289
+Name: cluster2515rr.1to1ortho.fa.aln-cln_gene982
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 982
+Alignment Patterns: 756
+Name: cluster3130rr.1to1ortho.fa.aln-cln_gene983
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 983
+Alignment Patterns: 1771
+Name: cluster560rr.1to1ortho.fa.aln-cln_gene984
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 984
+Alignment Patterns: 716
+Name: cluster1647rr.1to1ortho.fa.aln-cln_gene985
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 985
+Alignment Patterns: 1080
+Name: cluster3236rr.1to1ortho.fa.aln-cln_gene986
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 986
+Alignment Patterns: 476
+Name: cluster3401rr.1to1ortho.fa.aln-cln_gene987
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 987
+Alignment Patterns: 1459
+Name: cluster2540rr.1to1ortho.fa.aln-cln_gene988
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 988
+Alignment Patterns: 539
+Name: cluster2836rr.1to1ortho.fa.aln-cln_gene989
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 989
+Alignment Patterns: 1161
+Name: cluster3061rr.1to1ortho.fa.aln-cln_gene990
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 990
+Alignment Patterns: 615
+Name: cluster2886rr.1to1ortho.fa.aln-cln_gene991
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 991
+Alignment Patterns: 1109
+Name: cluster1341rr.1to1ortho.fa.aln-cln_gene992
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 992
+Alignment Patterns: 726
+Name: cluster4184rr.1to1ortho.fa.aln-cln_gene993
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 993
+Alignment Patterns: 896
+Name: cluster4251rr.1to1ortho.fa.aln-cln_gene994
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 994
+Alignment Patterns: 692
+Name: cluster1777rr.1to1ortho.fa.aln-cln_gene995
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 995
+Alignment Patterns: 984
+Name: cluster3005rr.1to1ortho.fa.aln-cln_gene996
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 996
+Alignment Patterns: 551
+Name: cluster2438rr.1to1ortho.fa.aln-cln_gene997
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 997
+Alignment Patterns: 582
+Name: cluster5357rr.1to1ortho.fa.aln-cln_gene998
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 998
+Alignment Patterns: 839
+Name: cluster1787rr.1to1ortho.fa.aln-cln_gene999
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 999
+Alignment Patterns: 691
+Name: cluster2490rr.1to1ortho.fa.aln-cln_gene1000
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1000
+Alignment Patterns: 393
+Name: cluster4011rr.1to1ortho.fa.aln-cln_gene1001
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1001
+Alignment Patterns: 503
+Name: cluster5091rr.1to1ortho.fa.aln-cln_gene1002
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1002
+Alignment Patterns: 1082
+Name: cluster2900rr.1to1ortho.fa.aln-cln_gene1003
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1003
+Alignment Patterns: 1712
+Name: cluster5480rr.1to1ortho.fa.aln-cln_gene1004
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1004
+Alignment Patterns: 773
+Name: cluster4511rr.1to1ortho.fa.aln-cln_gene1005
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1005
+Alignment Patterns: 569
+Name: cluster4736rr.1to1ortho.fa.aln-cln_gene1006
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1006
+Alignment Patterns: 676
+Name: cluster2041rr.1to1ortho.fa.aln-cln_gene1007
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1007
+Alignment Patterns: 1040
+Name: cluster2402rr.1to1ortho.fa.aln-cln_gene1008
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1008
+Alignment Patterns: 485
+Name: cluster1219rr.1to1ortho.fa.aln-cln_gene1009
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1009
+Alignment Patterns: 735
+Name: cluster4575rr.1to1ortho.fa.aln-cln_gene1010
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1010
+Alignment Patterns: 715
+Name: cluster5359rr.1to1ortho.fa.aln-cln_gene1011
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1011
+Alignment Patterns: 347
+Name: cluster3955rr.1to1ortho.fa.aln-cln_gene1012
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1012
+Alignment Patterns: 1098
+Name: cluster5300rr.1to1ortho.fa.aln-cln_gene1013
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1013
+Alignment Patterns: 1190
+Name: cluster739rr.1to1ortho.fa.aln-cln_gene1014
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1014
+Alignment Patterns: 828
+Name: cluster5410rr.1to1ortho.fa.aln-cln_gene1015
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1015
+Alignment Patterns: 214
+Name: cluster3948rr.1to1ortho.fa.aln-cln_gene1016
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1016
+Alignment Patterns: 527
+Name: cluster646rr.1to1ortho.fa.aln-cln_gene1017
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1017
+Alignment Patterns: 301
+Name: cluster3034rr.1to1ortho.fa.aln-cln_gene1018
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1018
+Alignment Patterns: 1078
+Name: cluster505rr.1to1ortho.fa.aln-cln_gene1019
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1019
+Alignment Patterns: 1112
+Name: cluster1826rr.1to1ortho.fa.aln-cln_gene1020
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1020
+Alignment Patterns: 825
+Name: cluster3400rr.1to1ortho.fa.aln-cln_gene1021
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1021
+Alignment Patterns: 390
+Name: cluster2935rr.1to1ortho.fa.aln-cln_gene1022
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1022
+Alignment Patterns: 459
+Name: cluster4554rr.1to1ortho.fa.aln-cln_gene1023
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1023
+Alignment Patterns: 497
+Name: cluster1880rr.1to1ortho.fa.aln-cln_gene1024
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1024
+Alignment Patterns: 1023
+Name: cluster1414rr.1to1ortho.fa.aln-cln_gene1025
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1025
+Alignment Patterns: 431
+Name: cluster2119rr.1to1ortho.fa.aln-cln_gene1026
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1026
+Alignment Patterns: 373
+Name: cluster2052rr.1to1ortho.fa.aln-cln_gene1027
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1027
+Alignment Patterns: 1610
+Name: cluster2443rr.1to1ortho.fa.aln-cln_gene1028
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1028
+Alignment Patterns: 903
+Name: cluster1466rr.1to1ortho.fa.aln-cln_gene1029
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1029
+Alignment Patterns: 579
+Name: cluster3028rr.1to1ortho.fa.aln-cln_gene1030
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1030
+Alignment Patterns: 1095
+Name: cluster3889rr.1to1ortho.fa.aln-cln_gene1031
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1031
+Alignment Patterns: 517
+Name: cluster2511rr.1to1ortho.fa.aln-cln_gene1032
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1032
+Alignment Patterns: 889
+Name: cluster1512rr.1to1ortho.fa.aln-cln_gene1033
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1033
+Alignment Patterns: 427
+Name: cluster1929rr.1to1ortho.fa.aln-cln_gene1034
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1034
+Alignment Patterns: 671
+Name: cluster4375rr.1to1ortho.fa.aln-cln_gene1035
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1035
+Alignment Patterns: 828
+Name: cluster2010rr.1to1ortho.fa.aln-cln_gene1036
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1036
+Alignment Patterns: 867
+Name: cluster1371rr.1to1ortho.fa.aln-cln_gene1037
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1037
+Alignment Patterns: 612
+Name: cluster4981rr.1to1ortho.fa.aln-cln_gene1038
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1038
+Alignment Patterns: 1512
+Name: cluster4871rr.1to1ortho.fa.aln-cln_gene1039
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1039
+Alignment Patterns: 470
+Name: cluster1898rr.1to1ortho.fa.aln-cln_gene1040
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1040
+Alignment Patterns: 420
+Name: cluster2519rr.1to1ortho.fa.aln-cln_gene1041
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1041
+Alignment Patterns: 540
+Name: cluster2522rr.1to1ortho.fa.aln-cln_gene1042
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1042
+Alignment Patterns: 411
+Name: cluster2947rr.1to1ortho.fa.aln-cln_gene1043
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1043
+Alignment Patterns: 965
+Name: cluster2506rr.1to1ortho.fa.aln-cln_gene1044
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1044
+Alignment Patterns: 520
+Name: cluster5378rr.1to1ortho.fa.aln-cln_gene1045
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1045
+Alignment Patterns: 415
+Name: cluster3674rr.1to1ortho.fa.aln-cln_gene1046
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1046
+Alignment Patterns: 876
+Name: cluster1097rr.1to1ortho.fa.aln-cln_gene1047
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1047
+Alignment Patterns: 342
+Name: cluster2390rr.1to1ortho.fa.aln-cln_gene1048
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1048
+Alignment Patterns: 740
+Name: cluster3035rr.1to1ortho.fa.aln-cln_gene1049
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1049
+Alignment Patterns: 483
+Name: cluster2647rr.1to1ortho.fa.aln-cln_gene1050
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1050
+Alignment Patterns: 429
+Name: cluster4548rr.1to1ortho.fa.aln-cln_gene1051
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1051
+Alignment Patterns: 762
+Name: cluster1485rr.1to1ortho.fa.aln-cln_gene1052
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1052
+Alignment Patterns: 851
+Name: cluster2106rr.1to1ortho.fa.aln-cln_gene1053
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1053
+Alignment Patterns: 228
+Name: cluster3816rr.1to1ortho.fa.aln-cln_gene1054
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1054
+Alignment Patterns: 146
+Name: cluster3000rr.1to1ortho.fa.aln-cln_gene1055
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1055
+Alignment Patterns: 414
+Name: cluster3836rr.1to1ortho.fa.aln-cln_gene1056
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1056
+Alignment Patterns: 322
+Name: cluster1567rr.1to1ortho.fa.aln-cln_gene1057
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1057
+Alignment Patterns: 796
+Name: cluster3361rr.1to1ortho.fa.aln-cln_gene1058
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1058
+Alignment Patterns: 936
+Name: cluster722rr.1to1ortho.fa.aln-cln_gene1059
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1059
+Alignment Patterns: 821
+Name: cluster2538rr.1to1ortho.fa.aln-cln_gene1060
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1060
+Alignment Patterns: 931
+Name: cluster2894rr.1to1ortho.fa.aln-cln_gene1061
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1061
+Alignment Patterns: 829
+Name: cluster2607rr.1to1ortho.fa.aln-cln_gene1062
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1062
+Alignment Patterns: 1207
+Name: cluster4048rr.1to1ortho.fa.aln-cln_gene1063
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1063
+Alignment Patterns: 524
+Name: cluster5528rr.1to1ortho.fa.aln-cln_gene1064
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1064
+Alignment Patterns: 4572
+Name: cluster5327rr.1to1ortho.fa.aln-cln_gene1065
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1065
+Alignment Patterns: 700
+Name: cluster3852rr.1to1ortho.fa.aln-cln_gene1066
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1066
+Alignment Patterns: 583
+Name: cluster4886rr.1to1ortho.fa.aln-cln_gene1067
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1067
+Alignment Patterns: 385
+Name: cluster3848rr.1to1ortho.fa.aln-cln_gene1068
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1068
+Alignment Patterns: 721
+Name: cluster1918rr.1to1ortho.fa.aln-cln_gene1069
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1069
+Alignment Patterns: 588
+Name: cluster2090rr.1to1ortho.fa.aln-cln_gene1070
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1070
+Alignment Patterns: 809
+Name: cluster4915rr.1to1ortho.fa.aln-cln_gene1071
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1071
+Alignment Patterns: 610
+Name: cluster2819rr.1to1ortho.fa.aln-cln_gene1072
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1072
+Alignment Patterns: 590
+Name: cluster3541rr.1to1ortho.fa.aln-cln_gene1073
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1073
+Alignment Patterns: 919
+Name: cluster3851rr.1to1ortho.fa.aln-cln_gene1074
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1074
+Alignment Patterns: 749
+Name: cluster3285rr.1to1ortho.fa.aln-cln_gene1075
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1075
+Alignment Patterns: 345
+Name: cluster4489rr.1to1ortho.fa.aln-cln_gene1076
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1076
+Alignment Patterns: 1704
+Name: cluster3681rr.1to1ortho.fa.aln-cln_gene1077
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1077
+Alignment Patterns: 772
+Name: cluster3136rr.1to1ortho.fa.aln-cln_gene1078
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1078
+Alignment Patterns: 1260
+Name: cluster2245rr.1to1ortho.fa.aln-cln_gene1079
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1079
+Alignment Patterns: 818
+Name: cluster4921rr.1to1ortho.fa.aln-cln_gene1080
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1080
+Alignment Patterns: 537
+Name: cluster4041rr.1to1ortho.fa.aln-cln_gene1081
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1081
+Alignment Patterns: 805
+Name: cluster4830rr.1to1ortho.fa.aln-cln_gene1082
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1082
+Alignment Patterns: 484
+Name: cluster1580rr.1to1ortho.fa.aln-cln_gene1083
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1083
+Alignment Patterns: 443
+Name: cluster1498rr.1to1ortho.fa.aln-cln_gene1084
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1084
+Alignment Patterns: 712
+Name: cluster5095rr.1to1ortho.fa.aln-cln_gene1085
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1085
+Alignment Patterns: 715
+Name: cluster2974rr.1to1ortho.fa.aln-cln_gene1086
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1086
+Alignment Patterns: 441
+Name: cluster3053rr.1to1ortho.fa.aln-cln_gene1087
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1087
+Alignment Patterns: 713
+Name: cluster1878rr.1to1ortho.fa.aln-cln_gene1088
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1088
+Alignment Patterns: 619
+Name: cluster139rr.1to1ortho.fa.aln-cln_gene1089
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1089
+Alignment Patterns: 901
+Name: cluster3058rr.1to1ortho.fa.aln-cln_gene1090
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1090
+Alignment Patterns: 820
+Name: cluster2821rr.1to1ortho.fa.aln-cln_gene1091
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1091
+Alignment Patterns: 454
+Name: cluster4454rr.1to1ortho.fa.aln-cln_gene1092
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1092
+Alignment Patterns: 481
+Name: cluster4384rr.1to1ortho.fa.aln-cln_gene1093
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1093
+Alignment Patterns: 1041
+Name: cluster4383rr.1to1ortho.fa.aln-cln_gene1094
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1094
+Alignment Patterns: 947
+Name: cluster1932rr.1to1ortho.fa.aln-cln_gene1095
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1095
+Alignment Patterns: 999
+Name: cluster4226rr.1to1ortho.fa.aln-cln_gene1096
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1096
+Alignment Patterns: 1135
+Name: cluster3942rr.1to1ortho.fa.aln-cln_gene1097
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1097
+Alignment Patterns: 902
+Name: cluster3307rr.1to1ortho.fa.aln-cln_gene1098
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1098
+Alignment Patterns: 377
+Name: cluster1881rr.1to1ortho.fa.aln-cln_gene1099
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1099
+Alignment Patterns: 862
+Name: cluster1517rr.1to1ortho.fa.aln-cln_gene1100
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1100
+Alignment Patterns: 1337
+Name: cluster4368rr.1to1ortho.fa.aln-cln_gene1101
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1101
+Alignment Patterns: 580
+Name: cluster1015rr.1to1ortho.fa.aln-cln_gene1102
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1102
+Alignment Patterns: 694
+Name: cluster364rr.1to1ortho.fa.aln-cln_gene1103
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1103
+Alignment Patterns: 985
+Name: cluster3699rr.1to1ortho.fa.aln-cln_gene1104
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1104
+Alignment Patterns: 741
+Name: cluster4481rr.1to1ortho.fa.aln-cln_gene1105
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1105
+Alignment Patterns: 404
+Name: cluster2545rr.1to1ortho.fa.aln-cln_gene1106
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1106
+Alignment Patterns: 623
+Name: cluster4475rr.1to1ortho.fa.aln-cln_gene1107
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1107
+Alignment Patterns: 1019
+Name: cluster5417rr.1to1ortho.fa.aln-cln_gene1108
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1108
+Alignment Patterns: 825
+Name: cluster4945rr.1to1ortho.fa.aln-cln_gene1109
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1109
+Alignment Patterns: 780
+Name: cluster2237rr.1to1ortho.fa.aln-cln_gene1110
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1110
+Alignment Patterns: 1034
+Name: cluster3039rr.1to1ortho.fa.aln-cln_gene1111
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1111
+Alignment Patterns: 523
+Name: cluster5035rr.1to1ortho.fa.aln-cln_gene1112
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1112
+Alignment Patterns: 199
+Name: cluster3682rr.1to1ortho.fa.aln-cln_gene1113
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1113
+Alignment Patterns: 1025
+Name: cluster3517rr.1to1ortho.fa.aln-cln_gene1114
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1114
+Alignment Patterns: 660
+Name: cluster3207rr.1to1ortho.fa.aln-cln_gene1115
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1115
+Alignment Patterns: 360
+Name: cluster2086rr.1to1ortho.fa.aln-cln_gene1116
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1116
+Alignment Patterns: 133
+Name: cluster5375rr.1to1ortho.fa.aln-cln_gene1117
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1117
+Alignment Patterns: 1832
+Name: cluster1940rr.1to1ortho.fa.aln-cln_gene1118
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1118
+Alignment Patterns: 422
+Name: cluster2242rr.1to1ortho.fa.aln-cln_gene1119
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1119
+Alignment Patterns: 236
+Name: cluster1671rr.1to1ortho.fa.aln-cln_gene1120
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1120
+Alignment Patterns: 725
+Name: cluster3820rr.1to1ortho.fa.aln-cln_gene1121
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1121
+Alignment Patterns: 1317
+Name: cluster5547rr.1to1ortho.fa.aln-cln_gene1122
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1122
+Alignment Patterns: 641
+Name: cluster3426rr.1to1ortho.fa.aln-cln_gene1123
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1123
+Alignment Patterns: 714
+Name: cluster2499rr.1to1ortho.fa.aln-cln_gene1124
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1124
+Alignment Patterns: 520
+Name: cluster4038rr.1to1ortho.fa.aln-cln_gene1125
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1125
+Alignment Patterns: 785
+Name: cluster1653rr.1to1ortho.fa.aln-cln_gene1126
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1126
+Alignment Patterns: 1533
+Name: cluster2556rr.1to1ortho.fa.aln-cln_gene1127
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1127
+Alignment Patterns: 750
+Name: cluster1349rr.1to1ortho.fa.aln-cln_gene1128
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1128
+Alignment Patterns: 425
+Name: cluster2798rr.1to1ortho.fa.aln-cln_gene1129
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1129
+Alignment Patterns: 484
+Name: cluster637rr.1to1ortho.fa.aln-cln_gene1130
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1130
+Alignment Patterns: 1009
+Name: cluster2484rr.1to1ortho.fa.aln-cln_gene1131
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1131
+Alignment Patterns: 542
+Name: cluster3259rr.1to1ortho.fa.aln-cln_gene1132
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1132
+Alignment Patterns: 363
+Name: cluster3358rr.1to1ortho.fa.aln-cln_gene1133
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1133
+Alignment Patterns: 871
+Name: cluster3976rr.1to1ortho.fa.aln-cln_gene1134
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1134
+Alignment Patterns: 428
+Name: cluster2743rr.1to1ortho.fa.aln-cln_gene1135
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1135
+Alignment Patterns: 1833
+Name: cluster1119rr.1to1ortho.fa.aln-cln_gene1136
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1136
+Alignment Patterns: 457
+Name: cluster3883rr.1to1ortho.fa.aln-cln_gene1137
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1137
+Alignment Patterns: 684
+Name: cluster4560rr.1to1ortho.fa.aln-cln_gene1138
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1138
+Alignment Patterns: 981
+Name: cluster277rr.1to1ortho.fa.aln-cln_gene1139
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1139
+Alignment Patterns: 880
+Name: cluster2463rr.1to1ortho.fa.aln-cln_gene1140
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1140
+Alignment Patterns: 1032
+Name: cluster3480rr.1to1ortho.fa.aln-cln_gene1141
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1141
+Alignment Patterns: 711
+Name: cluster4483rr.1to1ortho.fa.aln-cln_gene1142
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1142
+Alignment Patterns: 1236
+Name: cluster934rr.1to1ortho.fa.aln-cln_gene1143
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1143
+Alignment Patterns: 597
+Name: cluster1338rr.1to1ortho.fa.aln-cln_gene1144
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1144
+Alignment Patterns: 747
+Name: cluster2418rr.1to1ortho.fa.aln-cln_gene1145
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1145
+Alignment Patterns: 885
+Name: cluster2030rr.1to1ortho.fa.aln-cln_gene1146
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1146
+Alignment Patterns: 539
+Name: cluster2601rr.1to1ortho.fa.aln-cln_gene1147
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1147
+Alignment Patterns: 574
+Name: cluster3227rr.1to1ortho.fa.aln-cln_gene1148
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1148
+Alignment Patterns: 513
+Name: cluster1134rr.1to1ortho.fa.aln-cln_gene1149
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1149
+Alignment Patterns: 532
+Name: cluster686rr.1to1ortho.fa.aln-cln_gene1150
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1150
+Alignment Patterns: 740
+Name: cluster583rr.1to1ortho.fa.aln-cln_gene1151
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1151
+Alignment Patterns: 664
+Name: cluster2056rr.1to1ortho.fa.aln-cln_gene1152
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1152
+Alignment Patterns: 1519
+Name: cluster3222rr.1to1ortho.fa.aln-cln_gene1153
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1153
+Alignment Patterns: 1386
+Name: cluster4918rr.1to1ortho.fa.aln-cln_gene1154
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1154
+Alignment Patterns: 603
+Name: cluster2843rr.1to1ortho.fa.aln-cln_gene1155
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1155
+Alignment Patterns: 2206
+Name: cluster3264rr.1to1ortho.fa.aln-cln_gene1156
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1156
+Alignment Patterns: 463
+Name: cluster2855rr.1to1ortho.fa.aln-cln_gene1157
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1157
+Alignment Patterns: 277
+Name: cluster2283rr.1to1ortho.fa.aln-cln_gene1158
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1158
+Alignment Patterns: 1639
+Name: cluster4774rr.1to1ortho.fa.aln-cln_gene1159
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1159
+Alignment Patterns: 768
+Name: cluster1482rr.1to1ortho.fa.aln-cln_gene1160
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1160
+Alignment Patterns: 1003
+Name: cluster4576rr.1to1ortho.fa.aln-cln_gene1161
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1161
+Alignment Patterns: 570
+Name: cluster4776rr.1to1ortho.fa.aln-cln_gene1162
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1162
+Alignment Patterns: 707
+Name: cluster3669rr.1to1ortho.fa.aln-cln_gene1163
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1163
+Alignment Patterns: 1336
+Name: cluster4433rr.1to1ortho.fa.aln-cln_gene1164
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1164
+Alignment Patterns: 799
+Name: cluster213rr.1to1ortho.fa.aln-cln_gene1165
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1165
+Alignment Patterns: 549
+Name: cluster2891rr.1to1ortho.fa.aln-cln_gene1166
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1166
+Alignment Patterns: 539
+Name: cluster3730rr.1to1ortho.fa.aln-cln_gene1167
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1167
+Alignment Patterns: 309
+Name: cluster3055rr.1to1ortho.fa.aln-cln_gene1168
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1168
+Alignment Patterns: 897
+Name: cluster4029rr.1to1ortho.fa.aln-cln_gene1169
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1169
+Alignment Patterns: 784
+Name: cluster4988rr.1to1ortho.fa.aln-cln_gene1170
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1170
+Alignment Patterns: 489
+Name: cluster1834rr.1to1ortho.fa.aln-cln_gene1171
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1171
+Alignment Patterns: 159
+Name: cluster4010rr.1to1ortho.fa.aln-cln_gene1172
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1172
+Alignment Patterns: 832
+Name: cluster4773rr.1to1ortho.fa.aln-cln_gene1173
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1173
+Alignment Patterns: 691
+Name: cluster3349rr.1to1ortho.fa.aln-cln_gene1174
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1174
+Alignment Patterns: 1320
+Name: cluster2830rr.1to1ortho.fa.aln-cln_gene1175
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1175
+Alignment Patterns: 965
+Name: cluster5382rr.1to1ortho.fa.aln-cln_gene1176
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1176
+Alignment Patterns: 422
+Name: cluster4824rr.1to1ortho.fa.aln-cln_gene1177
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1177
+Alignment Patterns: 484
+Name: cluster1277rr.1to1ortho.fa.aln-cln_gene1178
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1178
+Alignment Patterns: 578
+Name: cluster4461rr.1to1ortho.fa.aln-cln_gene1179
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1179
+Alignment Patterns: 598
+Name: cluster1124rr.1to1ortho.fa.aln-cln_gene1180
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1180
+Alignment Patterns: 675
+Name: cluster3357rr.1to1ortho.fa.aln-cln_gene1181
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1181
+Alignment Patterns: 1243
+Name: cluster4301rr.1to1ortho.fa.aln-cln_gene1182
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1182
+Alignment Patterns: 321
+Name: cluster3306rr.1to1ortho.fa.aln-cln_gene1183
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1183
+Alignment Patterns: 879
+Name: cluster3845rr.1to1ortho.fa.aln-cln_gene1184
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1184
+Alignment Patterns: 1457
+Name: cluster1361rr.1to1ortho.fa.aln-cln_gene1185
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1185
+Alignment Patterns: 683
+Name: cluster5592rr.1to1ortho.fa.aln-cln_gene1186
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1186
+Alignment Patterns: 619
+Name: cluster2486rr.1to1ortho.fa.aln-cln_gene1187
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1187
+Alignment Patterns: 1973
+Name: cluster2776rr.1to1ortho.fa.aln-cln_gene1188
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1188
+Alignment Patterns: 678
+Name: cluster2377rr.1to1ortho.fa.aln-cln_gene1189
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1189
+Alignment Patterns: 1213
+Name: cluster2879rr.1to1ortho.fa.aln-cln_gene1190
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1190
+Alignment Patterns: 724
+Name: cluster2427rr.1to1ortho.fa.aln-cln_gene1191
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1191
+Alignment Patterns: 885
+Name: cluster1275rr.1to1ortho.fa.aln-cln_gene1192
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1192
+Alignment Patterns: 325
+Name: cluster3487rr.1to1ortho.fa.aln-cln_gene1193
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1193
+Alignment Patterns: 601
+Name: cluster1962rr.1to1ortho.fa.aln-cln_gene1194
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1194
+Alignment Patterns: 1251
+Name: cluster5011rr.1to1ortho.fa.aln-cln_gene1195
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1195
+Alignment Patterns: 943
+Name: cluster4563rr.1to1ortho.fa.aln-cln_gene1196
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1196
+Alignment Patterns: 596
+Name: cluster936rr.1to1ortho.fa.aln-cln_gene1197
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1197
+Alignment Patterns: 1006
+Name: cluster1133rr.1to1ortho.fa.aln-cln_gene1198
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1198
+Alignment Patterns: 393
+Name: cluster3547rr.1to1ortho.fa.aln-cln_gene1199
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1199
+Alignment Patterns: 642
+Name: cluster2375rr.1to1ortho.fa.aln-cln_gene1200
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1200
+Alignment Patterns: 556
+Name: cluster2044rr.1to1ortho.fa.aln-cln_gene1201
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1201
+Alignment Patterns: 868
+Name: cluster1309rr.1to1ortho.fa.aln-cln_gene1202
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1202
+Alignment Patterns: 761
+Name: cluster1661rr.1to1ortho.fa.aln-cln_gene1203
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1203
+Alignment Patterns: 663
+Name: cluster4186rr.1to1ortho.fa.aln-cln_gene1204
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1204
+Alignment Patterns: 1146
+Name: cluster4998rr.1to1ortho.fa.aln-cln_gene1205
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1205
+Alignment Patterns: 929
+Name: cluster2298rr.1to1ortho.fa.aln-cln_gene1206
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1206
+Alignment Patterns: 1046
+Name: cluster3922rr.1to1ortho.fa.aln-cln_gene1207
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1207
+Alignment Patterns: 867
+Name: cluster1222rr.1to1ortho.fa.aln-cln_gene1208
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1208
+Alignment Patterns: 363
+Name: cluster3200rr.1to1ortho.fa.aln-cln_gene1209
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1209
+Alignment Patterns: 230
+Name: cluster4189rr.1to1ortho.fa.aln-cln_gene1210
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1210
+Alignment Patterns: 450
+Name: cluster2791rr.1to1ortho.fa.aln-cln_gene1211
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1211
+Alignment Patterns: 609
+Name: cluster1630rr.1to1ortho.fa.aln-cln_gene1212
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1212
+Alignment Patterns: 628
+Name: cluster5580rr.1to1ortho.fa.aln-cln_gene1213
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1213
+Alignment Patterns: 1716
+Name: cluster2927rr.1to1ortho.fa.aln-cln_gene1214
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1214
+Alignment Patterns: 400
+Name: cluster4541rr.1to1ortho.fa.aln-cln_gene1215
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1215
+Alignment Patterns: 1007
+Name: cluster1353rr.1to1ortho.fa.aln-cln_gene1216
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1216
+Alignment Patterns: 626
+Name: cluster3494rr.1to1ortho.fa.aln-cln_gene1217
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1217
+Alignment Patterns: 433
+Name: cluster4507rr.1to1ortho.fa.aln-cln_gene1218
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1218
+Alignment Patterns: 1284
+Name: cluster3859rr.1to1ortho.fa.aln-cln_gene1219
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1219
+Alignment Patterns: 1063
+Name: cluster1506rr.1to1ortho.fa.aln-cln_gene1220
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1220
+Alignment Patterns: 575
+Name: cluster2537rr.1to1ortho.fa.aln-cln_gene1221
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1221
+Alignment Patterns: 642
+Name: cluster1343rr.1to1ortho.fa.aln-cln_gene1222
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1222
+Alignment Patterns: 282
+Name: cluster4559rr.1to1ortho.fa.aln-cln_gene1223
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1223
+Alignment Patterns: 1227
+Name: cluster3864rr.1to1ortho.fa.aln-cln_gene1224
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1224
+Alignment Patterns: 1101
+Name: cluster2504rr.1to1ortho.fa.aln-cln_gene1225
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1225
+Alignment Patterns: 1252
+Name: cluster1640rr.1to1ortho.fa.aln-cln_gene1226
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1226
+Alignment Patterns: 325
+Name: cluster4592rr.1to1ortho.fa.aln-cln_gene1227
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1227
+Alignment Patterns: 732
+Name: cluster4236rr.1to1ortho.fa.aln-cln_gene1228
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1228
+Alignment Patterns: 173
+Name: cluster3992rr.1to1ortho.fa.aln-cln_gene1229
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1229
+Alignment Patterns: 1622
+Name: cluster4467rr.1to1ortho.fa.aln-cln_gene1230
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1230
+Alignment Patterns: 619
+Name: cluster1034rr.1to1ortho.fa.aln-cln_gene1231
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1231
+Alignment Patterns: 413
+Name: cluster1577rr.1to1ortho.fa.aln-cln_gene1232
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1232
+Alignment Patterns: 896
+Name: cluster2887rr.1to1ortho.fa.aln-cln_gene1233
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1233
+Alignment Patterns: 1602
+Name: cluster5634rr.1to1ortho.fa.aln-cln_gene1234
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1234
+Alignment Patterns: 953
+Name: cluster1541rr.1to1ortho.fa.aln-cln_gene1235
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1235
+Alignment Patterns: 461
+Name: cluster132rr.1to1ortho.fa.aln-cln_gene1236
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1236
+Alignment Patterns: 498
+Name: cluster4338rr.1to1ortho.fa.aln-cln_gene1237
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/usr/bin/raxmlHPC-PTHREADS-AVX -f g -T 3 -s CarnivorySupermatrix.fa -q CarnivorySupermatrix.model -m GTRGAMMA -z CarnivoryTrees.tre -n Topologies_SSLL 
+
+
+
+
+Found 2 trees in File CarnivoryTrees.tre
+
+Tree 0: -13305055.201542
+Tree 1: -13305130.140530
+
+
+Time for Optimization of per-site log likelihoods 4363.136145
+Per-site Log Likelihoods written to File /home/jfwalker/Desktop/ForDryadSSLL/TwoTopTest/RAxML_perSiteLLs.Topologies_SSLL in Tree-Puzzle format
+Execution information file written to :  /home/jfwalker/Desktop/ForDryadSSLL/TwoTopTest/RAxML_info.Topologies_SSLL
