@@ -532,10 +532,10 @@ These were removed from likelihood calc due to all missing data: alligator,caret
 Gene_247: Has 9 in it
 These were removed from likelihood calc due to all missing data: alligator,caretta,emys_orbicularis,phrynops,podarcis,protopterus,python,
 #######################Site Counts###############################
-Conflict 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 87223
+Conflict 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 87210
 Conflict 1 Gallus,Taeniopygia,alligator,caiman: 78660
 Conflict 2 Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 
-Conflict 3 Ornithorhynchus,Homo,Monodelphis,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 21143
+Conflict 3 Ornithorhynchus,Homo,Monodelphis,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 21132
 Conflict 4 podarcis,Anolis,python,Gallus,Taeniopygia,alligator,caiman: 
 #######################Paramater Info############################
 Parameters of your regular old supermatrix: 1517

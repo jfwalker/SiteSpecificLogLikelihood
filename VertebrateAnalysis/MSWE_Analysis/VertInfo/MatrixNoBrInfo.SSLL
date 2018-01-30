@@ -2026,6 +2026,6 @@ Tree 0: -1047406.056279
 Tree 1: -1047410.075015
 
 
-Time for Optimization of per-site log likelihoods 167.096911
-Per-site Log Likelihoods written to File /home/jfwalker/Desktop/ForDryadSSLL/TestForRevision/RAxML_perSiteLLs.Topologies_SSLL in Tree-Puzzle format
-Execution information file written to :  /home/jfwalker/Desktop/ForDryadSSLL/TestForRevision/RAxML_info.Topologies_SSLL
+Time for Optimization of per-site log likelihoods 165.255343
+Per-site Log Likelihoods written to File /home/jfwalker/Desktop/ForDryadSSLL/GitHub/SiteSpecificLogLikelihood/VertebrateAnalysis/MSWE_Analysis/RAxML_perSiteLLs.Topologies_SSLL in Tree-Puzzle format
+Execution information file written to :  /home/jfwalker/Desktop/ForDryadSSLL/GitHub/SiteSpecificLogLikelihood/VertebrateAnalysis/MSWE_Analysis/RAxML_info.Topologies_SSLL

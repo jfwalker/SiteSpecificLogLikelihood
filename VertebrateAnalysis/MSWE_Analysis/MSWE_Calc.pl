@@ -489,13 +489,27 @@ foreach $i (0..$#loc){
 		@array = split " ", $best_likes[$j];
 		$high_like = -999999999999999.99999999;
 		$high_tree = "";
+		
 		foreach $k (0..$#array){
-				
+			
 			if($high_like < $array[$k]){
 				
 				$high_like = $array[$k];
 				$high_tree = $k;
 			}
+		}
+		#Informative test
+		if($Topos != 0){
+			
+			$inform_test = $array[0];
+			foreach $x (1..($Topos-1)){
+				
+				if($array[$x] == $inform_test){
+					
+					$high_tree = "N";
+				}
+			}
+			
 		}
 		if($Hyper eq "True"){
 			print SiteOut "$high_tree,";
@@ -732,8 +746,8 @@ if($secret ne "True"){
 }else{
 	system("mv Unique.tre bp.log trees.unroot phyx.logfile $folder");
 }
-system("rm RAxML_info.EX_SSLL RAxML_perSiteLLs.EX_SSLL temp.log temp.fa temptesttre TempTree.tre");
-#system("rm RAxML_info.EX_SSLL temp.log temp.fa temptesttre TempTree.tre");
+#system("rm RAxML_info.EX_SSLL RAxML_perSiteLLs.EX_SSLL temp.log temp.fa temptesttre TempTree.tre");
+system("rm RAxML_info.EX_SSLL temp.log temp.fa temptesttre TempTree.tre");
 
 
 print "################################################################\n";

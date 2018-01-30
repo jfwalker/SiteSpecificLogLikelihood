@@ -18,20 +18,20 @@ You're Unique Trees are in Unique.tre
 You're total genes: 1237
 The ICA for this relationship is: -0.236008
 #######################Site Counts###############################
-Conflict 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB: 537787
+Conflict 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB: 537772
 Conflict 1 MJM2940,DrolusSFB,NepSFB,Neam: 740761
 Conflict 2 WPYJ,Retr,RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: 22887
-Conflict 3 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 262796
+Conflict 3 MJM2940,DrolusSFB,DrobinSFB,MJM1652,Dino: 261438
 Conflict 4 DrolusSFB,NepSFB,Neam: 11933
-Conflict 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: 64900
+Conflict 5 RuprSFB,MJM3360,DrobinSFB,MJM1652,Dino: 64897
 Conflict 6 RuprSFB,MJM3360,NepSFB,Neam: 9889
-Conflict 7 DrolusSFB,DrobinSFB,MJM1652,Dino: 14998
+Conflict 7 DrolusSFB,DrobinSFB,MJM1652,Dino: 14995
 Conflict 8 MJM2940,NepSFB,Neam: 31760
-Conflict 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam: 41320
-Conflict 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 36625
+Conflict 9 WPYJ,Retr,MJM2940,DrolusSFB,NepSFB,Neam: 41317
+Conflict 10 RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 36624
 Conflict 11 WPYJ,Retr,RuprSFB,MJM3360,DrolusSFB,DrobinSFB,MJM1652,Dino: 
-Conflict 12 WPYJ,Retr,RuprSFB,MJM3360,NepSFB,Neam: 11351
-Conflict 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 10159
+Conflict 12 WPYJ,Retr,RuprSFB,MJM3360,NepSFB,Neam: 11350
+Conflict 13 WPYJ,Retr,RuprSFB,MJM3360,MJM2940,DrolusSFB,NepSFB,Neam: 10158
 Conflict 14 WPYJ,Retr,NepSFB,Neam: 
 Conflict 15 WPYJ,Retr,DrobinSFB,MJM1652,Dino: 65754
 Conflict 16 WPYJ,NepSFB,Neam: 40813
@@ -58,7 +58,7 @@ Conflict 36 RuprSFB,MJM1652,Dino:
 Conflict 37 RuprSFB,MJM1652,Dino,NepSFB,Neam: 
 Conflict 38 RuprSFB,MJM2940,DrolusSFB,MJM1652,Dino,NepSFB,Neam: 
 Conflict 39 RuprSFB,NepSFB,Neam: 
-Conflict 40 WPYJ,DrobinSFB,MJM1652,Dino: 50025
+Conflict 40 WPYJ,DrobinSFB,MJM1652,Dino: 50024
 #######################Paramater Info############################
 Parameters of your regular old supermatrix: 7445
 Edge 0 MJM1652,Dino,NepSFB,Neam,DrobinSFB: 1414765

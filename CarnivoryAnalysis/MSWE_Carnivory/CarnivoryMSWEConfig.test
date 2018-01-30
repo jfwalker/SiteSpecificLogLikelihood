@@ -45,7 +45,7 @@ What should the name of the output folder be?
 Folder: CarnivoryInfo
 
 Hidden mode?
-secret: False
+secret: True
 
 Hyperverbose, this is really good at making large files?
 Hyper: False
