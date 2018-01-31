@@ -6,4 +6,4 @@ raxml and phyx. The location or raxml and the phyx programs pxbp, pxrr
 and pxrmt can be found
 
 To run the program adjust the config.test file as necessary
-and run: '''perl MGWE_Calc.pl config.test'''
+and run: '''perl MGWE_Calc.pl ExampleMGWE.config'''
