@@ -259,6 +259,8 @@ while($line = <Configure>){
 		$secret = ($line =~ /.*?: (.*)/)[0];
 	}elsif($line =~ /^Topologies:/){
 		$Topos = ($line =~ /.*?: (.*)/)[0];
+	}elsif($line =~ /^pxrr/){
+		$pxrr = ($line =~ /.*?: (.*)/)[0];
 	}
 }
 open(StatsOut, ">$outfile")||die "In program give a name of the outfile\n";
@@ -267,6 +269,7 @@ print StatsOut "################################################################
 print StatsOut "If any of this is wrong the analysis won't work, double check!!!!\n";
 print StatsOut "You have set pxrmt to be in the path: $pxrmt\n";
 print StatsOut "You have set pxbp to be in the path: $pxbp\n";
+print StatsOut "You have set pxrr to be in: $pxrr\n";
 print StatsOut "You have set raxml to be in the path: $raxml\n";
 print StatsOut "The species in the relationship you are looking at are: $conflicting_node\n";
 print StatsOut "You are testing this many Topos: $Topos\n";
@@ -282,7 +285,7 @@ if($secret ne "True"){
 }
 print StatsOut "You're Edge Info is in bp.log\nYou're Unique Trees are in Unique.tre\n";
 
-system("pxrr -u -t $TreeFile -o trees.unroot");
+system("$pxrr -u -t $TreeFile -o trees.unroot");
 system("$pxbp -t trees.unroot -u | grep \"\(\" > Unique.tre");
 system("$pxbp -t Unique.tre -e -v > bp.log");
 
