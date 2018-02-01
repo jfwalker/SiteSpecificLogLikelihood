@@ -1,6 +1,8 @@
 # SiteSpecificLogLikelihood
 This Github contains the code necessary to run the MSWE and MGWE analyses for analyzing edges
 
+For questions please contact: jfwalker@umich.edu
+
 Both programs are written in perl and should be relatively trivial to run, however, they rely
 on phyx and raxml which need to be compiled and can be found here:
 
