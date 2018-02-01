@@ -75,3 +75,11 @@ To run MSWE
 ```
 perl MSWE_Calc.pl ExampleMSWE.config
 ```
+
+
+**Some Notes**
+
+1. Depending on the version of RAxML, where it's compiled, order of your sequences etc... you use the likelihood values may be a bit different, this can have a minor influenceon site counts etc... It should not influence overall results unless your likelihood Calcs are super similar.
+
+2. The config file is very sensitive to being filled out correctly and it's important to check the outfile to make sure no
+errors have been detected.
