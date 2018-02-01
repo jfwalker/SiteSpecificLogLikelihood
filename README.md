@@ -81,8 +81,13 @@ perl MSWE_Calc.pl ExampleMSWE.config
 
 1. Depending on the version of RAxML, where it's compiled, order of your sequences etc... you use the likelihood values may be a bit different, this can have a minor influenceon site counts etc... It should not influence overall results unless your likelihood Calcs are super similar.
 
-2. The config file is very sensitive to being filled out correctly and it's important to check the outfile to make sure no
+2. If sites have identical likelihoods for the topology in question they are not counted since they do not support either tree,
+if the total sites counted seems lower than the total from the matrix, this could be why
+
+3. The config file is very sensitive to being filled out correctly and it's important to check the outfile to make sure no
 errors have been detected.
 
-3. Outfile and the output folder should have different names from anything in your working directory or else they will be
+4. Outfile and the output folder should have different names from anything in your working directory or else they will be
 deleted and written over
+
+5. This repo contains the data from Walker et al. 2017 (http://www.amjbot.org/content/104/6/858.short) and Chiari et al. 2012 (link to paper above), as a result it is a pretty big repo since the exact analyses from the paper are in here to make sure everything is open.
