@@ -1,9 +1,24 @@
 # SiteSpecificLogLikelihood
-This contains the code to analyze edges using the MGWE and MSWE method
+This Github contains the code necessary to run the MSWE and MGWE analyses for analyzing edges
 
-Running the code itself is relatively trivial, however, it relies upon
-raxml and phyx. The location or raxml and the phyx programs pxbp, pxrr
-and pxrmt can be found
+Both programs are written in perl and should be relatively trivial to run, however, they rely
+on phyx and raxml which need to be compiled and can be found here:
 
-To run the program adjust the config.test file as necessary
-and run: 'perl MGWE_Calc.pl ExampleMGWE.config'
+RAxML: ```https://github.com/stamatak/standard-RAxML```
+
+Phyx: ```https://github.com/FePhyFoFum/phyx```
+
+
+Both programs run by typing in the program name followed by the name of the config file
+The vertebrate dataset is in the main folder to test it out. Each folder also contains
+the code and the files used from the paper/results of the analyses.
+
+First step is to adjust the config file
+
+The first setting is pxrmt, and their just write the path to pxrmt
+
+
+and run: 
+```
+perl MGWE_Calc.pl ExampleMGWE.config
+```
