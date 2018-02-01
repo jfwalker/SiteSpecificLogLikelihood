@@ -83,3 +83,6 @@ perl MSWE_Calc.pl ExampleMSWE.config
 
 2. The config file is very sensitive to being filled out correctly and it's important to check the outfile to make sure no
 errors have been detected.
+
+3. Outfile and the output folder should have different names from anything in your working directory or else they will be
+deleted and written over
