@@ -549,6 +549,8 @@ Parameters used for the Edge analysis: 6442
 #######################Your Likelihoods##########################
 Tree 0: -1047406.056279
 Tree 1: -1047410.075015
+Indv BrLen 0: -1031489.817195
+Indv BrLen 1: -1031450.715267
 Edge 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: -1031423.655065
 Edge 1 Gallus,Taeniopygia,alligator,caiman: -1031294.05077
 Edge 2 Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: -1041062.437755
@@ -558,6 +560,8 @@ The Best Likelihood is: -1031294.05077
 #####################Your AIC Scores##########################
 Tree 0: 2097846.112558
 Tree 1: 2097854.15003
+Indv BrLen 0: 2075863.63439
+Indv BrLen 1: 2075785.430534
 Edge 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 2075731.31013
 Edge 1 Gallus,Taeniopygia,alligator,caiman: 2075472.10154
 Edge 2 Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 2095008.87551
@@ -567,6 +571,8 @@ The Best AIC is: 2075472.10154
 ###################Your Delta AIC Scores#######################
 Tree 0: 22374.0110179975
 Tree 1: 22382.0484899979
+Indv BrLen 0: 391.532849998446
+Indv BrLen 1: 313.328993999632
 Edge 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 259.208589998772
 Edge 1 Gallus,Taeniopygia,alligator,caiman: 0
 Edge 2 Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 19536.7739699993
@@ -575,6 +581,8 @@ Edge 4 podarcis,Anolis,python,Gallus,Taeniopygia,alligator,caiman: 1579.30973599
 ###################Your AIC Weigths#########################
 Tree 0: 0
 Tree 1: 0
+Indv BrLen 0: 9.54381211359969e-86
+Indv BrLen 1: 9.15110298446817e-69
 Edge 0 alligator,caiman,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 5.17094419414693e-57
 Edge 1 Gallus,Taeniopygia,alligator,caiman: 1
 Edge 2 Ornithorhynchus,Homo,Monodelphis,podarcis,Anolis,python,phrynops,caretta,chelonoidis_nigra,emys_orbicularis: 0

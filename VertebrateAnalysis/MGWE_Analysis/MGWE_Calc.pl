@@ -262,7 +262,7 @@ while($line = <Configure>){
 	}
 }
 open(StatsOut, ">$outfile")||die "In program give a name of the outfile\n";
-print StatsOut "Information for the MGWE Analysis\n";
+print StatsOut "Information for the MSGE Analysis\n";
 print StatsOut "################################################################\n";
 print StatsOut "If any of this is wrong the analysis won't work, double check!!!!\n";
 print StatsOut "You have set pxrmt to be in the path: $pxrmt\n";
@@ -322,7 +322,7 @@ $all_seqs = keys %FastaHash;
 $sitecount = 0; $genecount = 0;
 @like_sum = (); @tree_sum = ();
 @parameter_sum = (); @Tree_total = ();
-@gene_lengths = ();
+@gene_lengths = (); @gene_comp = ();
 foreach $i (0..$#loc){
 	#This block creates a temporary Fasta for the gene
 	open(out, ">temp.fa");
@@ -391,6 +391,9 @@ foreach $i (0..$#loc){
 			}
 
 			$gene1 .= "$held ";
+			if($t_count <= $Topos){
+				@gene_comp[$t_count - 1] += $held;
+			}
 			$sitecount++;
 		}
 		$t_count++;
@@ -411,6 +414,8 @@ foreach $i (0..$#loc){
 		}
 		
 	}
+	
+
 	push @gene_lengths, $dif;
 	push @Tree_total, $temp_tre;
 }
@@ -452,7 +457,6 @@ if($secret eq "True"){
 			$count++;
 		}
 		system("$raxml -f g -T $threads -s $SuperMatrix -q $PartFile -m GTRGAMMA -z Questionable.tre -n Topologies_SSLL | grep \"Tree\" | grep \":\"");
-		system("mv Questionable.tre $folder");
 		system("mv RAxML_perSiteLLs.Topologies_SSLL MatrixNoBrSSLLs.SSLL");
 		system("mv RAxML_info.Topologies_SSLL MatrixNoBrInfo.SSLL");
 		print "Done! ( ﾟヮﾟ)\n";
@@ -481,6 +485,7 @@ if($secret eq "True"){
 	}
 }
 #End of the monstrosity of code about branch lengths
+
 
 #This grabs the number of parameters, will be different between
 #supermatrix and edges because supermatrix uses only one
@@ -545,7 +550,10 @@ if($Topos != 0){
 		print StatsOut "Tree $i: $MatrixLikes[$i]\n";
 		push @temp_sort, $MatrixLikes[$i];
 	}
-
+	foreach $i (0..$#gene_comp){
+		print StatsOut "Indv BrLen $i: $gene_comp[$i]\n";
+		push @temp_sort, $gene_comp[$i];
+	}
 }
 foreach $i (0..$#best_likes){
 
@@ -564,6 +572,11 @@ if($Topos != 0){
 		
 		$MatrixAIC = (-2*$MatrixLikes[$i]) + (2*$parameters_of_matrix);
 		print StatsOut "Tree $i: $MatrixAIC\n";
+		push @temp_sort, $MatrixAIC;
+	}
+	foreach $i (0..$#gene_comp){
+		$MatrixAIC = (-2*$gene_comp[$i]) + (2*$parameters_of_MGWE);
+		print StatsOut "Indv BrLen $i: $MatrixAIC\n";
 		push @temp_sort, $MatrixAIC;
 	}
 
@@ -591,6 +604,12 @@ if($Topos != 0){
 		print StatsOut "Tree $i: $DeltaAIC\n";
 		
 	}
+	foreach $i (0..$#gene_comp){
+		$MatrixAIC = (-2*$gene_comp[$i]) + (2*$parameters_of_MGWE);
+		$DeltaAIC = $MatrixAIC - $best_aic;
+		$TotalDelta += exp(-0.5 * $DeltaAIC);
+		print StatsOut "Indv BrLen $i: $DeltaAIC\n";
+	}
 
 }
 foreach $i (0..$#best_likes){
@@ -612,6 +631,12 @@ if($Topos != 0){
 		$weight = (exp(-0.5 * $DeltaAIC) / $TotalDelta);
 		print StatsOut "Tree $i: $weight\n";
 		
+	}
+	foreach $i (0..$#gene_comp){
+		$MatrixAIC = (-2*$gene_comp[$i]) + (2*$parameters_of_MGWE);
+		$DeltaAIC = $MatrixAIC - $best_aic;
+		$weight = (exp(-0.5 * $DeltaAIC) / $TotalDelta);
+		print StatsOut "Indv BrLen $i: $weight\n";
 	}
 
 }
