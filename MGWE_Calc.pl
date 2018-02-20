@@ -52,14 +52,18 @@ sub GetBipartitions {
 		if($line =~ /^CLADE/){
 			
 			$test = "false";
-			$bipart = ($line =~ /CLADE: (.*?)\|.*/)[0];
+			$bipart = ($line =~ m/CLADE: (.*)/)[0];
+
 			@array1 = split " ", $bipart;
 			@array2 = split ",", $conflict;
 			
+			#print "ARRAY1\n";
+			#print Dumper(\@array1);
+			#print "ARRAY2\n";
+			#print Dumper(\@array2);
 			#this is really hacky and stupid but I can't find a better
 			#way to match bipartitions and conflict
 			if($#array2 == $#array1){
-				
 				#make an empty hash
 				%comp = ();
 				#use values in array1 as undefined
@@ -74,16 +78,19 @@ sub GetBipartitions {
 				
 			}		
 		}elsif($test eq "true"){
-			if($line =~ /\|/){
-				#print "$line\n";
-				$clade = ($line =~ m/(.*?)\|.*/)[0];
-				$clade =~ s/ /,/g;
-				$clade =~ s/,\t,(.*?),$/$1/;
-				push @array, $clade;
+			if($line =~ /\tCOUNT/){
+				if($line !~ /ICA/){
+					#print "$line\n";
+					$clade = ($line =~ m/ \t (.*?) \tCOUNT.*/)[0];
+					#print "HERE: $clade\n";
+					$clade =~ s/ /,/g;
+					$clade =~ s/,\t,(.*?),$/$1/;
+					push @array, $clade;
+				}
 			}elsif($line =~ /FREQ/){
 				
-				$ICA = ($line =~ m/.*?ICA:\t(.*?)\t.*/)[0];
-				print StatsOut "The ICA for unique trees in this relationship is: $ICA\n";
+				#$ICA = ($line =~ m/.*?ICA:\t(.*?)\t.*/)[0];
+				#print StatsOut "The ICA for unique trees in this relationship is: $ICA\n";
 			}
 		}
 	}
@@ -120,9 +127,9 @@ sub TreeBiparts {
 		@Conf = ();
 		while($temp = <temp>){
 			chomp $temp;
-			if($temp =~ /CLADE/){
-				$clade = ($temp =~ m/CLADE: (.*?) \t.*/)[0];
-				
+			if($temp =~ /^CLADE/){
+				$clade = ($temp =~ m/CLADE: (.*?)\t.*/)[0];
+				#print "Here: $clade\n";
 				@array1 = ();
 				@array1 = split " ", $clade;
 				foreach $i (0..$#conflict){
@@ -130,7 +137,6 @@ sub TreeBiparts {
 					@array2 = ();
 					@array2 = split ",", $conflict[$i];
 					if($#array1 == $#array2){
-
 						%comp = ();
 						@comp{@array1} = undef;
 						delete @comp{@array2};
@@ -284,7 +290,7 @@ print StatsOut "You're Edge Info is in bp.log\nYou're Unique Trees are in Unique
 
 system("pxrr -u -t $TreeFile -o trees.unroot");
 system("$pxbp -t trees.unroot -u | grep \"\(\" > Unique.tre");
-system("$pxbp -t Unique.tre -e -v > bp.log");
+system("$pxbp -t Unique.tre -v > bp.log");
 
 #loc will store locations
 @loc = ();
